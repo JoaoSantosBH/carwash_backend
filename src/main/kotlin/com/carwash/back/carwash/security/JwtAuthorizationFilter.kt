@@ -1,6 +1,7 @@
 package com.carwash.back.carwash.security
 
 import com.carwash.back.carwash.client.service.ClientService
+import com.carwash.back.carwash.utils.Constants.TOKEN_PREFIX
 import jakarta.servlet.FilterChain
 import jakarta.servlet.ServletException
 import jakarta.servlet.http.HttpServletRequest
@@ -27,7 +28,7 @@ class JwtAuthorizationFilter(
         chain: FilterChain
     ) {
         val header = req.getHeader(AUTHORIZATION)
-        if (header == null || !header.startsWith("Bearer ")) {
+        if (header == null || !header.startsWith(TOKEN_PREFIX)) {
             chain.doFilter(req, res)
             return
         }

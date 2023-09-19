@@ -1,4 +1,5 @@
 package com.carwash.back.carwash.security
+import com.carwash.back.carwash.utils.Constants.EXPIRATION_TOKEN_TIME
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
 
@@ -9,10 +10,9 @@ import java.util.*
 class JwtTokenUtil {
 
     private val secret = "1234jkjb245poisd09sdg123jhg123jhgjhj2h2h2h" //TODO secret
-    private val expiration = 6000000
 
     fun generateToken(username: String): String =
-        Jwts.builder().setSubject(username).setExpiration(Date(System.currentTimeMillis() + expiration))
+        Jwts.builder().setSubject(username).setExpiration(Date(System.currentTimeMillis() + EXPIRATION_TOKEN_TIME))
             .signWith(SignatureAlgorithm.HS512, secret.toByteArray()).compact()
 
     private fun getClaims(token: String) =

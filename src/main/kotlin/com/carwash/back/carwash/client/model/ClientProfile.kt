@@ -13,5 +13,4 @@ data class ClientProfile(
     val email: String,
     val cellphone: String,
     val password:String,
-
 )
