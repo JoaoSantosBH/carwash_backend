@@ -4,6 +4,7 @@ import com.carwash.back.carwash.client.data.ClientRepository
 import com.carwash.back.carwash.client.model.ClientProfile
 import com.carwash.back.carwash.security.UserSecurity
 import com.carwash.back.carwash.utils.Constants.AUTH_ROLE
+import com.carwash.back.carwash.utils.errors.ExceptionAdvice
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.core.authority.SimpleGrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails
@@ -22,7 +23,11 @@ class ClientService : UserDetailsService {
 
 
     fun createClient(client: ClientProfile): ClientProfile? {
-        return clientRepository.save(encryptPassword(client))
+        val searchResult = clientRepository.findAll().find { it.email == client.email }
+        if (searchResult != null)
+            throw ExceptionAdvice.ItemAlreadyExistsException(ExceptionAdvice.ItemAlreadyExistsException.EXIST)
+        else
+            return clientRepository.save(encryptPassword(client))
     }
 
     override fun loadUserByUsername(email: String?): UserDetails {

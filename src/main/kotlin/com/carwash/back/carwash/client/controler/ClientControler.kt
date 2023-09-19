@@ -17,7 +17,6 @@ class ClientControler() {
 
     @PostMapping(ADD_USER_ENDPOINT)
     fun createClient(@RequestBody clientRequest: ClientProfile): ClientProfile? {
-        val response  = service.createClient(clientRequest)
         return service.createClient(clientRequest)
     }
 }
