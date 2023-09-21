@@ -1,7 +1,7 @@
-package com.carwash.back.carwash.client.service
+package com.carwash.back.carwash.features.login_register.service
 
-import com.carwash.back.carwash.client.data.ClientRepository
-import com.carwash.back.carwash.client.model.ClientProfile
+import com.carwash.back.carwash.features.login_register.data.ClientRepository
+import com.carwash.back.carwash.features.login_register.model.ClientProfile
 import com.carwash.back.carwash.security.UserSecurity
 import com.carwash.back.carwash.utils.Constants.AUTH_ROLE
 import com.carwash.back.carwash.utils.errors.ExceptionAdvice
@@ -30,6 +30,8 @@ class ClientService : UserDetailsService {
             return clientRepository.save(encryptPassword(client))
     }
 
+    //TODO finalizar CRUD
+
     override fun loadUserByUsername(email: String?): UserDetails {
         val user = clientRepository.findAll().first { it.email == email }
             ?: throw UsernameNotFoundException("$email not found")
@@ -50,9 +52,3 @@ class ClientService : UserDetailsService {
     }
 
 }
-
-
-class ErrorMessageModel(
-    status: Int? = null,
-    message: String? = null
-) : Throwable()

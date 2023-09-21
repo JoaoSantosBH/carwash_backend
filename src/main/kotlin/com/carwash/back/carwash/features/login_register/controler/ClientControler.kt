@@ -1,7 +1,7 @@
-package com.carwash.back.carwash.client.controler
+package com.carwash.back.carwash.features.login_register.controler
 
-import com.carwash.back.carwash.client.model.ClientProfile
-import com.carwash.back.carwash.client.service.ClientService
+import com.carwash.back.carwash.features.login_register.model.ClientProfile
+import com.carwash.back.carwash.features.login_register.service.ClientService
 import com.carwash.back.carwash.utils.Endpoints.ADD_USER_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.PostMapping

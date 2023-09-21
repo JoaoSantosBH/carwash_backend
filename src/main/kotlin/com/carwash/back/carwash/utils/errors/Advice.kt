@@ -1,6 +1,6 @@
 package com.carwash.back.carwash.utils.errors
 
-import com.carwash.back.carwash.client.controler.DefaultErrorMessageModel
+import com.carwash.back.carwash.features.login_register.controler.DefaultErrorMessage
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ControllerAdvice
@@ -9,18 +9,24 @@ import org.springframework.web.bind.annotation.ExceptionHandler
 @ControllerAdvice
 class ExceptionAdvice {
     @ExceptionHandler
-    fun handleItemAlreadyExistsException(ex: ItemAlreadyExistsException): ResponseEntity<DefaultErrorMessageModel> {
-        val errorMessage = DefaultErrorMessageModel(
+    fun handleItemAlreadyExistsException(ex: ItemAlreadyExistsException): ResponseEntity<DefaultErrorMessage> {
+        val errorMessage = DefaultErrorMessage(
             HttpStatus.FORBIDDEN.value(),
             ex.message
         )
         return ResponseEntity(errorMessage, HttpStatus.FORBIDDEN)
     }
 
-    class ItemAlreadyExistsException(message: String) : RuntimeException(message) {
-        companion object {
-            const val EXIST = "Ops!!  Found similar item on the database"
-        }
+    @ExceptionHandler
+    fun handleItemDoesntExistsException(ex: ItemDoesntExistsException): ResponseEntity<DefaultErrorMessage> {
+        val errorMessage = DefaultErrorMessage(
+            HttpStatus.FORBIDDEN.value(),
+            ex.message
+        )
+        return ResponseEntity(errorMessage, HttpStatus.FORBIDDEN)
     }
 
 }
+
+
+
