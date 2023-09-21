@@ -9,7 +9,7 @@ import java.util.*
 @Component
 class JwtTokenUtil {
 
-    private val secret = "1234jkjb245poisd09sdg123jhg123jhgjhj2h2h2h" //TODO secret
+    private val secret = "1234jkjb245poisd09sdg123jhg123jhgjhj2h2h2h" //TODO hide secret
 
     fun generateToken(username: String): String =
         Jwts.builder().setSubject(username).setExpiration(Date(System.currentTimeMillis() + EXPIRATION_TOKEN_TIME))

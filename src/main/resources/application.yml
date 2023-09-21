@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        initialization-mode: always
+        password: ''
+        platform: mysql
+        url: jdbc:mysql://localhost:3306/mydb
+        username: root
+    jaxb:
+        enabled: true
+    jpa:
+        hibernate:
+            ddl-auto: none

@@ -1,4 +1,4 @@
-package com.carwash.back.carwash.client.model
+package com.carwash.back.carwash.features.login_register.model
 
 import com.fasterxml.jackson.annotation.JsonIgnore
 import jakarta.persistence.*
