@@ -10,4 +10,5 @@ spring:
         enabled: true
     jpa:
         hibernate:
-            ddl-auto: none
+            ddl-auto: update
+            show-sql: true
