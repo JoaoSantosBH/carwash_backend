@@ -27,10 +27,10 @@ class ClientService : UserDetailsService {
         if (searchResult != null)
             throw ItemAlreadyExistsException(ItemAlreadyExistsException.EXIST)
         else
-            return clientRepository.save(encryptPassword(client))
+            return clientRepository.save(encryptPassword(client))//TODO finalizar CRUD
     }
 
-    //TODO finalizar CRUD
+
 
     override fun loadUserByUsername(email: String?): UserDetails {
         val user = clientRepository.findAll().first { it.email == email }

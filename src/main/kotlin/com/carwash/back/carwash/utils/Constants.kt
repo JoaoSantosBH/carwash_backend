@@ -15,4 +15,6 @@ object Endpoints {
     const val ADD_SERVICE_ENDPOINT  = "/service"
     const val GET_SERVICE_BY_ID_ENDPOINT = "/service/{id}"
     const val ADD_SCHEDULE_ENDPOINT  = "/schedule"
+    const val GET_SCHEDULE_BY_ID_ENDPOINT = "/schedule/{id}"
+
 }
