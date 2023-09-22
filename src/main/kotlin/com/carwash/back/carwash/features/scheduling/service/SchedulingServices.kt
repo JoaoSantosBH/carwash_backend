@@ -16,23 +16,38 @@ class SchedulingServices {
     fun createScheduling(scheduling: SchedulingModel): SchedulingModel? {
         return repository.save(scheduling)
     }
+
     fun fetchAllSchedulings(): List<SchedulingModel>? {
         return repository.findAll().sortedBy { it.idScheduling }
     }
 
     fun fetchSchedulingById(id: Long): SchedulingModel {
-        return repository
-            .findById(id)
-            .orElseThrow { ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST) }
+        return repository.findById(id).orElseThrow { ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST) }
     }
 
-    fun updateSchedulingStatus(Schedulin: SchedulingModel): SchedulingModel? {
-        val register = repository.findById(Schedulin.idScheduling).getOrNull()
-        return if (register != null) repository.save(Schedulin)
-        else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
+    fun fetchAllScheduleByClientId(id: Long): List<SchedulingModel> {
+        return repository.findAll().filter { it.clientId == id }
+    }
+
+    fun fetchAllScheduleByCollaboratorId(id: Long): List<SchedulingModel> {
+        return repository.findAll().filter { it.colaboratorId == id }
+    }
+
+    fun fetchAllScheduleByStatusId(id: Long): List<SchedulingModel> {
+        return repository.findAll().filter { it.idSchedulingStatus == id }
+    }
+
+    fun updateSchedulingStatus(schedule: SchedulingModel, id: Long): SchedulingModel? {
+        val register = repository.findById(id).getOrNull()
+        return if (register != null) {
+            repository.save(schedule.copy(idScheduling = id))
+        } else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
     }
 
     fun deleteSchedulingById(id: Long): Unit? {
-        return repository.deleteById(id)
+        val register = repository.findById(id).orElseThrow {
+            ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
+        }
+        return repository.delete(register)
     }
 }
