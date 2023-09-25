@@ -1,6 +1,6 @@
 package com.carwash.back.carwash.security
 
-import com.carwash.back.carwash.features.login_register.service.ClientService
+import com.carwash.back.carwash.features.client.service.ClientService
 import com.carwash.back.carwash.utils.Constants.TOKEN_PREFIX
 import jakarta.servlet.FilterChain
 import jakarta.servlet.ServletException

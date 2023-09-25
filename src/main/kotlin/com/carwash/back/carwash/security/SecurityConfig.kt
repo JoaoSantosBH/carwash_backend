@@ -1,5 +1,5 @@
 package com.carwash.back.carwash.security
-import com.carwash.back.carwash.features.login_register.service.ClientService
+import com.carwash.back.carwash.features.client.service.ClientService
 import com.carwash.back.carwash.utils.Endpoints.ADD_USER_ENDPOINT
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

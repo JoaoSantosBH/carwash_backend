@@ -1,4 +1,4 @@
-package com.carwash.back.carwash.features.login_register.controler
+package com.carwash.back.carwash.features.client.controler
 
 class DefaultErrorMessage(
     var status: Int? = null,
