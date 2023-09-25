@@ -12,6 +12,7 @@ object Constants {
 object Endpoints {
     const val ROOT_ENDPOINT = "/"
     const val ADD_USER_ENDPOINT = "/client"
+    const val UPDATE_USER_ENDPOINT = "/client/{id}"
     //Wash
     const val ADD_SERVICE_ENDPOINT  = "/service"
     const val GET_SERVICE_BY_ID_ENDPOINT = "/service/{id}"
