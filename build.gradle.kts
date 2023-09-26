@@ -28,7 +28,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("io.jsonwebtoken:jjwt:0.2")
 	implementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.1")
-	implementation("javax.xml.bind:jaxb-api:2.1")
+	implementation("javax.xml.bind:jaxb-api:2.1") //TODO add deps
 
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	runtimeOnly("com.mysql:mysql-connector-j")

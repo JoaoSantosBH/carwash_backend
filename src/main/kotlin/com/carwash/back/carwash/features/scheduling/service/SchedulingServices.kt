@@ -50,4 +50,10 @@ class SchedulingServices {
         }
         return repository.delete(register)
     }
+
+    fun fetchCollaboratorRankingSum(id: Long): Int {
+        return repository
+            .findAll().filter { it.colaboratorId == id }
+            .sumOf { it.rankColaborator }
+    }
 }

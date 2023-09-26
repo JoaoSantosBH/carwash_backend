@@ -4,7 +4,7 @@ import com.carwash.back.carwash.features.scheduling.model.SchedulingModel
 import com.carwash.back.carwash.features.scheduling.service.SchedulingServices
 import com.carwash.back.carwash.utils.Endpoints.ADD_SCHEDULE_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.GET_ALL_SCHEDULE_BY_CLIENT_ID
-import com.carwash.back.carwash.utils.Endpoints.GET_ALL_SCHEDULE_BY_COLABORATOR_ID
+import com.carwash.back.carwash.utils.Endpoints.GET_ALL_SCHEDULE_BY_COLLABORATOR_ID
 import com.carwash.back.carwash.utils.Endpoints.GET_ALL_SCHEDULE_BY_STATUS_ID
 import com.carwash.back.carwash.utils.Endpoints.GET_SCHEDULE_BY_ID_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
@@ -35,7 +35,7 @@ class SchedulingController {
     fun fetchAllScheduleByClientId(@PathVariable id:Long): List<SchedulingModel>{
         return service.fetchAllScheduleByClientId(id)
     }
-    @GetMapping(GET_ALL_SCHEDULE_BY_COLABORATOR_ID)
+    @GetMapping(GET_ALL_SCHEDULE_BY_COLLABORATOR_ID)
     fun fetchAllScheduleByCollaboratorId(@PathVariable id:Long): List<SchedulingModel>{
         return service.fetchAllScheduleByCollaboratorId(id)
     }
