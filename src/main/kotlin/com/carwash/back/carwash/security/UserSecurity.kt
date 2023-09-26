@@ -3,8 +3,8 @@ package com.carwash.back.carwash.security
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails
 
-class UserSecurity
-    (
+
+class UserSecurity(
     val idClient: Long,
     val name: String,
     val email: String,
@@ -12,27 +12,6 @@ class UserSecurity
     private val uPassword: String,
     private val uAuthorities: MutableCollection<GrantedAuthority>
 ) : UserDetails {
-    override fun getAuthorities() = uAuthorities
-    override fun getPassword() = uPassword
-    override fun getUsername() = email
-    override fun isAccountNonExpired() = true
-    override fun isAccountNonLocked() = true
-    override fun isCredentialsNonExpired() = true
-    override fun isEnabled() = true
-
-}
-
-class CollaboratorSecurity(
-    val idColaborator: Long,
-    val name: String,
-    val email: String,
-    val cellphone: String,
-    val rank: Int,
-    val washesNumber: Int,
-    val badgeStatus: String,
-    private val uPassword: String,
-    private val uAuthorities: MutableCollection<GrantedAuthority>
-): UserDetails {
     override fun getAuthorities() = uAuthorities
     override fun getPassword() = uPassword
     override fun getUsername() = email

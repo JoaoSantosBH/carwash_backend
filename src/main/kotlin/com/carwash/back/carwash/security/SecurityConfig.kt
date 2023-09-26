@@ -1,8 +1,7 @@
 package com.carwash.back.carwash.security
 
 import com.carwash.back.carwash.features.client.service.ClientService
-import com.carwash.back.carwash.features.colaborator.service.ColaboratorService
-import com.carwash.back.carwash.utils.Endpoints.WHITE_LIST
+import com.carwash.back.carwash.utils.Endpoints.ADD_CLIENT_ENDPOINT
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.authentication.AuthenticationManager
@@ -17,8 +16,7 @@ import org.springframework.security.web.SecurityFilterChain
 @Configuration
 @EnableWebSecurity
 open class SecurityConfig(
-    private val userDetailsService: ClientService,
-    private val colabService:ColaboratorService
+    private val userDetailsService: ClientService
 ) {
     private val jwtToken = JwtTokenUtil()
 
@@ -35,7 +33,7 @@ open class SecurityConfig(
         val authenticationManager = authManager(http)
         // Put your endpoint to create/sign, otherwise spring will secure it as
         // well you won't be able to do any request
-        http.authorizeHttpRequests().requestMatchers(WHITE_LIST)
+        http.authorizeHttpRequests().requestMatchers(ADD_CLIENT_ENDPOINT) //TODO deprecated
             .permitAll().anyRequest().authenticated().and().csrf().disable()
             .authenticationManager(authenticationManager)
             .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()

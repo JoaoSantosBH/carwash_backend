@@ -38,21 +38,4 @@ class ColaboratorService  {
         return repository.deleteById(id)
     }
 
-
-//    override fun loadUserByUsername(email: String?): UserDetails {
-//        val collaborator = repository.findAll().first { it.email == email }
-//            ?: throw UsernameNotFoundException("$email not found")
-//        return CollaboratorSecurity(
-//            idColaborator = collaborator.idColaborator,
-//            name = collaborator.name,
-//            email = collaborator.email,
-//            cellphone = collaborator.cellphone,
-//            rank = collaborator.colabRank,
-//            washesNumber = collaborator.washesNumber,
-//            badgeStatus = collaborator.badgeStatus,
-//            uPassword = collaborator.password,
-//            Collections.singleton(SimpleGrantedAuthority(Constants.AUTH_ROLE))
-//        )
-//    }
-
 }
