@@ -6,6 +6,7 @@ object Constants {
     const val AUTH_ROLE = "user"
     const val TOKEN_PREFIX = "Bearer "
     const val EXPIRATION_TOKEN_TIME = 6000000
+    const val BAD_CREDENTIALS = "Email or password incorrect"
 }
 
 
