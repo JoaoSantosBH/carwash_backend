@@ -33,6 +33,8 @@ object Endpoints {
     const val GET_ALL_SCHEDULE_BY_STATUS_ID = "/schedule/status/{id}"
     const val GET_SUM_COLLABORATOR_RANK = "/rankcolab/{id}"
 
+    //Schedule Status
+    const val GET_SCHEDULE_STATUS_ENDPOINT = "/schedulestatus/{id}"
     val WHITE_LIST = "/api/auth/**"
 
 }

@@ -54,8 +54,8 @@ class SchedulingController {
     }
 
     @DeleteMapping(GET_SCHEDULE_BY_ID_ENDPOINT)
-    fun deleteSchedulingById(@PathVariable id: Long) {
-        service.deleteSchedulingById(id)
+    fun deleteSchedulingById(@PathVariable id: Long): Unit? {
+        return service.deleteSchedulingById(id)
     }
 
 
