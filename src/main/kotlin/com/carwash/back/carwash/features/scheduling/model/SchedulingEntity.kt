@@ -6,13 +6,13 @@ import jakarta.persistence.*
 
 @Entity
 @Table(name = "scheduling")
-data class SchedulingModel( //TODO rename all models to Entity
+data class SchedulingEntity( //TODO rename all models to Entity
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @JsonIgnore @JsonProperty("id_scheduling") val idScheduling: Long,
     @JsonProperty("client_id") val clientId: Long,
-    @JsonProperty("colaborator_id") val colaboratorId: Long,
-    @JsonProperty("service_id_service") val serviceIdService: Long,
+    @JsonProperty("executor_id") val executorId: Long,
+    @JsonProperty("wash_id") val washId: Long,
     @JsonProperty("rank_client") val rankClient: Int,
-    @JsonProperty("rank_colaborator") val rankColaborator: Int,
-    @JsonProperty("id_scheduling_status") val idSchedulingStatus: Long
+    @JsonProperty("rank_executor") val rankExecutor: Int,
+    @JsonProperty("status_id") val statusId: Long
 )

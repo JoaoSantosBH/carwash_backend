@@ -8,6 +8,7 @@ import org.springframework.web.HttpRequestMethodNotSupportedException
 import org.springframework.web.bind.MethodArgumentNotValidException
 import org.springframework.web.bind.annotation.ControllerAdvice
 import org.springframework.web.bind.annotation.ExceptionHandler
+import java.sql.SQLIntegrityConstraintViolationException
 
 @ControllerAdvice
 class HttpErrorsHandler {
@@ -64,6 +65,15 @@ class HttpErrorsHandler {
             ex.message
         )
         return ResponseEntity(errorMessage, HttpStatus.BAD_REQUEST)
+    }
+
+    @ExceptionHandler
+    fun handleSQLIntegrityConstraintViolationException(ex: SQLIntegrityConstraintViolationException): ResponseEntity<DefaultErrorMessage> {
+        val errorMessage = DefaultErrorMessage(
+            HttpStatus.FORBIDDEN.value(),
+            ex.message
+        )
+        return ResponseEntity(errorMessage, HttpStatus.FORBIDDEN)
     }
 
 }

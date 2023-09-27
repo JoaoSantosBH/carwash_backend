@@ -13,9 +13,8 @@ data class UserEntity(
     val name: String,
     val email: String,
     val cellphone: String,
-    val password:String,
-    @JsonProperty("vehicle_id")
-    val vehicleId: Long,
-    @JsonProperty("address_id")
-    val addressId:Long
+    val password: String,
+    @JsonProperty("vehicle_id") val vehicleId: Long,
+    @JsonProperty("address_id") val addressId: Long,
+    @JsonProperty("user_type") val userType: Int
 )

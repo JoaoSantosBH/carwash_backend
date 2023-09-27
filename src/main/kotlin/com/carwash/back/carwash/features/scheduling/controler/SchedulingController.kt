@@ -1,6 +1,6 @@
 package com.carwash.back.carwash.features.scheduling.controler
 
-import com.carwash.back.carwash.features.scheduling.model.SchedulingModel
+import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
 import com.carwash.back.carwash.features.scheduling.service.SchedulingServices
 import com.carwash.back.carwash.utils.Endpoints.ADD_SCHEDULE_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.GET_ALL_SCHEDULE_BY_CLIENT_ID
@@ -17,40 +17,40 @@ class SchedulingController {
     lateinit var service: SchedulingServices
 
     @PostMapping(ADD_SCHEDULE_ENDPOINT)
-    fun createScheduling(@RequestBody scheduling: SchedulingModel): SchedulingModel? {
+    fun createScheduling(@RequestBody scheduling: SchedulingEntity): SchedulingEntity? {
         return service.createScheduling(scheduling)
     }
 
     @GetMapping(ADD_SCHEDULE_ENDPOINT)
-    fun fetchAllSchedulings(): List<SchedulingModel?>? {
+    fun fetchAllSchedulings(): List<SchedulingEntity?>? {
         return service.fetchAllSchedulings()
     }
 
     @GetMapping(GET_SCHEDULE_BY_ID_ENDPOINT)
-    fun fetchSchedulingById(@PathVariable id: Long): SchedulingModel? {
+    fun fetchSchedulingById(@PathVariable id: Long): SchedulingEntity? {
         return service.fetchSchedulingById(id)
     }
 
     @GetMapping(GET_ALL_SCHEDULE_BY_CLIENT_ID)
-    fun fetchAllScheduleByClientId(@PathVariable id:Long): List<SchedulingModel>{
+    fun fetchAllScheduleByClientId(@PathVariable id:Long): List<SchedulingEntity>{
         return service.fetchAllScheduleByClientId(id)
     }
     @GetMapping(GET_ALL_SCHEDULE_BY_COLLABORATOR_ID)
-    fun fetchAllScheduleByCollaboratorId(@PathVariable id:Long): List<SchedulingModel>{
+    fun fetchAllScheduleByCollaboratorId(@PathVariable id:Long): List<SchedulingEntity>{
         return service.fetchAllScheduleByCollaboratorId(id)
     }
 
     @GetMapping(GET_ALL_SCHEDULE_BY_STATUS_ID)
-    fun fetchAllScheduleByStatusId(@PathVariable id:Long): List<SchedulingModel>{
+    fun fetchAllScheduleByStatusId(@PathVariable id:Long): List<SchedulingEntity>{
         return service.fetchAllScheduleByStatusId(id)
     }
 
     @PutMapping(GET_SCHEDULE_BY_ID_ENDPOINT)
-    fun updateSchedulingStatus(
-        @RequestBody request: SchedulingModel,
+    fun updateScheduling(
+        @RequestBody request: SchedulingEntity,
         @PathVariable id: Long
-    ): SchedulingModel? {
-        return service.updateSchedulingStatus(request, id)
+    ): SchedulingEntity? {
+        return service.updateScheduling(request, id)
     }
 
     @DeleteMapping(GET_SCHEDULE_BY_ID_ENDPOINT)

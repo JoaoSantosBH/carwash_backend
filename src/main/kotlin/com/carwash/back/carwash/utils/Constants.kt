@@ -22,8 +22,8 @@ object Endpoints {
     const val UPDATE_COLLABORATOR_ENDPOINT = "/collaborator/{id}"
 
     //Wash
-    const val ADD_SERVICE_ENDPOINT  = "/service"
-    const val GET_SERVICE_BY_ID_ENDPOINT = "/service/{id}"
+    const val ADD_SERVICE_ENDPOINT  = "/wash"
+    const val GET_SERVICE_BY_ID_ENDPOINT = "/wash/{id}"
 
     //Schedule
     const val ADD_SCHEDULE_ENDPOINT  = "/schedule"

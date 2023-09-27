@@ -1,8 +1,8 @@
 package com.carwash.back.carwash.features.colaborator.controler
 
-import com.carwash.back.carwash.features.colaborator.model.CollaboratorProfile
 import com.carwash.back.carwash.features.colaborator.service.ColaboratorService
 import com.carwash.back.carwash.features.scheduling.service.SchedulingServices
+import com.carwash.back.carwash.features.user.model.UserEntity
 import com.carwash.back.carwash.utils.Endpoints.ADD_COLLABORATOR_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.GET_SUM_COLLABORATOR_RANK
 import com.carwash.back.carwash.utils.Endpoints.UPDATE_COLLABORATOR_ENDPOINT
@@ -19,12 +19,12 @@ class CollaboratorController {
 
 
     @PostMapping(ADD_COLLABORATOR_ENDPOINT)
-    fun createCollaborator(@RequestBody collaboratorRequest: CollaboratorProfile): CollaboratorProfile? {
+    fun createCollaborator(@RequestBody collaboratorRequest: UserEntity): UserEntity? {
         return service.createCollaborator(collaboratorRequest)
     }
 
     @PutMapping(UPDATE_COLLABORATOR_ENDPOINT)
-    fun updateCollaborator(@RequestBody collaboratorRequest: CollaboratorProfile, @PathVariable id: Long): CollaboratorProfile? {
+    fun updateCollaborator(@RequestBody collaboratorRequest: UserEntity, @PathVariable id: Long): UserEntity? {
         return service.updateCollaborator(collaboratorRequest, id)
     }
 
@@ -34,7 +34,7 @@ class CollaboratorController {
     }
 
     @GetMapping(GET_SUM_COLLABORATOR_RANK)
-    fun getCollaboratorActualRanking(@PathVariable id: Long): Int {
+    fun getCollaboratorActualRanking(@PathVariable id: Long): Double {
         return serviceSch.fetchCollaboratorRankingSum(id)
     }
 

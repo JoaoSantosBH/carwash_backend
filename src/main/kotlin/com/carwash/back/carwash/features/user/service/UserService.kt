@@ -54,7 +54,8 @@ class UserService : UserDetailsService {
             uPassword = user.password,
             Collections.singleton(SimpleGrantedAuthority(AUTH_ROLE)),
             vehicleId = user.vehicleId,
-            addressId = user.addressId
+            addressId = user.addressId,
+            userType = user.userType
         )
     }
 
