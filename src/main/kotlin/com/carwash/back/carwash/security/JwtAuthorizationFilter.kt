@@ -1,6 +1,6 @@
 package com.carwash.back.carwash.security
 
-import com.carwash.back.carwash.features.client.service.ClientService
+import com.carwash.back.carwash.features.user.service.UserService
 import com.carwash.back.carwash.utils.Constants.TOKEN_PREFIX
 import jakarta.servlet.FilterChain
 import jakarta.servlet.ServletException
@@ -16,7 +16,7 @@ import java.io.IOException
 
 class JwtAuthorizationFilter(
     private val jwtTokenUtil: JwtTokenUtil,
-    private val service: ClientService,
+    private val service: UserService,
     authManager: AuthenticationManager,
 
     ) : BasicAuthenticationFilter(authManager) {

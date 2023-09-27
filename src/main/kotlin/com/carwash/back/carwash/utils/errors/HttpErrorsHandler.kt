@@ -1,6 +1,6 @@
 package com.carwash.back.carwash.utils.errors
 
-import com.carwash.back.carwash.features.client.controler.DefaultErrorMessage
+import org.springframework.dao.InvalidDataAccessResourceUsageException
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.http.converter.HttpMessageNotReadableException
@@ -8,6 +8,7 @@ import org.springframework.web.HttpRequestMethodNotSupportedException
 import org.springframework.web.bind.MethodArgumentNotValidException
 import org.springframework.web.bind.annotation.ControllerAdvice
 import org.springframework.web.bind.annotation.ExceptionHandler
+import java.sql.SQLIntegrityConstraintViolationException
 
 @ControllerAdvice
 class HttpErrorsHandler {
@@ -56,6 +57,25 @@ class HttpErrorsHandler {
         )
         return ResponseEntity(errorMessage, HttpStatus.BAD_REQUEST)
     }
+
+    @ExceptionHandler
+    fun handleHttpInvalidDataAccessResourceUsageException(ex: InvalidDataAccessResourceUsageException) : ResponseEntity<DefaultErrorMessage> {
+        val errorMessage = DefaultErrorMessage(
+            HttpStatus.BAD_REQUEST.value(),
+            ex.message
+        )
+        return ResponseEntity(errorMessage, HttpStatus.BAD_REQUEST)
+    }
+
+    @ExceptionHandler
+    fun handleSQLIntegrityConstraintViolationException(ex: SQLIntegrityConstraintViolationException): ResponseEntity<DefaultErrorMessage> {
+        val errorMessage = DefaultErrorMessage(
+            HttpStatus.FORBIDDEN.value(),
+            ex.message
+        )
+        return ResponseEntity(errorMessage, HttpStatus.FORBIDDEN)
+    }
+
 }
 
 
