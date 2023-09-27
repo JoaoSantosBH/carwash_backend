@@ -1,6 +1,6 @@
 package com.carwash.back.carwash.security
 
-import com.carwash.back.carwash.features.client.service.ClientService
+import com.carwash.back.carwash.features.user.service.UserService
 import com.carwash.back.carwash.utils.Endpoints.ADD_CLIENT_ENDPOINT
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -16,7 +16,7 @@ import org.springframework.security.web.SecurityFilterChain
 @Configuration
 @EnableWebSecurity
 open class SecurityConfig(
-    private val userDetailsService: ClientService
+    private val userDetailsService: UserService
 ) {
     private val jwtToken = JwtTokenUtil()
 
