@@ -39,6 +39,7 @@ class JwtAuthenticationFilter(
         val token: String = jwtTokenUtil.generateToken(username)
         res.addHeader(HttpHeaders.AUTHORIZATION, token)
         res.addHeader(HttpHeaders.ACCESS_CONTROL_EXPOSE_HEADERS, HttpHeaders.AUTHORIZATION)
+        res.addHeader("User-Id", (auth.principal as UserSecurity).idUser.toString()) //TODO retornando userr id no header do login
     }
 
     override fun unsuccessfulAuthentication(
