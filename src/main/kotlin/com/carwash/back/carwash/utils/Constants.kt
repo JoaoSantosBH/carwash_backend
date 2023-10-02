@@ -37,4 +37,10 @@ object Endpoints {
     const val GET_SCHEDULE_STATUS_ENDPOINT = "/schedulestatus/{id}"
     val WHITE_LIST = "/api/auth/**"
 
+    //Vehicle
+    const val VEHICLE_ENDPOINT =  "/vehicle"
+    const val VEHICLE_ID_ENDPOINT =  "/vehicle/{userId}"
+    const val MODEL_ENDPOINT = "/model/{brandId}"
+    const val VEHICLE_BRANDS = "/brands"
+
 }
