@@ -16,5 +16,7 @@ data class VehicleEntity(
     @JsonProperty("id_car_model")
     val idCarModel: Long,
     @JsonProperty("user_id")
-    val userId: Long
+    val userId: Long,
+    @JsonProperty("vehicle_plate")
+    val vehiclePlate:String
 )
