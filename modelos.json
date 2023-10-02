@@ -1,0 +1,6172 @@
+[
+  {
+    "id_car_model": 1,
+    "id_car_brand": 25,
+    "car_model_name": "INTEGRA"
+  },
+  {
+    "id_car_model": 2,
+    "id_car_brand": 25,
+    "car_model_name": "LEGEND"
+  },
+  {
+    "id_car_model": 3,
+    "id_car_brand": 25,
+    "car_model_name": "NSX"
+  },
+  {
+    "id_car_model": 4,
+    "id_car_brand": 27,
+    "car_model_name": "MARRUA"
+  },
+  {
+    "id_car_model": 5,
+    "id_car_brand": 28,
+    "car_model_name": 145
+  },
+  {
+    "id_car_model": 6,
+    "id_car_brand": 28,
+    "car_model_name": 147
+  },
+  {
+    "id_car_model": 7,
+    "id_car_brand": 28,
+    "car_model_name": 155
+  },
+  {
+    "id_car_model": 8,
+    "id_car_brand": 28,
+    "car_model_name": 156
+  },
+  {
+    "id_car_model": 9,
+    "id_car_brand": 28,
+    "car_model_name": 164
+  },
+  {
+    "id_car_model": 10,
+    "id_car_brand": 28,
+    "car_model_name": 166
+  },
+  {
+    "id_car_model": 11,
+    "id_car_brand": 28,
+    "car_model_name": 2300
+  },
+  {
+    "id_car_model": 12,
+    "id_car_brand": 28,
+    "car_model_name": "SPIDER"
+  },
+  {
+    "id_car_model": 13,
+    "id_car_brand": 156,
+    "car_model_name": "HUMMER"
+  },
+  {
+    "id_car_model": 14,
+    "id_car_brand": 16,
+    "car_model_name": "AM-825"
+  },
+  {
+    "id_car_model": 15,
+    "id_car_brand": 16,
+    "car_model_name": "HI-TOPIC"
+  },
+  {
+    "id_car_model": 16,
+    "id_car_brand": 16,
+    "car_model_name": "ROCSTA"
+  },
+  {
+    "id_car_model": 17,
+    "id_car_brand": 16,
+    "car_model_name": "TOPIC"
+  },
+  {
+    "id_car_model": 18,
+    "id_car_brand": 16,
+    "car_model_name": "TOWNER"
+  },
+  {
+    "id_car_model": 19,
+    "id_car_brand": 32,
+    "car_model_name": 100
+  },
+  {
+    "id_car_model": 20,
+    "id_car_brand": 32,
+    "car_model_name": 80
+  },
+  {
+    "id_car_model": 21,
+    "id_car_brand": 32,
+    "car_model_name": "A1"
+  },
+  {
+    "id_car_model": 22,
+    "id_car_brand": 32,
+    "car_model_name": "A3"
+  },
+  {
+    "id_car_model": 23,
+    "id_car_brand": 32,
+    "car_model_name": "A4 SEDAN"
+  },
+  {
+    "id_car_model": 24,
+    "id_car_brand": 32,
+    "car_model_name": "A5 COUPE"
+  },
+  {
+    "id_car_model": 25,
+    "id_car_brand": 32,
+    "car_model_name": "A6 SEDAN"
+  },
+  {
+    "id_car_model": 26,
+    "id_car_brand": 32,
+    "car_model_name": "A7"
+  },
+  {
+    "id_car_model": 27,
+    "id_car_brand": 32,
+    "car_model_name": "A8"
+  },
+  {
+    "id_car_model": 30,
+    "id_car_brand": 32,
+    "car_model_name": "Q3"
+  },
+  {
+    "id_car_model": 31,
+    "id_car_brand": 32,
+    "car_model_name": "Q5"
+  },
+  {
+    "id_car_model": 32,
+    "id_car_brand": 32,
+    "car_model_name": "Q7"
+  },
+  {
+    "id_car_model": 33,
+    "id_car_brand": 32,
+    "car_model_name": "R8"
+  },
+  {
+    "id_car_model": 34,
+    "id_car_brand": 32,
+    "car_model_name": "RS3"
+  },
+  {
+    "id_car_model": 35,
+    "id_car_brand": 32,
+    "car_model_name": "RS4"
+  },
+  {
+    "id_car_model": 36,
+    "id_car_brand": 32,
+    "car_model_name": "RS5"
+  },
+  {
+    "id_car_model": 37,
+    "id_car_brand": 32,
+    "car_model_name": "RS6"
+  },
+  {
+    "id_car_model": 38,
+    "id_car_brand": 32,
+    "car_model_name": "S3"
+  },
+  {
+    "id_car_model": 39,
+    "id_car_brand": 32,
+    "car_model_name": "S4 SEDAN"
+  },
+  {
+    "id_car_model": 40,
+    "id_car_brand": 32,
+    "car_model_name": "S6 SEDAN"
+  },
+  {
+    "id_car_model": 41,
+    "id_car_brand": 32,
+    "car_model_name": "S8"
+  },
+  {
+    "id_car_model": 42,
+    "id_car_brand": 32,
+    "car_model_name": "TT"
+  },
+  {
+    "id_car_model": 43,
+    "id_car_brand": 32,
+    "car_model_name": "TTS"
+  },
+  {
+    "id_car_model": 86,
+    "id_car_brand": 157,
+    "car_model_name": "BUGGY"
+  },
+  {
+    "id_car_model": 87,
+    "id_car_brand": 155,
+    "car_model_name": "DEVILLE"
+  },
+  {
+    "id_car_model": 88,
+    "id_car_brand": 155,
+    "car_model_name": "ELDORADO"
+  },
+  {
+    "id_car_model": 89,
+    "id_car_brand": 155,
+    "car_model_name": "SEVILLE"
+  },
+  {
+    "id_car_model": 90,
+    "id_car_brand": 42,
+    "car_model_name": "JAVALI"
+  },
+  {
+    "id_car_model": 92,
+    "id_car_brand": 6,
+    "car_model_name": "MINI STAR FAMILY"
+  },
+  {
+    "id_car_model": 93,
+    "id_car_brand": 6,
+    "car_model_name": "MINI STAR UTILITY"
+  },
+  {
+    "id_car_model": 95,
+    "id_car_brand": 47,
+    "car_model_name": "CIELO"
+  },
+  {
+    "id_car_model": 96,
+    "id_car_brand": 47,
+    "car_model_name": "FACE"
+  },
+  {
+    "id_car_model": 97,
+    "id_car_brand": 47,
+    "car_model_name": "QQ"
+  },
+  {
+    "id_car_model": 98,
+    "id_car_brand": 47,
+    "car_model_name": "S-18"
+  },
+  {
+    "id_car_model": 99,
+    "id_car_brand": 47,
+    "car_model_name": "TIGGO"
+  },
+  {
+    "id_car_model": 100,
+    "id_car_brand": 19,
+    "car_model_name": "300C"
+  },
+  {
+    "id_car_model": 101,
+    "id_car_brand": 19,
+    "car_model_name": "CARAVAN"
+  },
+  {
+    "id_car_model": 102,
+    "id_car_brand": 19,
+    "car_model_name": "CIRRUS"
+  },
+  {
+    "id_car_model": 103,
+    "id_car_brand": 19,
+    "car_model_name": "GRAN CARAVAN"
+  },
+  {
+    "id_car_model": 104,
+    "id_car_brand": 19,
+    "car_model_name": "LE BARON"
+  },
+  {
+    "id_car_model": 105,
+    "id_car_brand": 19,
+    "car_model_name": "NEON"
+  },
+  {
+    "id_car_model": 106,
+    "id_car_brand": 19,
+    "car_model_name": "PT CRUISER"
+  },
+  {
+    "id_car_model": 107,
+    "id_car_brand": 19,
+    "car_model_name": "SEBRING"
+  },
+  {
+    "id_car_model": 108,
+    "id_car_brand": 19,
+    "car_model_name": "STRATUS"
+  },
+  {
+    "id_car_model": 109,
+    "id_car_brand": 19,
+    "car_model_name": "TOWN E COUNTRY"
+  },
+  {
+    "id_car_model": 110,
+    "id_car_brand": 19,
+    "car_model_name": "VISION"
+  },
+  {
+    "id_car_model": 111,
+    "id_car_brand": 5,
+    "car_model_name": "AIRCROSS"
+  },
+  {
+    "id_car_model": 112,
+    "id_car_brand": 5,
+    "car_model_name": "AX"
+  },
+  {
+    "id_car_model": 113,
+    "id_car_brand": 5,
+    "car_model_name": "BERLINGO"
+  },
+  {
+    "id_car_model": 114,
+    "id_car_brand": 5,
+    "car_model_name": "BX"
+  },
+  {
+    "id_car_model": 115,
+    "id_car_brand": 5,
+    "car_model_name": "C3"
+  },
+  {
+    "id_car_model": 116,
+    "id_car_brand": 5,
+    "car_model_name": "C4"
+  },
+  {
+    "id_car_model": 117,
+    "id_car_brand": 5,
+    "car_model_name": "C5"
+  },
+  {
+    "id_car_model": 118,
+    "id_car_brand": 5,
+    "car_model_name": "C6"
+  },
+  {
+    "id_car_model": 119,
+    "id_car_brand": 5,
+    "car_model_name": "C8"
+  },
+  {
+    "id_car_model": 120,
+    "id_car_brand": 5,
+    "car_model_name": "DS3"
+  },
+  {
+    "id_car_model": 121,
+    "id_car_brand": 5,
+    "car_model_name": "EVASION"
+  },
+  {
+    "id_car_model": 122,
+    "id_car_brand": 5,
+    "car_model_name": "JUMPER"
+  },
+  {
+    "id_car_model": 123,
+    "id_car_brand": 5,
+    "car_model_name": "XANTIA"
+  },
+  {
+    "id_car_model": 124,
+    "id_car_brand": 5,
+    "car_model_name": "XM"
+  },
+  {
+    "id_car_model": 125,
+    "id_car_brand": 5,
+    "car_model_name": "XSARA"
+  },
+  {
+    "id_car_model": 126,
+    "id_car_brand": 5,
+    "car_model_name": "ZX"
+  },
+  {
+    "id_car_model": 127,
+    "id_car_brand": 50,
+    "car_model_name": "CL-244"
+  },
+  {
+    "id_car_model": 128,
+    "id_car_brand": 50,
+    "car_model_name": "CL-330"
+  },
+  {
+    "id_car_model": 129,
+    "id_car_brand": 51,
+    "car_model_name": "ESPERO"
+  },
+  {
+    "id_car_model": 130,
+    "id_car_brand": 51,
+    "car_model_name": "LANOS"
+  },
+  {
+    "id_car_model": 131,
+    "id_car_brand": 51,
+    "car_model_name": "LEGANZA"
+  },
+  {
+    "id_car_model": 132,
+    "id_car_brand": 51,
+    "car_model_name": "NUBIRA"
+  },
+  {
+    "id_car_model": 133,
+    "id_car_brand": 51,
+    "car_model_name": "PRINCE"
+  },
+  {
+    "id_car_model": 134,
+    "id_car_brand": 51,
+    "car_model_name": "RACER"
+  },
+  {
+    "id_car_model": 135,
+    "id_car_brand": 51,
+    "car_model_name": "SUPER SALON"
+  },
+  {
+    "id_car_model": 136,
+    "id_car_brand": 51,
+    "car_model_name": "TICO"
+  },
+  {
+    "id_car_model": 137,
+    "id_car_brand": 52,
+    "car_model_name": "APPLAUSE"
+  },
+  {
+    "id_car_model": 138,
+    "id_car_brand": 52,
+    "car_model_name": "CHARADE"
+  },
+  {
+    "id_car_model": 139,
+    "id_car_brand": 52,
+    "car_model_name": "CUORE"
+  },
+  {
+    "id_car_model": 140,
+    "id_car_brand": 52,
+    "car_model_name": "FEROZA"
+  },
+  {
+    "id_car_model": 141,
+    "id_car_brand": 52,
+    "car_model_name": "GRAN MOVE"
+  },
+  {
+    "id_car_model": 142,
+    "id_car_brand": 52,
+    "car_model_name": "MOVE VAN"
+  },
+  {
+    "id_car_model": 143,
+    "id_car_brand": 52,
+    "car_model_name": "TERIOS"
+  },
+  {
+    "id_car_model": 144,
+    "id_car_brand": 18,
+    "car_model_name": "AVENGER"
+  },
+  {
+    "id_car_model": 145,
+    "id_car_brand": 18,
+    "car_model_name": "DAKOTA"
+  },
+  {
+    "id_car_model": 146,
+    "id_car_brand": 18,
+    "car_model_name": "JOURNEY"
+  },
+  {
+    "id_car_model": 147,
+    "id_car_brand": 18,
+    "car_model_name": "RAM"
+  },
+  {
+    "id_car_model": 148,
+    "id_car_brand": 18,
+    "car_model_name": "STEALTH"
+  },
+  {
+    "id_car_model": 151,
+    "id_car_brand": 61,
+    "car_model_name": "M-100"
+  },
+  {
+    "id_car_model": 152,
+    "id_car_brand": 61,
+    "car_model_name": "PLUTUS"
+  },
+  {
+    "id_car_model": 153,
+    "id_car_brand": 61,
+    "car_model_name": "START"
+  },
+  {
+    "id_car_model": 155,
+    "id_car_brand": 61,
+    "car_model_name": "ULC"
+  },
+  {
+    "id_car_model": 158,
+    "id_car_brand": 63,
+    "car_model_name": "ENGESA"
+  },
+  {
+    "id_car_model": 159,
+    "id_car_brand": 64,
+    "car_model_name": "CAMPER"
+  },
+  {
+    "id_car_model": 160,
+    "id_car_brand": 64,
+    "car_model_name": "MASTER"
+  },
+  {
+    "id_car_model": 161,
+    "id_car_brand": 10,
+    "car_model_name": 348
+  },
+  {
+    "id_car_model": 162,
+    "id_car_brand": 10,
+    "car_model_name": 355
+  },
+  {
+    "id_car_model": 163,
+    "id_car_brand": 10,
+    "car_model_name": 360
+  },
+  {
+    "id_car_model": 164,
+    "id_car_brand": 10,
+    "car_model_name": 456
+  },
+  {
+    "id_car_model": 165,
+    "id_car_brand": 10,
+    "car_model_name": 550
+  },
+  {
+    "id_car_model": 166,
+    "id_car_brand": 10,
+    "car_model_name": "575M"
+  },
+  {
+    "id_car_model": 167,
+    "id_car_brand": 10,
+    "car_model_name": 612
+  },
+  {
+    "id_car_model": 168,
+    "id_car_brand": 10,
+    "car_model_name": "CALIFORNIA"
+  },
+  {
+    "id_car_model": 169,
+    "id_car_brand": 10,
+    "car_model_name": "F430"
+  },
+  {
+    "id_car_model": 170,
+    "id_car_brand": 10,
+    "car_model_name": "F599"
+  },
+  {
+    "id_car_model": 171,
+    "id_car_brand": 3,
+    "car_model_name": 147
+  },
+  {
+    "id_car_model": 174,
+    "id_car_brand": 3,
+    "car_model_name": 500
+  },
+  {
+    "id_car_model": 175,
+    "id_car_brand": 3,
+    "car_model_name": "BRAVA"
+  },
+  {
+    "id_car_model": 176,
+    "id_car_brand": 3,
+    "car_model_name": "BRAVO"
+  },
+  {
+    "id_car_model": 178,
+    "id_car_brand": 3,
+    "car_model_name": "COUPE"
+  },
+  {
+    "id_car_model": 179,
+    "id_car_brand": 3,
+    "car_model_name": "DOBLO"
+  },
+  {
+    "id_car_model": 180,
+    "id_car_brand": 3,
+    "car_model_name": "DUCATO CARGO"
+  },
+  {
+    "id_car_model": 181,
+    "id_car_brand": 3,
+    "car_model_name": "DUNA"
+  },
+  {
+    "id_car_model": 182,
+    "id_car_brand": 3,
+    "car_model_name": "ELBA"
+  },
+  {
+    "id_car_model": 183,
+    "id_car_brand": 3,
+    "car_model_name": "FIORINO"
+  },
+  {
+    "id_car_model": 184,
+    "id_car_brand": 3,
+    "car_model_name": "FREEMONT"
+  },
+  {
+    "id_car_model": 185,
+    "id_car_brand": 3,
+    "car_model_name": "GRAND SIENA"
+  },
+  {
+    "id_car_model": 186,
+    "id_car_brand": 3,
+    "car_model_name": "IDEA"
+  },
+  {
+    "id_car_model": 187,
+    "id_car_brand": 3,
+    "car_model_name": "LINEA"
+  },
+  {
+    "id_car_model": 188,
+    "id_car_brand": 3,
+    "car_model_name": "MAREA"
+  },
+  {
+    "id_car_model": 189,
+    "id_car_brand": 3,
+    "car_model_name": "OGGI"
+  },
+  {
+    "id_car_model": 190,
+    "id_car_brand": 3,
+    "car_model_name": "PALIO"
+  },
+  {
+    "id_car_model": 191,
+    "id_car_brand": 3,
+    "car_model_name": "PANORAMA"
+  },
+  {
+    "id_car_model": 192,
+    "id_car_brand": 3,
+    "car_model_name": "PREMIO"
+  },
+  {
+    "id_car_model": 193,
+    "id_car_brand": 3,
+    "car_model_name": "PUNTO"
+  },
+  {
+    "id_car_model": 194,
+    "id_car_brand": 3,
+    "car_model_name": "SIENA"
+  },
+  {
+    "id_car_model": 195,
+    "id_car_brand": 3,
+    "car_model_name": "STILO"
+  },
+  {
+    "id_car_model": 196,
+    "id_car_brand": 3,
+    "car_model_name": "STRADA"
+  },
+  {
+    "id_car_model": 197,
+    "id_car_brand": 3,
+    "car_model_name": "TEMPRA"
+  },
+  {
+    "id_car_model": 198,
+    "id_car_brand": 3,
+    "car_model_name": "TIPO"
+  },
+  {
+    "id_car_model": 199,
+    "id_car_brand": 3,
+    "car_model_name": "UNO"
+  },
+  {
+    "id_car_model": 201,
+    "id_car_brand": 13,
+    "car_model_name": "AEROSTAR"
+  },
+  {
+    "id_car_model": 202,
+    "id_car_brand": 13,
+    "car_model_name": "ASPIRE"
+  },
+  {
+    "id_car_model": 203,
+    "id_car_brand": 13,
+    "car_model_name": "BELINA"
+  },
+  {
+    "id_car_model": 204,
+    "id_car_brand": 13,
+    "car_model_name": "CLUB WAGON"
+  },
+  {
+    "id_car_model": 205,
+    "id_car_brand": 13,
+    "car_model_name": "CONTOUR"
+  },
+  {
+    "id_car_model": 206,
+    "id_car_brand": 13,
+    "car_model_name": "CORCEL II"
+  },
+  {
+    "id_car_model": 207,
+    "id_car_brand": 13,
+    "car_model_name": "COURIER"
+  },
+  {
+    "id_car_model": 208,
+    "id_car_brand": 13,
+    "car_model_name": "CROWN VICTORIA"
+  },
+  {
+    "id_car_model": 209,
+    "id_car_brand": 13,
+    "car_model_name": "DEL REY"
+  },
+  {
+    "id_car_model": 210,
+    "id_car_brand": 13,
+    "car_model_name": "ECOSPORT"
+  },
+  {
+    "id_car_model": 211,
+    "id_car_brand": 13,
+    "car_model_name": "EDGE"
+  },
+  {
+    "id_car_model": 212,
+    "id_car_brand": 13,
+    "car_model_name": "ESCORT"
+  },
+  {
+    "id_car_model": 213,
+    "id_car_brand": 13,
+    "car_model_name": "EXPEDITION"
+  },
+  {
+    "id_car_model": 214,
+    "id_car_brand": 13,
+    "car_model_name": "EXPLORER"
+  },
+  {
+    "id_car_model": 215,
+    "id_car_brand": 13,
+    "car_model_name": "F-100"
+  },
+  {
+    "id_car_model": 216,
+    "id_car_brand": 13,
+    "car_model_name": "F-1000"
+  },
+  {
+    "id_car_model": 217,
+    "id_car_brand": 13,
+    "car_model_name": "F-150"
+  },
+  {
+    "id_car_model": 218,
+    "id_car_brand": 13,
+    "car_model_name": "F-250"
+  },
+  {
+    "id_car_model": 219,
+    "id_car_brand": 13,
+    "car_model_name": "FIESTA"
+  },
+  {
+    "id_car_model": 220,
+    "id_car_brand": 13,
+    "car_model_name": "FOCUS"
+  },
+  {
+    "id_car_model": 221,
+    "id_car_brand": 13,
+    "car_model_name": "FURGLAINE"
+  },
+  {
+    "id_car_model": 222,
+    "id_car_brand": 13,
+    "car_model_name": "FUSION"
+  },
+  {
+    "id_car_model": 223,
+    "id_car_brand": 13,
+    "car_model_name": "IBIZA"
+  },
+  {
+    "id_car_model": 224,
+    "id_car_brand": 13,
+    "car_model_name": "KA"
+  },
+  {
+    "id_car_model": 225,
+    "id_car_brand": 13,
+    "car_model_name": "MONDEO"
+  },
+  {
+    "id_car_model": 226,
+    "id_car_brand": 13,
+    "car_model_name": "MUSTANG"
+  },
+  {
+    "id_car_model": 227,
+    "id_car_brand": 13,
+    "car_model_name": "PAMPA"
+  },
+  {
+    "id_car_model": 228,
+    "id_car_brand": 13,
+    "car_model_name": "PROBE"
+  },
+  {
+    "id_car_model": 229,
+    "id_car_brand": 13,
+    "car_model_name": "RANGER"
+  },
+  {
+    "id_car_model": 230,
+    "id_car_brand": 13,
+    "car_model_name": "VERSAILLES ROYALE"
+  },
+  {
+    "id_car_model": 231,
+    "id_car_brand": 13,
+    "car_model_name": "TAURUS"
+  },
+  {
+    "id_car_model": 232,
+    "id_car_brand": 13,
+    "car_model_name": "THUNDERBIRD"
+  },
+  {
+    "id_car_model": 233,
+    "id_car_brand": 13,
+    "car_model_name": "TRANSIT"
+  },
+  {
+    "id_car_model": 234,
+    "id_car_brand": 13,
+    "car_model_name": "VERONA"
+  },
+  {
+    "id_car_model": 235,
+    "id_car_brand": 13,
+    "car_model_name": "VERSAILLES"
+  },
+  {
+    "id_car_model": 236,
+    "id_car_brand": 13,
+    "car_model_name": "WINDSTAR"
+  },
+  {
+    "id_car_model": 238,
+    "id_car_brand": 1,
+    "car_model_name": "A-10"
+  },
+  {
+    "id_car_model": 239,
+    "id_car_brand": 1,
+    "car_model_name": "A-20"
+  },
+  {
+    "id_car_model": 240,
+    "id_car_brand": 1,
+    "car_model_name": "AGILE"
+  },
+  {
+    "id_car_model": 241,
+    "id_car_brand": 1,
+    "car_model_name": "ASTRA"
+  },
+  {
+    "id_car_model": 242,
+    "id_car_brand": 1,
+    "car_model_name": "BLAZER"
+  },
+  {
+    "id_car_model": 243,
+    "id_car_brand": 1,
+    "car_model_name": "BONANZA"
+  },
+  {
+    "id_car_model": 245,
+    "id_car_brand": 1,
+    "car_model_name": "C-10"
+  },
+  {
+    "id_car_model": 246,
+    "id_car_brand": 1,
+    "car_model_name": "C-20"
+  },
+  {
+    "id_car_model": 247,
+    "id_car_brand": 1,
+    "car_model_name": "CALIBRA"
+  },
+  {
+    "id_car_model": 248,
+    "id_car_brand": 1,
+    "car_model_name": "CAMARO"
+  },
+  {
+    "id_car_model": 249,
+    "id_car_brand": 1,
+    "car_model_name": "CAPRICE"
+  },
+  {
+    "id_car_model": 250,
+    "id_car_brand": 1,
+    "car_model_name": "CAPTIVA"
+  },
+  {
+    "id_car_model": 251,
+    "id_car_brand": 1,
+    "car_model_name": "CARAVAN"
+  },
+  {
+    "id_car_model": 252,
+    "id_car_brand": 1,
+    "car_model_name": "CAVALIER"
+  },
+  {
+    "id_car_model": 253,
+    "id_car_brand": 1,
+    "car_model_name": "CELTA"
+  },
+  {
+    "id_car_model": 255,
+    "id_car_brand": 1,
+    "car_model_name": "CHEVY"
+  },
+  {
+    "id_car_model": 256,
+    "id_car_brand": 1,
+    "car_model_name": "CHEYNNE"
+  },
+  {
+    "id_car_model": 258,
+    "id_car_brand": 1,
+    "car_model_name": "COBALT"
+  },
+  {
+    "id_car_model": 259,
+    "id_car_brand": 1,
+    "car_model_name": "CORSA"
+  },
+  {
+    "id_car_model": 262,
+    "id_car_brand": 1,
+    "car_model_name": "CORVETTE"
+  },
+  {
+    "id_car_model": 263,
+    "id_car_brand": 1,
+    "car_model_name": "CRUZE"
+  },
+  {
+    "id_car_model": 264,
+    "id_car_brand": 1,
+    "car_model_name": "D-10"
+  },
+  {
+    "id_car_model": 265,
+    "id_car_brand": 1,
+    "car_model_name": "D-20"
+  },
+  {
+    "id_car_model": 266,
+    "id_car_brand": 1,
+    "car_model_name": "IPANEMA"
+  },
+  {
+    "id_car_model": 267,
+    "id_car_brand": 1,
+    "car_model_name": "KADETT"
+  },
+  {
+    "id_car_model": 268,
+    "id_car_brand": 1,
+    "car_model_name": "LUMINA"
+  },
+  {
+    "id_car_model": 269,
+    "id_car_brand": 1,
+    "car_model_name": "MALIBU"
+  },
+  {
+    "id_car_model": 271,
+    "id_car_brand": 1,
+    "car_model_name": "MERIVA"
+  },
+  {
+    "id_car_model": 272,
+    "id_car_brand": 1,
+    "car_model_name": "MONTANA"
+  },
+  {
+    "id_car_model": 274,
+    "id_car_brand": 1,
+    "car_model_name": "OMEGA"
+  },
+  {
+    "id_car_model": 275,
+    "id_car_brand": 1,
+    "car_model_name": "OPALA"
+  },
+  {
+    "id_car_model": 276,
+    "id_car_brand": 1,
+    "car_model_name": "PRISMA"
+  },
+  {
+    "id_car_model": 277,
+    "id_car_brand": 1,
+    "car_model_name": "S10"
+  },
+  {
+    "id_car_model": 280,
+    "id_car_brand": 1,
+    "car_model_name": "SILVERADO"
+  },
+  {
+    "id_car_model": 281,
+    "id_car_brand": 1,
+    "car_model_name": "SONIC"
+  },
+  {
+    "id_car_model": 282,
+    "id_car_brand": 1,
+    "car_model_name": "SONOMA"
+  },
+  {
+    "id_car_model": 283,
+    "id_car_brand": 1,
+    "car_model_name": "SPACEVAN"
+  },
+  {
+    "id_car_model": 284,
+    "id_car_brand": 1,
+    "car_model_name": "SS10"
+  },
+  {
+    "id_car_model": 285,
+    "id_car_brand": 1,
+    "car_model_name": "SUBURBAN"
+  },
+  {
+    "id_car_model": 287,
+    "id_car_brand": 1,
+    "car_model_name": "SYCLONE"
+  },
+  {
+    "id_car_model": 288,
+    "id_car_brand": 1,
+    "car_model_name": "TIGRA"
+  },
+  {
+    "id_car_model": 289,
+    "id_car_brand": 1,
+    "car_model_name": "TRACKER"
+  },
+  {
+    "id_car_model": 290,
+    "id_car_brand": 1,
+    "car_model_name": "TRAFIC"
+  },
+  {
+    "id_car_model": 291,
+    "id_car_brand": 1,
+    "car_model_name": "VECTRA"
+  },
+  {
+    "id_car_model": 292,
+    "id_car_brand": 1,
+    "car_model_name": "VERANEIO"
+  },
+  {
+    "id_car_model": 293,
+    "id_car_brand": 1,
+    "car_model_name": "ZAFIRA"
+  },
+  {
+    "id_car_model": 294,
+    "id_car_brand": 75,
+    "car_model_name": "HOVER"
+  },
+  {
+    "id_car_model": 295,
+    "id_car_brand": 17,
+    "car_model_name": "BR-800"
+  },
+  {
+    "id_car_model": 296,
+    "id_car_brand": 17,
+    "car_model_name": "CARAJAS"
+  },
+  {
+    "id_car_model": 297,
+    "id_car_brand": 17,
+    "car_model_name": "TOCANTINS"
+  },
+  {
+    "id_car_model": 298,
+    "id_car_brand": 17,
+    "car_model_name": "XAVANTE"
+  },
+  {
+    "id_car_model": 299,
+    "id_car_brand": 17,
+    "car_model_name": "VIP"
+  },
+  {
+    "id_car_model": 300,
+    "id_car_brand": 76,
+    "car_model_name": "TOWNER"
+  },
+  {
+    "id_car_model": 301,
+    "id_car_brand": 7,
+    "car_model_name": "ACCORD"
+  },
+  {
+    "id_car_model": 302,
+    "id_car_brand": 7,
+    "car_model_name": "CITY"
+  },
+  {
+    "id_car_model": 303,
+    "id_car_brand": 7,
+    "car_model_name": "CIVIC"
+  },
+  {
+    "id_car_model": 304,
+    "id_car_brand": 7,
+    "car_model_name": "CR-V"
+  },
+  {
+    "id_car_model": 305,
+    "id_car_brand": 7,
+    "car_model_name": "FIT"
+  },
+  {
+    "id_car_model": 306,
+    "id_car_brand": 7,
+    "car_model_name": "ODYSSEY"
+  },
+  {
+    "id_car_model": 307,
+    "id_car_brand": 7,
+    "car_model_name": "PASSPORT"
+  },
+  {
+    "id_car_model": 308,
+    "id_car_brand": 7,
+    "car_model_name": "PRELUDE"
+  },
+  {
+    "id_car_model": 309,
+    "id_car_brand": 14,
+    "car_model_name": "ACCENT"
+  },
+  {
+    "id_car_model": 310,
+    "id_car_brand": 14,
+    "car_model_name": "ATOS"
+  },
+  {
+    "id_car_model": 311,
+    "id_car_brand": 14,
+    "car_model_name": "AZERA"
+  },
+  {
+    "id_car_model": 312,
+    "id_car_brand": 14,
+    "car_model_name": "COUPE"
+  },
+  {
+    "id_car_model": 314,
+    "id_car_brand": 14,
+    "car_model_name": "ELANTRA"
+  },
+  {
+    "id_car_model": 315,
+    "id_car_brand": 14,
+    "car_model_name": "EXCEL"
+  },
+  {
+    "id_car_model": 316,
+    "id_car_brand": 14,
+    "car_model_name": "GALLOPER"
+  },
+  {
+    "id_car_model": 317,
+    "id_car_brand": 14,
+    "car_model_name": "GENESIS"
+  },
+  {
+    "id_car_model": 318,
+    "id_car_brand": 14,
+    "car_model_name": "H1"
+  },
+  {
+    "id_car_model": 319,
+    "id_car_brand": 14,
+    "car_model_name": "H100"
+  },
+  {
+    "id_car_model": 321,
+    "id_car_brand": 14,
+    "car_model_name": "I30"
+  },
+  {
+    "id_car_model": 323,
+    "id_car_brand": 14,
+    "car_model_name": "IX35"
+  },
+  {
+    "id_car_model": 324,
+    "id_car_brand": 14,
+    "car_model_name": "MATRIX"
+  },
+  {
+    "id_car_model": 325,
+    "id_car_brand": 14,
+    "car_model_name": "PORTER"
+  },
+  {
+    "id_car_model": 326,
+    "id_car_brand": 14,
+    "car_model_name": "SANTA FE"
+  },
+  {
+    "id_car_model": 327,
+    "id_car_brand": 14,
+    "car_model_name": "SCOUPE"
+  },
+  {
+    "id_car_model": 328,
+    "id_car_brand": 14,
+    "car_model_name": "SONATA"
+  },
+  {
+    "id_car_model": 329,
+    "id_car_brand": 14,
+    "car_model_name": "TERRACAN"
+  },
+  {
+    "id_car_model": 330,
+    "id_car_brand": 14,
+    "car_model_name": "TRAJET"
+  },
+  {
+    "id_car_model": 331,
+    "id_car_brand": 14,
+    "car_model_name": "TUCSON"
+  },
+  {
+    "id_car_model": 332,
+    "id_car_brand": 14,
+    "car_model_name": "VELOSTER"
+  },
+  {
+    "id_car_model": 333,
+    "id_car_brand": 14,
+    "car_model_name": "VERACRUZ"
+  },
+  {
+    "id_car_model": 334,
+    "id_car_brand": 84,
+    "car_model_name": "AMIGO"
+  },
+  {
+    "id_car_model": 335,
+    "id_car_brand": 84,
+    "car_model_name": "HOMBRE"
+  },
+  {
+    "id_car_model": 336,
+    "id_car_brand": 84,
+    "car_model_name": "RODEO"
+  },
+  {
+    "id_car_model": 337,
+    "id_car_brand": 15,
+    "car_model_name": "J3"
+  },
+  {
+    "id_car_model": 338,
+    "id_car_brand": 15,
+    "car_model_name": "J5"
+  },
+  {
+    "id_car_model": 339,
+    "id_car_brand": 15,
+    "car_model_name": "J6"
+  },
+  {
+    "id_car_model": 340,
+    "id_car_brand": 86,
+    "car_model_name": "DAIMLER"
+  },
+  {
+    "id_car_model": 341,
+    "id_car_brand": 86,
+    "car_model_name": "S-TYPE"
+  },
+  {
+    "id_car_model": 342,
+    "id_car_brand": 86,
+    "car_model_name": "X-TYPE"
+  },
+  {
+    "id_car_model": 345,
+    "id_car_brand": 86,
+    "car_model_name": "MODELOS XJ"
+  },
+  {
+    "id_car_model": 352,
+    "id_car_brand": 86,
+    "car_model_name": "MODELOS XK"
+  },
+  {
+    "id_car_model": 354,
+    "id_car_brand": 87,
+    "car_model_name": "CHEROKEE"
+  },
+  {
+    "id_car_model": 355,
+    "id_car_brand": 87,
+    "car_model_name": "COMMANDER"
+  },
+  {
+    "id_car_model": 356,
+    "id_car_brand": 87,
+    "car_model_name": "COMPASS"
+  },
+  {
+    "id_car_model": 357,
+    "id_car_brand": 87,
+    "car_model_name": "GRAND CHEROKEE"
+  },
+  {
+    "id_car_model": 358,
+    "id_car_brand": 87,
+    "car_model_name": "WRANGLER"
+  },
+  {
+    "id_car_model": 359,
+    "id_car_brand": 88,
+    "car_model_name": "TOPIC VAN"
+  },
+  {
+    "id_car_model": 360,
+    "id_car_brand": 89,
+    "car_model_name": "JIPE MONTEZ"
+  },
+  {
+    "id_car_model": 361,
+    "id_car_brand": 89,
+    "car_model_name": "PICAPE MONTEZ"
+  },
+  {
+    "id_car_model": 362,
+    "id_car_brand": 16,
+    "car_model_name": "BESTA"
+  },
+  {
+    "id_car_model": 363,
+    "id_car_brand": 16,
+    "car_model_name": "BONGO"
+  },
+  {
+    "id_car_model": 364,
+    "id_car_brand": 16,
+    "car_model_name": "CADENZA"
+  },
+  {
+    "id_car_model": 365,
+    "id_car_brand": 16,
+    "car_model_name": "CARENS"
+  },
+  {
+    "id_car_model": 366,
+    "id_car_brand": 16,
+    "car_model_name": "CARNIVAL"
+  },
+  {
+    "id_car_model": 367,
+    "id_car_brand": 16,
+    "car_model_name": "CERATO"
+  },
+  {
+    "id_car_model": 368,
+    "id_car_brand": 16,
+    "car_model_name": "CERES"
+  },
+  {
+    "id_car_model": 369,
+    "id_car_brand": 16,
+    "car_model_name": "CLARUS"
+  },
+  {
+    "id_car_model": 370,
+    "id_car_brand": 16,
+    "car_model_name": "MAGENTIS"
+  },
+  {
+    "id_car_model": 371,
+    "id_car_brand": 16,
+    "car_model_name": "MOHAVE"
+  },
+  {
+    "id_car_model": 372,
+    "id_car_brand": 16,
+    "car_model_name": "OPIRUS"
+  },
+  {
+    "id_car_model": 373,
+    "id_car_brand": 16,
+    "car_model_name": "OPTIMA"
+  },
+  {
+    "id_car_model": 374,
+    "id_car_brand": 16,
+    "car_model_name": "PICANTO"
+  },
+  {
+    "id_car_model": 375,
+    "id_car_brand": 16,
+    "car_model_name": "SEPHIA"
+  },
+  {
+    "id_car_model": 376,
+    "id_car_brand": 16,
+    "car_model_name": "SHUMA"
+  },
+  {
+    "id_car_model": 377,
+    "id_car_brand": 16,
+    "car_model_name": "SORENTO"
+  },
+  {
+    "id_car_model": 378,
+    "id_car_brand": 16,
+    "car_model_name": "SOUL"
+  },
+  {
+    "id_car_model": 379,
+    "id_car_brand": 16,
+    "car_model_name": "SPORTAGE"
+  },
+  {
+    "id_car_model": 380,
+    "id_car_brand": 94,
+    "car_model_name": "LAIKA"
+  },
+  {
+    "id_car_model": 381,
+    "id_car_brand": 94,
+    "car_model_name": "NIVA"
+  },
+  {
+    "id_car_model": 382,
+    "id_car_brand": 94,
+    "car_model_name": "SAMARA"
+  },
+  {
+    "id_car_model": 383,
+    "id_car_brand": 12,
+    "car_model_name": "GALLARDO"
+  },
+  {
+    "id_car_model": 384,
+    "id_car_brand": 12,
+    "car_model_name": "MURCIELAGO"
+  },
+  {
+    "id_car_model": 385,
+    "id_car_brand": 96,
+    "car_model_name": "DEFENDER"
+  },
+  {
+    "id_car_model": 386,
+    "id_car_brand": 96,
+    "car_model_name": "DISCOVERY"
+  },
+  {
+    "id_car_model": 389,
+    "id_car_brand": 96,
+    "car_model_name": "FREELANDER"
+  },
+  {
+    "id_car_model": 391,
+    "id_car_brand": 96,
+    "car_model_name": "NEW RANGE"
+  },
+  {
+    "id_car_model": 392,
+    "id_car_brand": 96,
+    "car_model_name": "RANGE ROVER"
+  },
+  {
+    "id_car_model": 393,
+    "id_car_brand": 97,
+    "car_model_name": "ES"
+  },
+  {
+    "id_car_model": 396,
+    "id_car_brand": 97,
+    "car_model_name": "GS"
+  },
+  {
+    "id_car_model": 397,
+    "id_car_brand": 97,
+    "car_model_name": "IS-300"
+  },
+  {
+    "id_car_model": 398,
+    "id_car_brand": 97,
+    "car_model_name": "LS"
+  },
+  {
+    "id_car_model": 400,
+    "id_car_brand": 97,
+    "car_model_name": "RX"
+  },
+  {
+    "id_car_model": 402,
+    "id_car_brand": 97,
+    "car_model_name": "SC"
+  },
+  {
+    "id_car_model": 403,
+    "id_car_brand": 98,
+    "car_model_name": 320
+  },
+  {
+    "id_car_model": 404,
+    "id_car_brand": 98,
+    "car_model_name": 620
+  },
+  {
+    "id_car_model": 405,
+    "id_car_brand": 100,
+    "car_model_name": "H1"
+  },
+  {
+    "id_car_model": 406,
+    "id_car_brand": 101,
+    "car_model_name": "ELAN"
+  },
+  {
+    "id_car_model": 407,
+    "id_car_brand": 101,
+    "car_model_name": "ESPRIT"
+  },
+  {
+    "id_car_model": 408,
+    "id_car_brand": 102,
+    "car_model_name": "SCORPIO"
+  },
+  {
+    "id_car_model": 409,
+    "id_car_brand": 104,
+    "car_model_name": 222
+  },
+  {
+    "id_car_model": 410,
+    "id_car_brand": 104,
+    "car_model_name": 228
+  },
+  {
+    "id_car_model": 411,
+    "id_car_brand": 104,
+    "car_model_name": 3200
+  },
+  {
+    "id_car_model": 412,
+    "id_car_brand": 104,
+    "car_model_name": 430
+  },
+  {
+    "id_car_model": 413,
+    "id_car_brand": 104,
+    "car_model_name": "COUPE"
+  },
+  {
+    "id_car_model": 414,
+    "id_car_brand": 104,
+    "car_model_name": "GHIBLI"
+  },
+  {
+    "id_car_model": 415,
+    "id_car_brand": 104,
+    "car_model_name": "GRANCABRIO"
+  },
+  {
+    "id_car_model": 416,
+    "id_car_brand": 104,
+    "car_model_name": "GRANSPORT"
+  },
+  {
+    "id_car_model": 417,
+    "id_car_brand": 104,
+    "car_model_name": "GRANTURISMO"
+  },
+  {
+    "id_car_model": 418,
+    "id_car_brand": 104,
+    "car_model_name": "QUATTROPORTE"
+  },
+  {
+    "id_car_model": 419,
+    "id_car_brand": 104,
+    "car_model_name": "SHAMAL"
+  },
+  {
+    "id_car_model": 420,
+    "id_car_brand": 104,
+    "car_model_name": "SPIDER"
+  },
+  {
+    "id_car_model": 422,
+    "id_car_brand": 106,
+    "car_model_name": "PICK-UP"
+  },
+  {
+    "id_car_model": 423,
+    "id_car_brand": 108,
+    "car_model_name": 323
+  },
+  {
+    "id_car_model": 424,
+    "id_car_brand": 108,
+    "car_model_name": 626
+  },
+  {
+    "id_car_model": 425,
+    "id_car_brand": 108,
+    "car_model_name": 929
+  },
+  {
+    "id_car_model": 426,
+    "id_car_brand": 108,
+    "car_model_name": "B-2500"
+  },
+  {
+    "id_car_model": 427,
+    "id_car_brand": 108,
+    "car_model_name": "B2200"
+  },
+  {
+    "id_car_model": 428,
+    "id_car_brand": 108,
+    "car_model_name": "MILLENIA"
+  },
+  {
+    "id_car_model": 429,
+    "id_car_brand": 108,
+    "car_model_name": "MPV"
+  },
+  {
+    "id_car_model": 430,
+    "id_car_brand": 108,
+    "car_model_name": "MX-3"
+  },
+  {
+    "id_car_model": 431,
+    "id_car_brand": 108,
+    "car_model_name": "MX-5"
+  },
+  {
+    "id_car_model": 432,
+    "id_car_brand": 108,
+    "car_model_name": "NAVAJO"
+  },
+  {
+    "id_car_model": 433,
+    "id_car_brand": 108,
+    "car_model_name": "PROTEGE"
+  },
+  {
+    "id_car_model": 434,
+    "id_car_brand": 108,
+    "car_model_name": "RX"
+  },
+  {
+    "id_car_model": 467,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE A"
+  },
+  {
+    "id_car_model": 468,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE B"
+  },
+  {
+    "id_car_model": 469,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE R"
+  },
+  {
+    "id_car_model": 498,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE GLK"
+  },
+  {
+    "id_car_model": 531,
+    "id_car_brand": 4,
+    "car_model_name": "SPRINTER"
+  },
+  {
+    "id_car_model": 532,
+    "id_car_brand": 110,
+    "car_model_name": "MYSTIQUE"
+  },
+  {
+    "id_car_model": 533,
+    "id_car_brand": 110,
+    "car_model_name": "SABLE"
+  },
+  {
+    "id_car_model": 534,
+    "id_car_brand": 112,
+    "car_model_name": 550
+  },
+  {
+    "id_car_model": 535,
+    "id_car_brand": 112,
+    "car_model_name": "MG6"
+  },
+  {
+    "id_car_model": 536,
+    "id_car_brand": 113,
+    "car_model_name": "COOPER"
+  },
+  {
+    "id_car_model": 537,
+    "id_car_brand": 113,
+    "car_model_name": "ONE"
+  },
+  {
+    "id_car_model": 538,
+    "id_car_brand": 111,
+    "car_model_name": 3000
+  },
+  {
+    "id_car_model": 539,
+    "id_car_brand": 111,
+    "car_model_name": "AIRTREK"
+  },
+  {
+    "id_car_model": 540,
+    "id_car_brand": 111,
+    "car_model_name": "ASX"
+  },
+  {
+    "id_car_model": 541,
+    "id_car_brand": 111,
+    "car_model_name": "COLT"
+  },
+  {
+    "id_car_model": 542,
+    "id_car_brand": 111,
+    "car_model_name": "DIAMANT"
+  },
+  {
+    "id_car_model": 543,
+    "id_car_brand": 111,
+    "car_model_name": "ECLIPSE"
+  },
+  {
+    "id_car_model": 544,
+    "id_car_brand": 111,
+    "car_model_name": "EXPO"
+  },
+  {
+    "id_car_model": 545,
+    "id_car_brand": 111,
+    "car_model_name": "GALANT"
+  },
+  {
+    "id_car_model": 546,
+    "id_car_brand": 111,
+    "car_model_name": "GRANDIS"
+  },
+  {
+    "id_car_model": 547,
+    "id_car_brand": 111,
+    "car_model_name": "L200"
+  },
+  {
+    "id_car_model": 548,
+    "id_car_brand": 111,
+    "car_model_name": "L300"
+  },
+  {
+    "id_car_model": 549,
+    "id_car_brand": 111,
+    "car_model_name": "LANCER"
+  },
+  {
+    "id_car_model": 550,
+    "id_car_brand": 111,
+    "car_model_name": "MIRAGE"
+  },
+  {
+    "id_car_model": 551,
+    "id_car_brand": 111,
+    "car_model_name": "MONTERO"
+  },
+  {
+    "id_car_model": 552,
+    "id_car_brand": 111,
+    "car_model_name": "OUTLANDER"
+  },
+  {
+    "id_car_model": 553,
+    "id_car_brand": 111,
+    "car_model_name": "PAJERO"
+  },
+  {
+    "id_car_model": 554,
+    "id_car_brand": 111,
+    "car_model_name": "SPACE WAGON"
+  },
+  {
+    "id_car_model": 555,
+    "id_car_brand": 114,
+    "car_model_name": "BG-TRUCK"
+  },
+  {
+    "id_car_model": 556,
+    "id_car_brand": 43,
+    "car_model_name": "350Z"
+  },
+  {
+    "id_car_model": 557,
+    "id_car_brand": 43,
+    "car_model_name": "ALTIMA"
+  },
+  {
+    "id_car_model": 558,
+    "id_car_brand": 43,
+    "car_model_name": "AX"
+  },
+  {
+    "id_car_model": 559,
+    "id_car_brand": 43,
+    "car_model_name": "D-21"
+  },
+  {
+    "id_car_model": 560,
+    "id_car_brand": 43,
+    "car_model_name": "FRONTIER"
+  },
+  {
+    "id_car_model": 562,
+    "id_car_brand": 43,
+    "car_model_name": "KING-CAB"
+  },
+  {
+    "id_car_model": 563,
+    "id_car_brand": 43,
+    "car_model_name": "LIVINA"
+  },
+  {
+    "id_car_model": 564,
+    "id_car_brand": 43,
+    "car_model_name": "MARCH"
+  },
+  {
+    "id_car_model": 565,
+    "id_car_brand": 43,
+    "car_model_name": "MAXIMA"
+  },
+  {
+    "id_car_model": 567,
+    "id_car_brand": 43,
+    "car_model_name": "MURANO"
+  },
+  {
+    "id_car_model": 568,
+    "id_car_brand": 43,
+    "car_model_name": "NX"
+  },
+  {
+    "id_car_model": 569,
+    "id_car_brand": 43,
+    "car_model_name": "PATHFINDER"
+  },
+  {
+    "id_car_model": 571,
+    "id_car_brand": 43,
+    "car_model_name": "PRIMERA"
+  },
+  {
+    "id_car_model": 572,
+    "id_car_brand": 43,
+    "car_model_name": "QUEST"
+  },
+  {
+    "id_car_model": 573,
+    "id_car_brand": 43,
+    "car_model_name": "SENTRA"
+  },
+  {
+    "id_car_model": 574,
+    "id_car_brand": 43,
+    "car_model_name": "STANZA"
+  },
+  {
+    "id_car_model": 575,
+    "id_car_brand": 43,
+    "car_model_name": "180SX"
+  },
+  {
+    "id_car_model": 576,
+    "id_car_brand": 43,
+    "car_model_name": "TERRANO"
+  },
+  {
+    "id_car_model": 577,
+    "id_car_brand": 43,
+    "car_model_name": "TIIDA"
+  },
+  {
+    "id_car_model": 578,
+    "id_car_brand": 43,
+    "car_model_name": "VERSA"
+  },
+  {
+    "id_car_model": 579,
+    "id_car_brand": 43,
+    "car_model_name": "X-TRAIL"
+  },
+  {
+    "id_car_model": 580,
+    "id_car_brand": 43,
+    "car_model_name": "XTERRA"
+  },
+  {
+    "id_car_model": 581,
+    "id_car_brand": 43,
+    "car_model_name": "ZX"
+  },
+  {
+    "id_car_model": 582,
+    "id_car_brand": 22,
+    "car_model_name": 106
+  },
+  {
+    "id_car_model": 583,
+    "id_car_brand": 22,
+    "car_model_name": 205
+  },
+  {
+    "id_car_model": 584,
+    "id_car_brand": 22,
+    "car_model_name": 206
+  },
+  {
+    "id_car_model": 585,
+    "id_car_brand": 22,
+    "car_model_name": 207
+  },
+  {
+    "id_car_model": 586,
+    "id_car_brand": 22,
+    "car_model_name": 3008
+  },
+  {
+    "id_car_model": 587,
+    "id_car_brand": 22,
+    "car_model_name": 306
+  },
+  {
+    "id_car_model": 588,
+    "id_car_brand": 22,
+    "car_model_name": 307
+  },
+  {
+    "id_car_model": 589,
+    "id_car_brand": 22,
+    "car_model_name": 308
+  },
+  {
+    "id_car_model": 590,
+    "id_car_brand": 22,
+    "car_model_name": 405
+  },
+  {
+    "id_car_model": 591,
+    "id_car_brand": 22,
+    "car_model_name": 406
+  },
+  {
+    "id_car_model": 592,
+    "id_car_brand": 22,
+    "car_model_name": 407
+  },
+  {
+    "id_car_model": 593,
+    "id_car_brand": 22,
+    "car_model_name": 408
+  },
+  {
+    "id_car_model": 594,
+    "id_car_brand": 22,
+    "car_model_name": 504
+  },
+  {
+    "id_car_model": 595,
+    "id_car_brand": 22,
+    "car_model_name": 505
+  },
+  {
+    "id_car_model": 596,
+    "id_car_brand": 22,
+    "car_model_name": 508
+  },
+  {
+    "id_car_model": 597,
+    "id_car_brand": 22,
+    "car_model_name": 605
+  },
+  {
+    "id_car_model": 598,
+    "id_car_brand": 22,
+    "car_model_name": 607
+  },
+  {
+    "id_car_model": 599,
+    "id_car_brand": 22,
+    "car_model_name": 806
+  },
+  {
+    "id_car_model": 600,
+    "id_car_brand": 22,
+    "car_model_name": 807
+  },
+  {
+    "id_car_model": 601,
+    "id_car_brand": 22,
+    "car_model_name": "BOXER"
+  },
+  {
+    "id_car_model": 602,
+    "id_car_brand": 22,
+    "car_model_name": "HOGGAR"
+  },
+  {
+    "id_car_model": 603,
+    "id_car_brand": 22,
+    "car_model_name": "PARTNER"
+  },
+  {
+    "id_car_model": 604,
+    "id_car_brand": 22,
+    "car_model_name": "RCZ"
+  },
+  {
+    "id_car_model": 605,
+    "id_car_brand": 123,
+    "car_model_name": "GRAN VOYAGER"
+  },
+  {
+    "id_car_model": 606,
+    "id_car_brand": 123,
+    "car_model_name": "SUNDANCE"
+  },
+  {
+    "id_car_model": 607,
+    "id_car_brand": 69,
+    "car_model_name": "TRANS-AM"
+  },
+  {
+    "id_car_model": 608,
+    "id_car_brand": 69,
+    "car_model_name": "TRANS-SPORT"
+  },
+  {
+    "id_car_model": 609,
+    "id_car_brand": 70,
+    "car_model_name": 911
+  },
+  {
+    "id_car_model": 612,
+    "id_car_brand": 70,
+    "car_model_name": "BOXSTER"
+  },
+  {
+    "id_car_model": 613,
+    "id_car_brand": 70,
+    "car_model_name": "CAYENNE"
+  },
+  {
+    "id_car_model": 614,
+    "id_car_brand": 70,
+    "car_model_name": "CAYMAN"
+  },
+  {
+    "id_car_model": 615,
+    "id_car_brand": 70,
+    "car_model_name": "PANAMERA"
+  },
+  {
+    "id_car_model": 617,
+    "id_car_brand": 24,
+    "car_model_name": "21 SEDAN"
+  },
+  {
+    "id_car_model": 618,
+    "id_car_brand": 24,
+    "car_model_name": "CLIO"
+  },
+  {
+    "id_car_model": 619,
+    "id_car_brand": 24,
+    "car_model_name": "DUSTER"
+  },
+  {
+    "id_car_model": 620,
+    "id_car_brand": 24,
+    "car_model_name": "EXPRESS"
+  },
+  {
+    "id_car_model": 621,
+    "id_car_brand": 24,
+    "car_model_name": "FLUENCE"
+  },
+  {
+    "id_car_model": 622,
+    "id_car_brand": 24,
+    "car_model_name": "KANGOO"
+  },
+  {
+    "id_car_model": 623,
+    "id_car_brand": 24,
+    "car_model_name": "LAGUNA"
+  },
+  {
+    "id_car_model": 624,
+    "id_car_brand": 24,
+    "car_model_name": "LOGAN"
+  },
+  {
+    "id_car_model": 625,
+    "id_car_brand": 24,
+    "car_model_name": "MASTER"
+  },
+  {
+    "id_car_model": 626,
+    "id_car_brand": 24,
+    "car_model_name": "MEGANE"
+  },
+  {
+    "id_car_model": 627,
+    "id_car_brand": 24,
+    "car_model_name": "SAFRANE"
+  },
+  {
+    "id_car_model": 628,
+    "id_car_brand": 24,
+    "car_model_name": "SANDERO"
+  },
+  {
+    "id_car_model": 629,
+    "id_car_brand": 24,
+    "car_model_name": "SCENIC"
+  },
+  {
+    "id_car_model": 630,
+    "id_car_brand": 24,
+    "car_model_name": "SYMBOL"
+  },
+  {
+    "id_car_model": 631,
+    "id_car_brand": 24,
+    "car_model_name": "TRAFIC"
+  },
+  {
+    "id_car_model": 632,
+    "id_car_brand": 24,
+    "car_model_name": "TWINGO"
+  },
+  {
+    "id_car_model": 634,
+    "id_car_brand": 137,
+    "car_model_name": 9000
+  },
+  {
+    "id_car_model": 635,
+    "id_car_brand": 162,
+    "car_model_name": "SL-2"
+  },
+  {
+    "id_car_model": 636,
+    "id_car_brand": 130,
+    "car_model_name": "CORDOBA"
+  },
+  {
+    "id_car_model": 637,
+    "id_car_brand": 130,
+    "car_model_name": "IBIZA"
+  },
+  {
+    "id_car_model": 638,
+    "id_car_brand": 130,
+    "car_model_name": "INCA"
+  },
+  {
+    "id_car_model": 641,
+    "id_car_brand": 142,
+    "car_model_name": "FORTWO"
+  },
+  {
+    "id_car_model": 642,
+    "id_car_brand": 21,
+    "car_model_name": "ACTYON SPORTS"
+  },
+  {
+    "id_car_model": 643,
+    "id_car_brand": 21,
+    "car_model_name": "CHAIRMAN"
+  },
+  {
+    "id_car_model": 644,
+    "id_car_brand": 21,
+    "car_model_name": "ISTANA"
+  },
+  {
+    "id_car_model": 645,
+    "id_car_brand": 21,
+    "car_model_name": "KORANDO"
+  },
+  {
+    "id_car_model": 646,
+    "id_car_brand": 21,
+    "car_model_name": "KYRON"
+  },
+  {
+    "id_car_model": 647,
+    "id_car_brand": 21,
+    "car_model_name": "MUSSO"
+  },
+  {
+    "id_car_model": 648,
+    "id_car_brand": 21,
+    "car_model_name": "REXTON"
+  },
+  {
+    "id_car_model": 649,
+    "id_car_brand": 8,
+    "car_model_name": "FORESTER"
+  },
+  {
+    "id_car_model": 650,
+    "id_car_brand": 8,
+    "car_model_name": "IMPREZA"
+  },
+  {
+    "id_car_model": 651,
+    "id_car_brand": 8,
+    "car_model_name": "LEGACY"
+  },
+  {
+    "id_car_model": 652,
+    "id_car_brand": 8,
+    "car_model_name": "OUTBACK"
+  },
+  {
+    "id_car_model": 653,
+    "id_car_brand": 8,
+    "car_model_name": "SVX"
+  },
+  {
+    "id_car_model": 654,
+    "id_car_brand": 8,
+    "car_model_name": "TRIBECA"
+  },
+  {
+    "id_car_model": 655,
+    "id_car_brand": 8,
+    "car_model_name": "VIVIO"
+  },
+  {
+    "id_car_model": 656,
+    "id_car_brand": 59,
+    "car_model_name": "BALENO"
+  },
+  {
+    "id_car_model": 657,
+    "id_car_brand": 59,
+    "car_model_name": "GRAND VITARA"
+  },
+  {
+    "id_car_model": 658,
+    "id_car_brand": 59,
+    "car_model_name": "IGNIS"
+  },
+  {
+    "id_car_model": 660,
+    "id_car_brand": 59,
+    "car_model_name": "JIMNY"
+  },
+  {
+    "id_car_model": 662,
+    "id_car_brand": 59,
+    "car_model_name": "SUPER CARRY"
+  },
+  {
+    "id_car_model": 663,
+    "id_car_brand": 59,
+    "car_model_name": "SWIFT"
+  },
+  {
+    "id_car_model": 664,
+    "id_car_brand": 59,
+    "car_model_name": "SX4"
+  },
+  {
+    "id_car_model": 665,
+    "id_car_brand": 59,
+    "car_model_name": "VITARA"
+  },
+  {
+    "id_car_model": 666,
+    "id_car_brand": 59,
+    "car_model_name": "WAGON R"
+  },
+  {
+    "id_car_model": 667,
+    "id_car_brand": 146,
+    "car_model_name": "STARK"
+  },
+  {
+    "id_car_model": 668,
+    "id_car_brand": 23,
+    "car_model_name": "AVALON"
+  },
+  {
+    "id_car_model": 669,
+    "id_car_brand": 23,
+    "car_model_name": "BANDEIRANTE"
+  },
+  {
+    "id_car_model": 670,
+    "id_car_brand": 23,
+    "car_model_name": "CAMRY"
+  },
+  {
+    "id_car_model": 671,
+    "id_car_brand": 23,
+    "car_model_name": "CELICA"
+  },
+  {
+    "id_car_model": 672,
+    "id_car_brand": 23,
+    "car_model_name": "COROLLA"
+  },
+  {
+    "id_car_model": 673,
+    "id_car_brand": 23,
+    "car_model_name": "CORONA"
+  },
+  {
+    "id_car_model": 674,
+    "id_car_brand": 23,
+    "car_model_name": "HILUX"
+  },
+  {
+    "id_car_model": 675,
+    "id_car_brand": 23,
+    "car_model_name": "LAND CRUISER"
+  },
+  {
+    "id_car_model": 676,
+    "id_car_brand": 23,
+    "car_model_name": "MR-2"
+  },
+  {
+    "id_car_model": 677,
+    "id_car_brand": 23,
+    "car_model_name": "PASEO"
+  },
+  {
+    "id_car_model": 678,
+    "id_car_brand": 23,
+    "car_model_name": "PREVIA"
+  },
+  {
+    "id_car_model": 679,
+    "id_car_brand": 23,
+    "car_model_name": "RAV4"
+  },
+  {
+    "id_car_model": 680,
+    "id_car_brand": 23,
+    "car_model_name": "SUPRA"
+  },
+  {
+    "id_car_model": 682,
+    "id_car_brand": 149,
+    "car_model_name": "PANTANAL"
+  },
+  {
+    "id_car_model": 684,
+    "id_car_brand": 149,
+    "car_model_name": "T-4"
+  },
+  {
+    "id_car_model": 685,
+    "id_car_brand": 53,
+    "car_model_name": "400 SERIES"
+  },
+  {
+    "id_car_model": 687,
+    "id_car_brand": 53,
+    "car_model_name": 850
+  },
+  {
+    "id_car_model": 688,
+    "id_car_brand": 53,
+    "car_model_name": "900 SERIES"
+  },
+  {
+    "id_car_model": 700,
+    "id_car_brand": 2,
+    "car_model_name": "AMAROK"
+  },
+  {
+    "id_car_model": 701,
+    "id_car_brand": 2,
+    "car_model_name": "APOLLO"
+  },
+  {
+    "id_car_model": 702,
+    "id_car_brand": 2,
+    "car_model_name": "BORA"
+  },
+  {
+    "id_car_model": 703,
+    "id_car_brand": 2,
+    "car_model_name": "CARAVELLE"
+  },
+  {
+    "id_car_model": 704,
+    "id_car_brand": 2,
+    "car_model_name": "CORRADO"
+  },
+  {
+    "id_car_model": 706,
+    "id_car_brand": 2,
+    "car_model_name": "EOS"
+  },
+  {
+    "id_car_model": 707,
+    "id_car_brand": 2,
+    "car_model_name": "EUROVAN"
+  },
+  {
+    "id_car_model": 708,
+    "id_car_brand": 2,
+    "car_model_name": "FOX"
+  },
+  {
+    "id_car_model": 709,
+    "id_car_brand": 2,
+    "car_model_name": "FUSCA"
+  },
+  {
+    "id_car_model": 710,
+    "id_car_brand": 2,
+    "car_model_name": "GOL"
+  },
+  {
+    "id_car_model": 711,
+    "id_car_brand": 2,
+    "car_model_name": "GOLF"
+  },
+  {
+    "id_car_model": 713,
+    "id_car_brand": 2,
+    "car_model_name": "JETTA"
+  },
+  {
+    "id_car_model": 714,
+    "id_car_brand": 2,
+    "car_model_name": "KOMBI"
+  },
+  {
+    "id_car_model": 715,
+    "id_car_brand": 2,
+    "car_model_name": "LOGUS"
+  },
+  {
+    "id_car_model": 717,
+    "id_car_brand": 2,
+    "car_model_name": "PARATI"
+  },
+  {
+    "id_car_model": 718,
+    "id_car_brand": 2,
+    "car_model_name": "PASSAT"
+  },
+  {
+    "id_car_model": 719,
+    "id_car_brand": 2,
+    "car_model_name": "POINTER"
+  },
+  {
+    "id_car_model": 720,
+    "id_car_brand": 2,
+    "car_model_name": "POLO"
+  },
+  {
+    "id_car_model": 722,
+    "id_car_brand": 2,
+    "car_model_name": "SANTANA"
+  },
+  {
+    "id_car_model": 723,
+    "id_car_brand": 2,
+    "car_model_name": "SAVEIRO"
+  },
+  {
+    "id_car_model": 725,
+    "id_car_brand": 2,
+    "car_model_name": "SPACEFOX"
+  },
+  {
+    "id_car_model": 726,
+    "id_car_brand": 2,
+    "car_model_name": "TIGUAN"
+  },
+  {
+    "id_car_model": 727,
+    "id_car_brand": 2,
+    "car_model_name": "TOUAREG"
+  },
+  {
+    "id_car_model": 729,
+    "id_car_brand": 2,
+    "car_model_name": "VOYAGE"
+  },
+  {
+    "id_car_model": 732,
+    "id_car_brand": 25,
+    "car_model_name": "ZDX"
+  },
+  {
+    "id_car_model": 737,
+    "id_car_brand": 3,
+    "car_model_name": 140
+  },
+  {
+    "id_car_model": 755,
+    "id_car_brand": 2,
+    "car_model_name": "BRASILIA"
+  },
+  {
+    "id_car_model": 756,
+    "id_car_brand": 13,
+    "car_model_name": "BRASILVAN"
+  },
+  {
+    "id_car_model": 775,
+    "id_car_brand": 13,
+    "car_model_name": "CORCEL"
+  },
+  {
+    "id_car_model": 803,
+    "id_car_brand": 3,
+    "car_model_name": "PALIO WEEKEND"
+  },
+  {
+    "id_car_model": 806,
+    "id_car_brand": 13,
+    "car_model_name": "FOCUS SEDAN"
+  },
+  {
+    "id_car_model": 807,
+    "id_car_brand": 13,
+    "car_model_name": "FIESTA SEDAN"
+  },
+  {
+    "id_car_model": 808,
+    "id_car_brand": 13,
+    "car_model_name": "FIESTA TRAIL"
+  },
+  {
+    "id_car_model": 810,
+    "id_car_brand": 22,
+    "car_model_name": "207 SW"
+  },
+  {
+    "id_car_model": 811,
+    "id_car_brand": 13,
+    "car_model_name": "ESCORT SW"
+  },
+  {
+    "id_car_model": 812,
+    "id_car_brand": 22,
+    "car_model_name": "307 SEDAN"
+  },
+  {
+    "id_car_model": 813,
+    "id_car_brand": 22,
+    "car_model_name": "307 SW"
+  },
+  {
+    "id_car_model": 815,
+    "id_car_brand": 5,
+    "car_model_name": "C4 PALLAS"
+  },
+  {
+    "id_car_model": 816,
+    "id_car_brand": 5,
+    "car_model_name": "C4 PICASSO"
+  },
+  {
+    "id_car_model": 817,
+    "id_car_brand": 5,
+    "car_model_name": "C4 VTR"
+  },
+  {
+    "id_car_model": 818,
+    "id_car_brand": 24,
+    "car_model_name": "CLIO SEDAN"
+  },
+  {
+    "id_car_model": 819,
+    "id_car_brand": 23,
+    "car_model_name": "COROLLA FIELDER"
+  },
+  {
+    "id_car_model": 824,
+    "id_car_brand": 23,
+    "car_model_name": "HILUX SW4"
+  },
+  {
+    "id_car_model": 825,
+    "id_car_brand": 24,
+    "car_model_name": "MEGANE GRAND TOUR"
+  },
+  {
+    "id_car_model": 827,
+    "id_car_brand": 24,
+    "car_model_name": "SANDERO STEPWAY"
+  },
+  {
+    "id_car_model": 829,
+    "id_car_brand": 5,
+    "car_model_name": "XSARA PICASSO"
+  },
+  {
+    "id_car_model": 1360,
+    "id_car_brand": 131,
+    "car_model_name": "COLHEITADEIRA"
+  },
+  {
+    "id_car_model": 1361,
+    "id_car_brand": 158,
+    "car_model_name": "PICKUP F75"
+  },
+  {
+    "id_car_model": 1362,
+    "id_car_brand": 17,
+    "car_model_name": "X12"
+  },
+  {
+    "id_car_model": 1365,
+    "id_car_brand": 1,
+    "car_model_name": "BEL AIR"
+  },
+  {
+    "id_car_model": 1366,
+    "id_car_brand": 36,
+    "car_model_name": "RX"
+  },
+  {
+    "id_car_model": 1369,
+    "id_car_brand": 1,
+    "car_model_name": "C-14"
+  },
+  {
+    "id_car_model": 1370,
+    "id_car_brand": 155,
+    "car_model_name": "SRX4"
+  },
+  {
+    "id_car_model": 1372,
+    "id_car_brand": 1,
+    "car_model_name": "C-15"
+  },
+  {
+    "id_car_model": 1373,
+    "id_car_brand": 1,
+    "car_model_name": "BRASIL"
+  },
+  {
+    "id_car_model": 1377,
+    "id_car_brand": 18,
+    "car_model_name": "POLARA"
+  },
+  {
+    "id_car_model": 1380,
+    "id_car_brand": 3,
+    "car_model_name": 600
+  },
+  {
+    "id_car_model": 1382,
+    "id_car_brand": 13,
+    "car_model_name": "F-01"
+  },
+  {
+    "id_car_model": 1383,
+    "id_car_brand": 13,
+    "car_model_name": "FALCON"
+  },
+  {
+    "id_car_model": 1384,
+    "id_car_brand": 13,
+    "car_model_name": "GALAXIE"
+  },
+  {
+    "id_car_model": 1386,
+    "id_car_brand": 13,
+    "car_model_name": "MAVERICK"
+  },
+  {
+    "id_car_model": 1387,
+    "id_car_brand": 13,
+    "car_model_name": "MODELO A"
+  },
+  {
+    "id_car_model": 1388,
+    "id_car_brand": 13,
+    "car_model_name": "NEW FIESTA"
+  },
+  {
+    "id_car_model": 1389,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA FX"
+  },
+  {
+    "id_car_model": 1391,
+    "id_car_brand": 124,
+    "car_model_name": "GTS"
+  },
+  {
+    "id_car_model": 1392,
+    "id_car_brand": 80,
+    "car_model_name": "H3"
+  },
+  {
+    "id_car_model": 1394,
+    "id_car_brand": 14,
+    "car_model_name": "PRIME"
+  },
+  {
+    "id_car_model": 1395,
+    "id_car_brand": 14,
+    "car_model_name": "TIBURON"
+  },
+  {
+    "id_car_model": 1397,
+    "id_car_brand": 87,
+    "car_model_name": "JEEP"
+  },
+  {
+    "id_car_model": 1398,
+    "id_car_brand": 87,
+    "car_model_name": "CJ5"
+  },
+  {
+    "id_car_model": 1399,
+    "id_car_brand": 239,
+    "car_model_name": "TC"
+  },
+  {
+    "id_car_model": 1404,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE CLC"
+  },
+  {
+    "id_car_model": 1405,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE CLS"
+  },
+  {
+    "id_car_model": 1408,
+    "id_car_brand": 110,
+    "car_model_name": "MONTEREY"
+  },
+  {
+    "id_car_model": 1411,
+    "id_car_brand": 114,
+    "car_model_name": "TOPSPORT"
+  },
+  {
+    "id_car_model": 1412,
+    "id_car_brand": 114,
+    "car_model_name": "TARGA"
+  },
+  {
+    "id_car_model": 1414,
+    "id_car_brand": 114,
+    "car_model_name": "X8"
+  },
+  {
+    "id_car_model": 1415,
+    "id_car_brand": 43,
+    "car_model_name": "370Z"
+  },
+  {
+    "id_car_model": 1418,
+    "id_car_brand": 124,
+    "car_model_name": "GTB"
+  },
+  {
+    "id_car_model": 1419,
+    "id_car_brand": 124,
+    "car_model_name": "GTC"
+  },
+  {
+    "id_car_model": 1420,
+    "id_car_brand": 124,
+    "car_model_name": "GTE"
+  },
+  {
+    "id_car_model": 1421,
+    "id_car_brand": 115,
+    "car_model_name": "AUSTIN"
+  },
+  {
+    "id_car_model": 1423,
+    "id_car_brand": 24,
+    "car_model_name": "7TL"
+  },
+  {
+    "id_car_model": 1424,
+    "id_car_brand": 24,
+    "car_model_name": 19
+  },
+  {
+    "id_car_model": 1426,
+    "id_car_brand": 175,
+    "car_model_name": "CONVERSÍVEL"
+  },
+  {
+    "id_car_model": 1427,
+    "id_car_brand": 17,
+    "car_model_name": "SUPERMINI"
+  },
+  {
+    "id_car_model": 1428,
+    "id_car_brand": 2,
+    "car_model_name": "TL"
+  },
+  {
+    "id_car_model": 1429,
+    "id_car_brand": 3,
+    "car_model_name": "TOPOLINO"
+  },
+  {
+    "id_car_model": 1430,
+    "id_car_brand": 23,
+    "car_model_name": "SR5"
+  },
+  {
+    "id_car_model": 1431,
+    "id_car_brand": 23,
+    "car_model_name": "VITZ"
+  },
+  {
+    "id_car_model": 1432,
+    "id_car_brand": 2,
+    "car_model_name": "VARIANT"
+  },
+  {
+    "id_car_model": 1454,
+    "id_car_brand": 57,
+    "car_model_name": "CANDANGO"
+  },
+  {
+    "id_car_model": 1460,
+    "id_car_brand": 2,
+    "car_model_name": "SP2"
+  },
+  {
+    "id_car_model": 1466,
+    "id_car_brand": 258,
+    "car_model_name": "RECORB"
+  },
+  {
+    "id_car_model": 1467,
+    "id_car_brand": 2,
+    "car_model_name": "POLAUTO"
+  },
+  {
+    "id_car_model": 1508,
+    "id_car_brand": 24,
+    "car_model_name": "GORDINI"
+  },
+  {
+    "id_car_model": 1509,
+    "id_car_brand": 265,
+    "car_model_name": "MINX"
+  },
+  {
+    "id_car_model": 1971,
+    "id_car_brand": 23,
+    "car_model_name": "ETIOS"
+  },
+  {
+    "id_car_model": 1972,
+    "id_car_brand": 1,
+    "car_model_name": "ONIX"
+  },
+  {
+    "id_car_model": 1973,
+    "id_car_brand": 14,
+    "car_model_name": "HB20"
+  },
+  {
+    "id_car_model": 1975,
+    "id_car_brand": 36,
+    "car_model_name": 330
+  },
+  {
+    "id_car_model": 1976,
+    "id_car_brand": 36,
+    "car_model_name": 520
+  },
+  {
+    "id_car_model": 1978,
+    "id_car_brand": 36,
+    "car_model_name": 730
+  },
+  {
+    "id_car_model": 1980,
+    "id_car_brand": 36,
+    "car_model_name": "M1"
+  },
+  {
+    "id_car_model": 1982,
+    "id_car_brand": 36,
+    "car_model_name": "SERIE Z"
+  },
+  {
+    "id_car_model": 1983,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE SLK"
+  },
+  {
+    "id_car_model": 1984,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE C"
+  },
+  {
+    "id_car_model": 1985,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE E"
+  },
+  {
+    "id_car_model": 1986,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE CL"
+  },
+  {
+    "id_car_model": 1987,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE CLK"
+  },
+  {
+    "id_car_model": 1988,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE S"
+  },
+  {
+    "id_car_model": 1989,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE SL"
+  },
+  {
+    "id_car_model": 1990,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE SLS"
+  },
+  {
+    "id_car_model": 1991,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE G"
+  },
+  {
+    "id_car_model": 1992,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE GL"
+  },
+  {
+    "id_car_model": 1993,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE M"
+  },
+  {
+    "id_car_model": 2032,
+    "id_car_brand": 288,
+    "car_model_name": 1500
+  },
+  {
+    "id_car_model": 2061,
+    "id_car_brand": 14,
+    "car_model_name": "EQUUS"
+  },
+  {
+    "id_car_model": 2067,
+    "id_car_brand": 12,
+    "car_model_name": "350 GT"
+  },
+  {
+    "id_car_model": 2068,
+    "id_car_brand": 12,
+    "car_model_name": "400 GT"
+  },
+  {
+    "id_car_model": 2069,
+    "id_car_brand": 12,
+    "car_model_name": "MIURA"
+  },
+  {
+    "id_car_model": 2070,
+    "id_car_brand": 12,
+    "car_model_name": "ISLERO"
+  },
+  {
+    "id_car_model": 2071,
+    "id_car_brand": 12,
+    "car_model_name": "ESPADA"
+  },
+  {
+    "id_car_model": 2072,
+    "id_car_brand": 12,
+    "car_model_name": "COUNTACH"
+  },
+  {
+    "id_car_model": 2073,
+    "id_car_brand": 12,
+    "car_model_name": "DIABLO"
+  },
+  {
+    "id_car_model": 2074,
+    "id_car_brand": 12,
+    "car_model_name": "ZAGATO"
+  },
+  {
+    "id_car_model": 2075,
+    "id_car_brand": 12,
+    "car_model_name": "ALAR"
+  },
+  {
+    "id_car_model": 2076,
+    "id_car_brand": 12,
+    "car_model_name": "LM002"
+  },
+  {
+    "id_car_model": 2077,
+    "id_car_brand": 12,
+    "car_model_name": "REVENTON"
+  },
+  {
+    "id_car_model": 2078,
+    "id_car_brand": 12,
+    "car_model_name": "ANKONIAN"
+  },
+  {
+    "id_car_model": 2080,
+    "id_car_brand": 12,
+    "car_model_name": "AVENTADOR"
+  },
+  {
+    "id_car_model": 2081,
+    "id_car_brand": 12,
+    "car_model_name": "SESTO ELEMENTO"
+  },
+  {
+    "id_car_model": 2082,
+    "id_car_brand": 15,
+    "car_model_name": "J3 TURIN"
+  },
+  {
+    "id_car_model": 2083,
+    "id_car_brand": 15,
+    "car_model_name": "J2"
+  },
+  {
+    "id_car_model": 2084,
+    "id_car_brand": 24,
+    "car_model_name": "SANDERO GT"
+  },
+  {
+    "id_car_model": 2087,
+    "id_car_brand": 1,
+    "car_model_name": "SPIN"
+  },
+  {
+    "id_car_model": 2088,
+    "id_car_brand": 1,
+    "car_model_name": "TRAILBLAZER"
+  },
+  {
+    "id_car_model": 2097,
+    "id_car_brand": 5,
+    "car_model_name": "C3 PICASSO"
+  },
+  {
+    "id_car_model": 2098,
+    "id_car_brand": 5,
+    "car_model_name": "GRAND C4 PICASSO"
+  },
+  {
+    "id_car_model": 2099,
+    "id_car_brand": 5,
+    "car_model_name": "JUMPER MINIBUS"
+  },
+  {
+    "id_car_model": 2100,
+    "id_car_brand": 5,
+    "car_model_name": "JUMPER VETRATO"
+  },
+  {
+    "id_car_model": 2101,
+    "id_car_brand": 22,
+    "car_model_name": "207 SEDAN"
+  },
+  {
+    "id_car_model": 2102,
+    "id_car_brand": 22,
+    "car_model_name": "207 QUIKSILVER"
+  },
+  {
+    "id_car_model": 2103,
+    "id_car_brand": 22,
+    "car_model_name": "207 ESCAPADE"
+  },
+  {
+    "id_car_model": 2104,
+    "id_car_brand": 22,
+    "car_model_name": "308 CC"
+  },
+  {
+    "id_car_model": 2105,
+    "id_car_brand": 22,
+    "car_model_name": "BOXER PASSAGEIRO"
+  },
+  {
+    "id_car_model": 2106,
+    "id_car_brand": 13,
+    "car_model_name": "NEW FIESTA SEDAN"
+  },
+  {
+    "id_car_model": 2108,
+    "id_car_brand": 13,
+    "car_model_name": "TRANSIT PASSAGEIRO"
+  },
+  {
+    "id_car_model": 2109,
+    "id_car_brand": 13,
+    "car_model_name": "TRANSIT CHASSI"
+  },
+  {
+    "id_car_model": 2110,
+    "id_car_brand": 32,
+    "car_model_name": "A4 AVANT"
+  },
+  {
+    "id_car_model": 2111,
+    "id_car_brand": 32,
+    "car_model_name": "S4 AVANT"
+  },
+  {
+    "id_car_model": 2112,
+    "id_car_brand": 32,
+    "car_model_name": "A5 SPORTBACK"
+  },
+  {
+    "id_car_model": 2113,
+    "id_car_brand": 32,
+    "car_model_name": "A5 CABRIOLET"
+  },
+  {
+    "id_car_model": 2114,
+    "id_car_brand": 32,
+    "car_model_name": "S5 COUPE"
+  },
+  {
+    "id_car_model": 2115,
+    "id_car_brand": 32,
+    "car_model_name": "S5 SPORTBACK"
+  },
+  {
+    "id_car_model": 2116,
+    "id_car_brand": 32,
+    "car_model_name": "S5 CABRIOLET"
+  },
+  {
+    "id_car_model": 2117,
+    "id_car_brand": 32,
+    "car_model_name": "A6 AVANT"
+  },
+  {
+    "id_car_model": 2118,
+    "id_car_brand": 32,
+    "car_model_name": "A6 ALLROAD"
+  },
+  {
+    "id_car_model": 2119,
+    "id_car_brand": 32,
+    "car_model_name": "S6 AVANT"
+  },
+  {
+    "id_car_model": 2120,
+    "id_car_brand": 32,
+    "car_model_name": "S7"
+  },
+  {
+    "id_car_model": 2121,
+    "id_car_brand": 32,
+    "car_model_name": "TT ROADSTER"
+  },
+  {
+    "id_car_model": 2122,
+    "id_car_brand": 32,
+    "car_model_name": "TT RS"
+  },
+  {
+    "id_car_model": 2123,
+    "id_car_brand": 32,
+    "car_model_name": "TT RS ROADSTER"
+  },
+  {
+    "id_car_model": 2124,
+    "id_car_brand": 32,
+    "car_model_name": "TTS ROADSTER"
+  },
+  {
+    "id_car_model": 2125,
+    "id_car_brand": 32,
+    "car_model_name": "R8 SPYDER"
+  },
+  {
+    "id_car_model": 2126,
+    "id_car_brand": 32,
+    "car_model_name": "R8 GT"
+  },
+  {
+    "id_car_model": 2127,
+    "id_car_brand": 32,
+    "car_model_name": "R8 GT SPYDER"
+  },
+  {
+    "id_car_model": 2129,
+    "id_car_brand": 10,
+    "car_model_name": "F12"
+  },
+  {
+    "id_car_model": 2130,
+    "id_car_brand": 10,
+    "car_model_name": "458 SPIDER"
+  },
+  {
+    "id_car_model": 2131,
+    "id_car_brand": 10,
+    "car_model_name": "458 ITALIA"
+  },
+  {
+    "id_car_model": 2132,
+    "id_car_brand": 10,
+    "car_model_name": "FF"
+  },
+  {
+    "id_car_model": 2133,
+    "id_car_brand": 10,
+    "car_model_name": 599
+  },
+  {
+    "id_car_model": 2134,
+    "id_car_brand": 10,
+    "car_model_name": "SA"
+  },
+  {
+    "id_car_model": 2135,
+    "id_car_brand": 10,
+    "car_model_name": "CHALLENGE"
+  },
+  {
+    "id_car_model": 2136,
+    "id_car_brand": 10,
+    "car_model_name": "SUPERAMERICA"
+  },
+  {
+    "id_car_model": 2137,
+    "id_car_brand": 10,
+    "car_model_name": "F430 SPIDER"
+  },
+  {
+    "id_car_model": 2138,
+    "id_car_brand": 10,
+    "car_model_name": 430
+  },
+  {
+    "id_car_model": 2139,
+    "id_car_brand": 10,
+    "car_model_name": "612 SESSANTA"
+  },
+  {
+    "id_car_model": 2140,
+    "id_car_brand": 10,
+    "car_model_name": "599 GTB"
+  },
+  {
+    "id_car_model": 2141,
+    "id_car_brand": 10,
+    "car_model_name": "SCUDERIA SPIDER"
+  },
+  {
+    "id_car_model": 2142,
+    "id_car_brand": 10,
+    "car_model_name": 512
+  },
+  {
+    "id_car_model": 2143,
+    "id_car_brand": 10,
+    "car_model_name": "456 GT"
+  },
+  {
+    "id_car_model": 2144,
+    "id_car_brand": 10,
+    "car_model_name": "348 GTS"
+  },
+  {
+    "id_car_model": 2145,
+    "id_car_brand": 10,
+    "car_model_name": "348 SPIDER"
+  },
+  {
+    "id_car_model": 2146,
+    "id_car_brand": 10,
+    "car_model_name": "F355"
+  },
+  {
+    "id_car_model": 2147,
+    "id_car_brand": 10,
+    "car_model_name": "F355 SPIDER"
+  },
+  {
+    "id_car_model": 2148,
+    "id_car_brand": 10,
+    "car_model_name": "F50"
+  },
+  {
+    "id_car_model": 2149,
+    "id_car_brand": 10,
+    "car_model_name": "355 SPIDER"
+  },
+  {
+    "id_car_model": 2150,
+    "id_car_brand": 10,
+    "car_model_name": "360 MODENA"
+  },
+  {
+    "id_car_model": 2151,
+    "id_car_brand": 111,
+    "car_model_name": "PAJERO FULL"
+  },
+  {
+    "id_car_model": 2152,
+    "id_car_brand": 111,
+    "car_model_name": "PAJERO DAKAR"
+  },
+  {
+    "id_car_model": 2153,
+    "id_car_brand": 111,
+    "car_model_name": "PAJERO TR4"
+  },
+  {
+    "id_car_model": 2154,
+    "id_car_brand": 111,
+    "car_model_name": "LANCER SPORTBACK"
+  },
+  {
+    "id_car_model": 2155,
+    "id_car_brand": 111,
+    "car_model_name": "LANCER EVOLUTION"
+  },
+  {
+    "id_car_model": 2156,
+    "id_car_brand": 111,
+    "car_model_name": "L200 TRITON SAVANA"
+  },
+  {
+    "id_car_model": 2157,
+    "id_car_brand": 111,
+    "car_model_name": "L200 TRITON"
+  },
+  {
+    "id_car_model": 2159,
+    "id_car_brand": 43,
+    "car_model_name": "LIVINA X-GEAR"
+  },
+  {
+    "id_car_model": 2160,
+    "id_car_brand": 43,
+    "car_model_name": "GRAND LIVINA"
+  },
+  {
+    "id_car_model": 2161,
+    "id_car_brand": 21,
+    "car_model_name": "NEW ACTYON SPORTS"
+  },
+  {
+    "id_car_model": 2162,
+    "id_car_brand": 23,
+    "car_model_name": "PRIUS"
+  },
+  {
+    "id_car_model": 2163,
+    "id_car_brand": 114,
+    "car_model_name": "SPORT"
+  },
+  {
+    "id_car_model": 2164,
+    "id_car_brand": 114,
+    "car_model_name": "MTS"
+  },
+  {
+    "id_car_model": 2165,
+    "id_car_brand": 114,
+    "car_model_name": "SPIDER"
+  },
+  {
+    "id_car_model": 2166,
+    "id_car_brand": 114,
+    "car_model_name": "KABRIO"
+  },
+  {
+    "id_car_model": 2167,
+    "id_car_brand": 114,
+    "car_model_name": "SAGA"
+  },
+  {
+    "id_car_model": 2168,
+    "id_car_brand": 114,
+    "car_model_name": "SAGA II"
+  },
+  {
+    "id_car_model": 2169,
+    "id_car_brand": 114,
+    "car_model_name": 787
+  },
+  {
+    "id_car_model": 2170,
+    "id_car_brand": 114,
+    "car_model_name": "X11"
+  },
+  {
+    "id_car_model": 2171,
+    "id_car_brand": 295,
+    "car_model_name": "GAIOLA"
+  },
+  {
+    "id_car_model": 2175,
+    "id_car_brand": 18,
+    "car_model_name": "NITRO"
+  },
+  {
+    "id_car_model": 2176,
+    "id_car_brand": 18,
+    "car_model_name": "CHALLENGER"
+  },
+  {
+    "id_car_model": 2177,
+    "id_car_brand": 18,
+    "car_model_name": "DART"
+  },
+  {
+    "id_car_model": 2178,
+    "id_car_brand": 18,
+    "car_model_name": "LE BARON"
+  },
+  {
+    "id_car_model": 2179,
+    "id_car_brand": 18,
+    "car_model_name": "CORDOBA"
+  },
+  {
+    "id_car_model": 2180,
+    "id_car_brand": 18,
+    "car_model_name": "CHARGER"
+  },
+  {
+    "id_car_model": 2181,
+    "id_car_brand": 19,
+    "car_model_name": "WINDSOR"
+  },
+  {
+    "id_car_model": 2183,
+    "id_car_brand": 19,
+    "car_model_name": "CROSSFIRE"
+  },
+  {
+    "id_car_model": 2184,
+    "id_car_brand": 19,
+    "car_model_name": "CORDOBA"
+  },
+  {
+    "id_car_model": 2185,
+    "id_car_brand": 155,
+    "car_model_name": "ESCALADE"
+  },
+  {
+    "id_car_model": 2186,
+    "id_car_brand": 41,
+    "car_model_name": "RIVIERA"
+  },
+  {
+    "id_car_model": 2187,
+    "id_car_brand": 41,
+    "car_model_name": "COUPE"
+  },
+  {
+    "id_car_model": 2188,
+    "id_car_brand": 41,
+    "car_model_name": "CENTURY"
+  },
+  {
+    "id_car_model": 2189,
+    "id_car_brand": 41,
+    "car_model_name": "APOLLO"
+  },
+  {
+    "id_car_model": 2190,
+    "id_car_brand": 41,
+    "car_model_name": "CENTURION"
+  },
+  {
+    "id_car_model": 2191,
+    "id_car_brand": 41,
+    "car_model_name": "EIGHT"
+  },
+  {
+    "id_car_model": 2192,
+    "id_car_brand": 41,
+    "car_model_name": "ELECTRA"
+  },
+  {
+    "id_car_model": 2193,
+    "id_car_brand": 41,
+    "car_model_name": "ESTATE WAGON"
+  },
+  {
+    "id_car_model": 2194,
+    "id_car_brand": 41,
+    "car_model_name": "GRAN SPORT"
+  },
+  {
+    "id_car_model": 2195,
+    "id_car_brand": 41,
+    "car_model_name": "GSX"
+  },
+  {
+    "id_car_model": 2196,
+    "id_car_brand": 41,
+    "car_model_name": "INVICTA"
+  },
+  {
+    "id_car_model": 2197,
+    "id_car_brand": 41,
+    "car_model_name": "LESABRE"
+  },
+  {
+    "id_car_model": 2198,
+    "id_car_brand": 41,
+    "car_model_name": "LIMITED"
+  },
+  {
+    "id_car_model": 2199,
+    "id_car_brand": 41,
+    "car_model_name": "PARK AVENUE"
+  },
+  {
+    "id_car_model": 2200,
+    "id_car_brand": 41,
+    "car_model_name": "RAINIER"
+  },
+  {
+    "id_car_model": 2201,
+    "id_car_brand": 41,
+    "car_model_name": "REATTA"
+  },
+  {
+    "id_car_model": 2202,
+    "id_car_brand": 41,
+    "car_model_name": "REGAL"
+  },
+  {
+    "id_car_model": 2203,
+    "id_car_brand": 41,
+    "car_model_name": "RENDEZVOUS"
+  },
+  {
+    "id_car_model": 2204,
+    "id_car_brand": 41,
+    "car_model_name": "ROADMASTER"
+  },
+  {
+    "id_car_model": 2205,
+    "id_car_brand": 41,
+    "car_model_name": "ROYAUM"
+  },
+  {
+    "id_car_model": 2206,
+    "id_car_brand": 41,
+    "car_model_name": "SKYHAWK"
+  },
+  {
+    "id_car_model": 2207,
+    "id_car_brand": 41,
+    "car_model_name": "SKYLARK"
+  },
+  {
+    "id_car_model": 2208,
+    "id_car_brand": 41,
+    "car_model_name": "SOMERSET"
+  },
+  {
+    "id_car_model": 2209,
+    "id_car_brand": 41,
+    "car_model_name": "SPECIAL"
+  },
+  {
+    "id_car_model": 2210,
+    "id_car_brand": 41,
+    "car_model_name": "SPORT WAGON"
+  },
+  {
+    "id_car_model": 2211,
+    "id_car_brand": 41,
+    "car_model_name": "SUPER"
+  },
+  {
+    "id_car_model": 2212,
+    "id_car_brand": 41,
+    "car_model_name": "TERRAZA"
+  },
+  {
+    "id_car_model": 2213,
+    "id_car_brand": 41,
+    "car_model_name": "WILDCAT"
+  },
+  {
+    "id_car_model": 2214,
+    "id_car_brand": 41,
+    "car_model_name": "LACROSSE"
+  },
+  {
+    "id_car_model": 2215,
+    "id_car_brand": 41,
+    "car_model_name": "ENCLAVE"
+  },
+  {
+    "id_car_model": 2217,
+    "id_car_brand": 41,
+    "car_model_name": "GL8"
+  },
+  {
+    "id_car_model": 2218,
+    "id_car_brand": 41,
+    "car_model_name": "HRV"
+  },
+  {
+    "id_car_model": 2219,
+    "id_car_brand": 41,
+    "car_model_name": "LUCERNE"
+  },
+  {
+    "id_car_model": 2230,
+    "id_car_brand": 13,
+    "car_model_name": "SIERRA"
+  },
+  {
+    "id_car_model": 2231,
+    "id_car_brand": 51,
+    "car_model_name": "BROUGHAM"
+  },
+  {
+    "id_car_model": 2232,
+    "id_car_brand": 51,
+    "car_model_name": "CHAIRMAN"
+  },
+  {
+    "id_car_model": 2233,
+    "id_car_brand": 51,
+    "car_model_name": "DAMAS"
+  },
+  {
+    "id_car_model": 2234,
+    "id_car_brand": 51,
+    "car_model_name": "GENTRA"
+  },
+  {
+    "id_car_model": 2235,
+    "id_car_brand": 51,
+    "car_model_name": "MAEPSY"
+  },
+  {
+    "id_car_model": 2236,
+    "id_car_brand": 51,
+    "car_model_name": "ISTANA"
+  },
+  {
+    "id_car_model": 2237,
+    "id_car_brand": 51,
+    "car_model_name": "KALOS"
+  },
+  {
+    "id_car_model": 2238,
+    "id_car_brand": 51,
+    "car_model_name": "KORANDO"
+  },
+  {
+    "id_car_model": 2239,
+    "id_car_brand": 51,
+    "car_model_name": "LACETTI"
+  },
+  {
+    "id_car_model": 2240,
+    "id_car_brand": 51,
+    "car_model_name": "LEMANS"
+  },
+  {
+    "id_car_model": 2242,
+    "id_car_brand": 51,
+    "car_model_name": "MATIZ"
+  },
+  {
+    "id_car_model": 2243,
+    "id_car_brand": 51,
+    "car_model_name": "MUSSO"
+  },
+  {
+    "id_car_model": 2244,
+    "id_car_brand": 51,
+    "car_model_name": "NEXIA"
+  },
+  {
+    "id_car_model": 2245,
+    "id_car_brand": 51,
+    "car_model_name": "REZZO"
+  },
+  {
+    "id_car_model": 2246,
+    "id_car_brand": 51,
+    "car_model_name": "ROYALE PRINCE"
+  },
+  {
+    "id_car_model": 2247,
+    "id_car_brand": 51,
+    "car_model_name": "ROYALE SALON"
+  },
+  {
+    "id_car_model": 2248,
+    "id_car_brand": 51,
+    "car_model_name": "STATESMAN"
+  },
+  {
+    "id_car_model": 2249,
+    "id_car_brand": 51,
+    "car_model_name": "TOSCA"
+  },
+  {
+    "id_car_model": 2250,
+    "id_car_brand": 51,
+    "car_model_name": "WINSTORM"
+  },
+  {
+    "id_car_model": 2252,
+    "id_car_brand": 158,
+    "car_model_name": "RURAL"
+  },
+  {
+    "id_car_model": 2253,
+    "id_car_brand": 18,
+    "car_model_name": "D100"
+  },
+  {
+    "id_car_model": 2259,
+    "id_car_brand": 4,
+    "car_model_name": 170
+  },
+  {
+    "id_car_model": 2261,
+    "id_car_brand": 18,
+    "car_model_name": "CUSTOM ROYAL"
+  },
+  {
+    "id_car_model": 2262,
+    "id_car_brand": 1,
+    "car_model_name": "CLUB COUPE"
+  },
+  {
+    "id_car_model": 2263,
+    "id_car_brand": 18,
+    "car_model_name": "MAGNUM"
+  },
+  {
+    "id_car_model": 2264,
+    "id_car_brand": 1,
+    "car_model_name": "GMC 100"
+  },
+  {
+    "id_car_model": 2265,
+    "id_car_brand": 69,
+    "car_model_name": "SOLSTICE"
+  },
+  {
+    "id_car_model": 2266,
+    "id_car_brand": 158,
+    "car_model_name": "ITAMARATY"
+  },
+  {
+    "id_car_model": 2267,
+    "id_car_brand": 86,
+    "car_model_name": "MARK V"
+  },
+  {
+    "id_car_model": 2268,
+    "id_car_brand": 124,
+    "car_model_name": "GT"
+  },
+  {
+    "id_car_model": 2269,
+    "id_car_brand": 145,
+    "car_model_name": "CHAMPION"
+  },
+  {
+    "id_car_model": 2270,
+    "id_car_brand": 3,
+    "car_model_name": "BALILLA"
+  },
+  {
+    "id_car_model": 2271,
+    "id_car_brand": 158,
+    "car_model_name": "INTERLAGOS"
+  },
+  {
+    "id_car_model": 2272,
+    "id_car_brand": 17,
+    "car_model_name": "X15"
+  },
+  {
+    "id_car_model": 2273,
+    "id_car_brand": 13,
+    "car_model_name": "F-85"
+  },
+  {
+    "id_car_model": 2274,
+    "id_car_brand": 70,
+    "car_model_name": "SPEEDSTER 356"
+  },
+  {
+    "id_car_model": 2275,
+    "id_car_brand": 88,
+    "car_model_name": "TOPIC FURGAO"
+  },
+  {
+    "id_car_model": 2276,
+    "id_car_brand": 88,
+    "car_model_name": "TOPIC ESCOLAR"
+  },
+  {
+    "id_car_model": 2279,
+    "id_car_brand": 4,
+    "car_model_name": "300D"
+  },
+  {
+    "id_car_model": 2280,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE TE"
+  },
+  {
+    "id_car_model": 2283,
+    "id_car_brand": 23,
+    "car_model_name": "T-100"
+  },
+  {
+    "id_car_model": 2294,
+    "id_car_brand": 24,
+    "car_model_name": "MEGANE SEDAN"
+  },
+  {
+    "id_car_model": 2295,
+    "id_car_brand": 32,
+    "car_model_name": "A4 CABRIOLET"
+  },
+  {
+    "id_car_model": 2298,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA G"
+  },
+  {
+    "id_car_model": 2299,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA G COUPE"
+  },
+  {
+    "id_car_model": 2300,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA G CONVERSIVEL"
+  },
+  {
+    "id_car_model": 2301,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA M"
+  },
+  {
+    "id_car_model": 2302,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA EX"
+  },
+  {
+    "id_car_model": 2303,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA JX"
+  },
+  {
+    "id_car_model": 2304,
+    "id_car_brand": 82,
+    "car_model_name": "LINHA QX"
+  },
+  {
+    "id_car_model": 2305,
+    "id_car_brand": 86,
+    "car_model_name": "MODELOS XF"
+  },
+  {
+    "id_car_model": 2306,
+    "id_car_brand": 86,
+    "car_model_name": "F-TYPE"
+  },
+  {
+    "id_car_model": 2307,
+    "id_car_brand": 86,
+    "car_model_name": "MARK VII"
+  },
+  {
+    "id_car_model": 2308,
+    "id_car_brand": 86,
+    "car_model_name": "MARK VIII"
+  },
+  {
+    "id_car_model": 2309,
+    "id_car_brand": 86,
+    "car_model_name": "MARK IX"
+  },
+  {
+    "id_car_model": 2310,
+    "id_car_brand": 86,
+    "car_model_name": "MARK X"
+  },
+  {
+    "id_car_model": 2311,
+    "id_car_brand": 86,
+    "car_model_name": "E-TYPE"
+  },
+  {
+    "id_car_model": 2312,
+    "id_car_brand": 86,
+    "car_model_name": "C-TYPE"
+  },
+  {
+    "id_car_model": 2313,
+    "id_car_brand": 86,
+    "car_model_name": "D-TYPE"
+  },
+  {
+    "id_car_model": 2314,
+    "id_car_brand": 86,
+    "car_model_name": "MARK I"
+  },
+  {
+    "id_car_model": 2315,
+    "id_car_brand": 86,
+    "car_model_name": "MARK II"
+  },
+  {
+    "id_car_model": 2346,
+    "id_car_brand": 124,
+    "car_model_name": "GT4R"
+  },
+  {
+    "id_car_model": 2347,
+    "id_car_brand": 124,
+    "car_model_name": "SPYDER"
+  },
+  {
+    "id_car_model": 2348,
+    "id_car_brand": 124,
+    "car_model_name": "GTI"
+  },
+  {
+    "id_car_model": 2349,
+    "id_car_brand": 124,
+    "car_model_name": "AM1"
+  },
+  {
+    "id_car_model": 2350,
+    "id_car_brand": 124,
+    "car_model_name": "AM2"
+  },
+  {
+    "id_car_model": 2351,
+    "id_car_brand": 124,
+    "car_model_name": "AM3"
+  },
+  {
+    "id_car_model": 2352,
+    "id_car_brand": 124,
+    "car_model_name": "AM4"
+  },
+  {
+    "id_car_model": 2353,
+    "id_car_brand": 124,
+    "car_model_name": "AMV"
+  },
+  {
+    "id_car_model": 2377,
+    "id_car_brand": 7,
+    "car_model_name": "ACTY"
+  },
+  {
+    "id_car_model": 2378,
+    "id_car_brand": 7,
+    "car_model_name": "AIRWAVE"
+  },
+  {
+    "id_car_model": 2379,
+    "id_car_brand": 7,
+    "car_model_name": "ASCOT"
+  },
+  {
+    "id_car_model": 2380,
+    "id_car_brand": 7,
+    "car_model_name": "BALLADE"
+  },
+  {
+    "id_car_model": 2381,
+    "id_car_brand": 7,
+    "car_model_name": "BEAT"
+  },
+  {
+    "id_car_model": 2382,
+    "id_car_brand": 7,
+    "car_model_name": "CR-X"
+  },
+  {
+    "id_car_model": 2383,
+    "id_car_brand": 7,
+    "car_model_name": "CONCERTO"
+  },
+  {
+    "id_car_model": 2384,
+    "id_car_brand": 7,
+    "car_model_name": "CR-Z"
+  },
+  {
+    "id_car_model": 2385,
+    "id_car_brand": 7,
+    "car_model_name": "DOMANI"
+  },
+  {
+    "id_car_model": 2386,
+    "id_car_brand": 7,
+    "car_model_name": "EDIX"
+  },
+  {
+    "id_car_model": 2387,
+    "id_car_brand": 7,
+    "car_model_name": "ELEMENT"
+  },
+  {
+    "id_car_model": 2388,
+    "id_car_brand": 7,
+    "car_model_name": "EV PLUS"
+  },
+  {
+    "id_car_model": 2389,
+    "id_car_brand": 7,
+    "car_model_name": "FCX"
+  },
+  {
+    "id_car_model": 2390,
+    "id_car_brand": 7,
+    "car_model_name": "FR-V"
+  },
+  {
+    "id_car_model": 2392,
+    "id_car_brand": 7,
+    "car_model_name": "HR-V"
+  },
+  {
+    "id_car_model": 2393,
+    "id_car_brand": 7,
+    "car_model_name": "HSC"
+  },
+  {
+    "id_car_model": 2394,
+    "id_car_brand": 7,
+    "car_model_name": "INSIGHT"
+  },
+  {
+    "id_car_model": 2396,
+    "id_car_brand": 25,
+    "car_model_name": "TL"
+  },
+  {
+    "id_car_model": 2397,
+    "id_car_brand": 7,
+    "car_model_name": "LIFE DUNK"
+  },
+  {
+    "id_car_model": 2398,
+    "id_car_brand": 7,
+    "car_model_name": "LOGO"
+  },
+  {
+    "id_car_model": 2399,
+    "id_car_brand": 7,
+    "car_model_name": "MOBILIO"
+  },
+  {
+    "id_car_model": 2400,
+    "id_car_brand": 25,
+    "car_model_name": "MDX"
+  },
+  {
+    "id_car_model": 2401,
+    "id_car_brand": 7,
+    "car_model_name": "ORTHIA"
+  },
+  {
+    "id_car_model": 2402,
+    "id_car_brand": 7,
+    "car_model_name": "PARTNER VAN"
+  },
+  {
+    "id_car_model": 2403,
+    "id_car_brand": 7,
+    "car_model_name": "PILOT"
+  },
+  {
+    "id_car_model": 2404,
+    "id_car_brand": 7,
+    "car_model_name": "RIDGELINE"
+  },
+  {
+    "id_car_model": 2405,
+    "id_car_brand": 7,
+    "car_model_name": "S2000"
+  },
+  {
+    "id_car_model": 2406,
+    "id_car_brand": 7,
+    "car_model_name": "S600"
+  },
+  {
+    "id_car_model": 2407,
+    "id_car_brand": 7,
+    "car_model_name": "S500"
+  },
+  {
+    "id_car_model": 2408,
+    "id_car_brand": 7,
+    "car_model_name": "S800"
+  },
+  {
+    "id_car_model": 2409,
+    "id_car_brand": 7,
+    "car_model_name": "STEPWGN"
+  },
+  {
+    "id_car_model": 2410,
+    "id_car_brand": 7,
+    "car_model_name": "STREAM"
+  },
+  {
+    "id_car_model": 2411,
+    "id_car_brand": 7,
+    "car_model_name": "THATS"
+  },
+  {
+    "id_car_model": 2412,
+    "id_car_brand": 7,
+    "car_model_name": "VAMOZ"
+  },
+  {
+    "id_car_model": 2413,
+    "id_car_brand": 7,
+    "car_model_name": "Z"
+  },
+  {
+    "id_car_model": 2414,
+    "id_car_brand": 7,
+    "car_model_name": "ZEST"
+  },
+  {
+    "id_car_model": 2441,
+    "id_car_brand": 59,
+    "car_model_name": "AERIO"
+  },
+  {
+    "id_car_model": 2442,
+    "id_car_brand": 59,
+    "car_model_name": "ALTO"
+  },
+  {
+    "id_car_model": 2443,
+    "id_car_brand": 59,
+    "car_model_name": "APV"
+  },
+  {
+    "id_car_model": 2444,
+    "id_car_brand": 59,
+    "car_model_name": "KEI"
+  },
+  {
+    "id_car_model": 2445,
+    "id_car_brand": 59,
+    "car_model_name": "LAPIN"
+  },
+  {
+    "id_car_model": 2446,
+    "id_car_brand": 59,
+    "car_model_name": "MR WAGON"
+  },
+  {
+    "id_car_model": 2447,
+    "id_car_brand": 59,
+    "car_model_name": "XL-7"
+  },
+  {
+    "id_car_model": 2448,
+    "id_car_brand": 59,
+    "car_model_name": "VERONA"
+  },
+  {
+    "id_car_model": 2477,
+    "id_car_brand": 158,
+    "car_model_name": "JEEP CJ"
+  },
+  {
+    "id_car_model": 2479,
+    "id_car_brand": 22,
+    "car_model_name": "306 CABRIOLET"
+  },
+  {
+    "id_car_model": 2484,
+    "id_car_brand": 57,
+    "car_model_name": "BELCAR"
+  },
+  {
+    "id_car_model": 2485,
+    "id_car_brand": 90,
+    "car_model_name": "M715"
+  },
+  {
+    "id_car_model": 2492,
+    "id_car_brand": 22,
+    "car_model_name": "407 SW"
+  },
+  {
+    "id_car_model": 2493,
+    "id_car_brand": 22,
+    "car_model_name": "307 CC"
+  },
+  {
+    "id_car_model": 2499,
+    "id_car_brand": 1,
+    "car_model_name": "STYLELINE"
+  },
+  {
+    "id_car_model": 2500,
+    "id_car_brand": 13,
+    "car_model_name": "ANGLIA"
+  },
+  {
+    "id_car_model": 2508,
+    "id_car_brand": 26,
+    "car_model_name": "GT2"
+  },
+  {
+    "id_car_model": 2509,
+    "id_car_brand": 1,
+    "car_model_name": "YUKON"
+  },
+  {
+    "id_car_model": 2510,
+    "id_car_brand": 54,
+    "car_model_name": "SPORTSMAN"
+  },
+  {
+    "id_car_model": 2514,
+    "id_car_brand": 24,
+    "car_model_name": "21 NEVADA"
+  },
+  {
+    "id_car_model": 2515,
+    "id_car_brand": 11,
+    "car_model_name": "VEYRON"
+  },
+  {
+    "id_car_model": 2516,
+    "id_car_brand": 10,
+    "car_model_name": "ENZO"
+  },
+  {
+    "id_car_model": 2517,
+    "id_car_brand": 22,
+    "car_model_name": "306 SW"
+  },
+  {
+    "id_car_model": 2528,
+    "id_car_brand": 28,
+    "car_model_name": "TI 80"
+  },
+  {
+    "id_car_model": 2532,
+    "id_car_brand": 70,
+    "car_model_name": "SPYDER 550"
+  },
+  {
+    "id_car_model": 2533,
+    "id_car_brand": 10,
+    "car_model_name": "380 GTB"
+  },
+  {
+    "id_car_model": 2534,
+    "id_car_brand": 149,
+    "car_model_name": "T-5"
+  },
+  {
+    "id_car_model": 2536,
+    "id_car_brand": 18,
+    "car_model_name": "KINGSWAY"
+  },
+  {
+    "id_car_model": 2537,
+    "id_car_brand": 1,
+    "car_model_name": "SSR"
+  },
+  {
+    "id_car_model": 2540,
+    "id_car_brand": 1,
+    "car_model_name": "IMPALA"
+  },
+  {
+    "id_car_model": 2541,
+    "id_car_brand": 22,
+    "car_model_name": 208
+  },
+  {
+    "id_car_model": 2542,
+    "id_car_brand": 1,
+    "car_model_name": "GRAND BLAZER"
+  },
+  {
+    "id_car_model": 2555,
+    "id_car_brand": 53,
+    "car_model_name": "100 SERIES"
+  },
+  {
+    "id_car_model": 2558,
+    "id_car_brand": 53,
+    "car_model_name": "200 SERIES"
+  },
+  {
+    "id_car_model": 2559,
+    "id_car_brand": 53,
+    "car_model_name": "300 SERIES"
+  },
+  {
+    "id_car_model": 2561,
+    "id_car_brand": 53,
+    "car_model_name": 66
+  },
+  {
+    "id_car_model": 2562,
+    "id_car_brand": 53,
+    "car_model_name": "700 SERIES"
+  },
+  {
+    "id_car_model": 2563,
+    "id_car_brand": 53,
+    "car_model_name": "AMAZON"
+  },
+  {
+    "id_car_model": 2564,
+    "id_car_brand": 53,
+    "car_model_name": "C303"
+  },
+  {
+    "id_car_model": 2566,
+    "id_car_brand": 53,
+    "car_model_name": "DUETT"
+  },
+  {
+    "id_car_model": 2567,
+    "id_car_brand": 53,
+    "car_model_name": "L3314"
+  },
+  {
+    "id_car_model": 2568,
+    "id_car_brand": 53,
+    "car_model_name": "OV 4"
+  },
+  {
+    "id_car_model": 2569,
+    "id_car_brand": 53,
+    "car_model_name": "P1800"
+  },
+  {
+    "id_car_model": 2570,
+    "id_car_brand": 53,
+    "car_model_name": "SUGGA"
+  },
+  {
+    "id_car_model": 2571,
+    "id_car_brand": 13,
+    "car_model_name": "TT"
+  },
+  {
+    "id_car_model": 2572,
+    "id_car_brand": 5,
+    "car_model_name": "ONCE"
+  },
+  {
+    "id_car_model": 2573,
+    "id_car_brand": 13,
+    "car_model_name": "DE LUXE"
+  },
+  {
+    "id_car_model": 2574,
+    "id_car_brand": 13,
+    "car_model_name": "CUSTOM"
+  },
+  {
+    "id_car_model": 2575,
+    "id_car_brand": 13,
+    "car_model_name": "T-BUCKET"
+  },
+  {
+    "id_car_model": 2576,
+    "id_car_brand": 17,
+    "car_model_name": "G15"
+  },
+  {
+    "id_car_model": 2588,
+    "id_car_brand": 111,
+    "car_model_name": "PAJERO FULL 3D"
+  },
+  {
+    "id_car_model": 2589,
+    "id_car_brand": 111,
+    "car_model_name": "PAJERO SPORT"
+  },
+  {
+    "id_car_model": 2590,
+    "id_car_brand": 36,
+    "car_model_name": "120 CABRIO"
+  },
+  {
+    "id_car_model": 2591,
+    "id_car_brand": 36,
+    "car_model_name": "320 TOURING"
+  },
+  {
+    "id_car_model": 2592,
+    "id_car_brand": 36,
+    "car_model_name": "330 CABRIO"
+  },
+  {
+    "id_car_model": 2593,
+    "id_car_brand": 36,
+    "car_model_name": "SERIE 5 TOURING"
+  },
+  {
+    "id_car_model": 2594,
+    "id_car_brand": 36,
+    "car_model_name": "SERIE 6 CABRIO"
+  },
+  {
+    "id_car_model": 2595,
+    "id_car_brand": 36,
+    "car_model_name": "SERIE M CONVERSIVEL"
+  },
+  {
+    "id_car_model": 2596,
+    "id_car_brand": 36,
+    "car_model_name": "M5 TOURING"
+  },
+  {
+    "id_car_model": 2597,
+    "id_car_brand": 36,
+    "car_model_name": "SERIE Z ROADSTER"
+  },
+  {
+    "id_car_model": 2599,
+    "id_car_brand": 13,
+    "car_model_name": "KA SPORT"
+  },
+  {
+    "id_car_model": 2600,
+    "id_car_brand": 2,
+    "car_model_name": "CC"
+  },
+  {
+    "id_car_model": 2605,
+    "id_car_brand": 16,
+    "car_model_name": "CERATO KOUP"
+  },
+  {
+    "id_car_model": 2607,
+    "id_car_brand": 1,
+    "car_model_name": "ASTRO"
+  },
+  {
+    "id_car_model": 2608,
+    "id_car_brand": 23,
+    "car_model_name": "COROLLA XRS"
+  },
+  {
+    "id_car_model": 2609,
+    "id_car_brand": 23,
+    "car_model_name": "ETIOS SEDAN"
+  },
+  {
+    "id_car_model": 2611,
+    "id_car_brand": 13,
+    "car_model_name": "FREESTYLE"
+  },
+  {
+    "id_car_model": 2612,
+    "id_car_brand": 110,
+    "car_model_name": "COUGAR"
+  },
+  {
+    "id_car_model": 2615,
+    "id_car_brand": 102,
+    "car_model_name": "XUV 500"
+  },
+  {
+    "id_car_model": 2618,
+    "id_car_brand": 102,
+    "car_model_name": "XYLO"
+  },
+  {
+    "id_car_model": 2619,
+    "id_car_brand": 102,
+    "car_model_name": "BOLERO"
+  },
+  {
+    "id_car_model": 2620,
+    "id_car_brand": 102,
+    "car_model_name": "THAR"
+  },
+  {
+    "id_car_model": 2621,
+    "id_car_brand": 102,
+    "car_model_name": "AXE"
+  },
+  {
+    "id_car_model": 2622,
+    "id_car_brand": 102,
+    "car_model_name": "LEGEND"
+  },
+  {
+    "id_car_model": 2623,
+    "id_car_brand": 87,
+    "car_model_name": "CJ3"
+  },
+  {
+    "id_car_model": 2624,
+    "id_car_brand": 102,
+    "car_model_name": "ARMADA"
+  },
+  {
+    "id_car_model": 2625,
+    "id_car_brand": 102,
+    "car_model_name": "CHASSI"
+  },
+  {
+    "id_car_model": 2626,
+    "id_car_brand": 102,
+    "car_model_name": "SCORPIO PICK-UP"
+  },
+  {
+    "id_car_model": 2627,
+    "id_car_brand": 6,
+    "car_model_name": "STAR TRUCK"
+  },
+  {
+    "id_car_model": 2628,
+    "id_car_brand": 6,
+    "car_model_name": "STAR"
+  },
+  {
+    "id_car_model": 2629,
+    "id_car_brand": 6,
+    "car_model_name": "STAR VAN CARGO"
+  },
+  {
+    "id_car_model": 2630,
+    "id_car_brand": 6,
+    "car_model_name": "STAR VAN PASSAGEIROS"
+  },
+  {
+    "id_car_model": 2632,
+    "id_car_brand": 141,
+    "car_model_name": "ALVORADA"
+  },
+  {
+    "id_car_model": 2633,
+    "id_car_brand": 141,
+    "car_model_name": "CHAMBORD"
+  },
+  {
+    "id_car_model": 2637,
+    "id_car_brand": 141,
+    "car_model_name": "PROFISSIONAL"
+  },
+  {
+    "id_car_model": 2639,
+    "id_car_brand": 141,
+    "car_model_name": "VEDETTE"
+  },
+  {
+    "id_car_model": 2640,
+    "id_car_brand": 141,
+    "car_model_name": "ARONDE"
+  },
+  {
+    "id_car_model": 2641,
+    "id_car_brand": 141,
+    "car_model_name": "1200S"
+  },
+  {
+    "id_car_model": 2642,
+    "id_car_brand": 141,
+    "car_model_name": 1000
+  },
+  {
+    "id_car_model": 2645,
+    "id_car_brand": 14,
+    "car_model_name": "HB20X"
+  },
+  {
+    "id_car_model": 2646,
+    "id_car_brand": 14,
+    "car_model_name": "HB20S"
+  },
+  {
+    "id_car_model": 2648,
+    "id_car_brand": 1,
+    "car_model_name": "MONZA"
+  },
+  {
+    "id_car_model": 2649,
+    "id_car_brand": 1,
+    "car_model_name": "CHEVETTE"
+  },
+  {
+    "id_car_model": 2650,
+    "id_car_brand": 98,
+    "car_model_name": "X60"
+  },
+  {
+    "id_car_model": 2651,
+    "id_car_brand": 1,
+    "car_model_name": "TRAX"
+  },
+  {
+    "id_car_model": 2652,
+    "id_car_brand": 36,
+    "car_model_name": 118
+  },
+  {
+    "id_car_model": 2653,
+    "id_car_brand": 36,
+    "car_model_name": 120
+  },
+  {
+    "id_car_model": 2654,
+    "id_car_brand": 36,
+    "car_model_name": 130
+  },
+  {
+    "id_car_model": 2655,
+    "id_car_brand": 36,
+    "car_model_name": "BAVARIA"
+  },
+  {
+    "id_car_model": 2656,
+    "id_car_brand": 36,
+    "car_model_name": "C-2800"
+  },
+  {
+    "id_car_model": 2657,
+    "id_car_brand": 36,
+    "car_model_name": 318
+  },
+  {
+    "id_car_model": 2658,
+    "id_car_brand": 36,
+    "car_model_name": 320
+  },
+  {
+    "id_car_model": 2659,
+    "id_car_brand": 36,
+    "car_model_name": "318 CABRIO"
+  },
+  {
+    "id_car_model": 2660,
+    "id_car_brand": 36,
+    "car_model_name": "325 CABRIO"
+  },
+  {
+    "id_car_model": 2661,
+    "id_car_brand": 36,
+    "car_model_name": 530
+  },
+  {
+    "id_car_model": 2662,
+    "id_car_brand": 36,
+    "car_model_name": 540
+  },
+  {
+    "id_car_model": 2663,
+    "id_car_brand": 36,
+    "car_model_name": 550
+  },
+  {
+    "id_car_model": 2664,
+    "id_car_brand": 36,
+    "car_model_name": 740
+  },
+  {
+    "id_car_model": 2665,
+    "id_car_brand": 36,
+    "car_model_name": 750
+  },
+  {
+    "id_car_model": 2666,
+    "id_car_brand": 36,
+    "car_model_name": 760
+  },
+  {
+    "id_car_model": 2675,
+    "id_car_brand": 341,
+    "car_model_name": "MATRIX 4X4"
+  },
+  {
+    "id_car_model": 2694,
+    "id_car_brand": 132,
+    "car_model_name": "A7"
+  },
+  {
+    "id_car_model": 2695,
+    "id_car_brand": 132,
+    "car_model_name": "A9"
+  },
+  {
+    "id_car_model": 2696,
+    "id_car_brand": 132,
+    "car_model_name": "A9 CARGO"
+  },
+  {
+    "id_car_model": 2697,
+    "id_car_brand": 132,
+    "car_model_name": "T20"
+  },
+  {
+    "id_car_model": 2698,
+    "id_car_brand": 132,
+    "car_model_name": "T20 BAU"
+  },
+  {
+    "id_car_model": 2699,
+    "id_car_brand": 132,
+    "car_model_name": "T22"
+  },
+  {
+    "id_car_model": 2704,
+    "id_car_brand": 64,
+    "car_model_name": "SUPER 90 COUPE"
+  },
+  {
+    "id_car_model": 2705,
+    "id_car_brand": 17,
+    "car_model_name": "X20"
+  },
+  {
+    "id_car_model": 2706,
+    "id_car_brand": 17,
+    "car_model_name": "ITAIPU"
+  },
+  {
+    "id_car_model": 2707,
+    "id_car_brand": 17,
+    "car_model_name": "G800"
+  },
+  {
+    "id_car_model": 2708,
+    "id_car_brand": 17,
+    "car_model_name": "XEF"
+  },
+  {
+    "id_car_model": 2709,
+    "id_car_brand": 17,
+    "car_model_name": "MOTOMACHINE"
+  },
+  {
+    "id_car_model": 2710,
+    "id_car_brand": 17,
+    "car_model_name": "BUGATO"
+  },
+  {
+    "id_car_model": 2711,
+    "id_car_brand": 17,
+    "car_model_name": "QT"
+  },
+  {
+    "id_car_model": 2716,
+    "id_car_brand": 57,
+    "car_model_name": "CAICARA"
+  },
+  {
+    "id_car_model": 2717,
+    "id_car_brand": 57,
+    "car_model_name": "CARCARA"
+  },
+  {
+    "id_car_model": 2718,
+    "id_car_brand": 57,
+    "car_model_name": "FISSORE"
+  },
+  {
+    "id_car_model": 2719,
+    "id_car_brand": 57,
+    "car_model_name": "MALZONI"
+  },
+  {
+    "id_car_model": 2720,
+    "id_car_brand": 57,
+    "car_model_name": "VEMAGUET"
+  },
+  {
+    "id_car_model": 2727,
+    "id_car_brand": 5,
+    "car_model_name": "C4 LOUNGE"
+  },
+  {
+    "id_car_model": 2728,
+    "id_car_brand": 108,
+    "car_model_name": "CX-7"
+  },
+  {
+    "id_car_model": 2729,
+    "id_car_brand": 147,
+    "car_model_name": "TR"
+  },
+  {
+    "id_car_model": 2730,
+    "id_car_brand": 147,
+    "car_model_name": "LUCENA"
+  },
+  {
+    "id_car_model": 2731,
+    "id_car_brand": 147,
+    "car_model_name": "SEVETSE"
+  },
+  {
+    "id_car_model": 2732,
+    "id_car_brand": 147,
+    "car_model_name": "RAGGE"
+  },
+  {
+    "id_car_model": 2733,
+    "id_car_brand": 53,
+    "car_model_name": "C70"
+  },
+  {
+    "id_car_model": 2734,
+    "id_car_brand": 53,
+    "car_model_name": "C30"
+  },
+  {
+    "id_car_model": 2735,
+    "id_car_brand": 53,
+    "car_model_name": 544
+  },
+  {
+    "id_car_model": 2736,
+    "id_car_brand": 53,
+    "car_model_name": "S40"
+  },
+  {
+    "id_car_model": 2737,
+    "id_car_brand": 53,
+    "car_model_name": "S60"
+  },
+  {
+    "id_car_model": 2738,
+    "id_car_brand": 53,
+    "car_model_name": "S70"
+  },
+  {
+    "id_car_model": 2739,
+    "id_car_brand": 53,
+    "car_model_name": "S80"
+  },
+  {
+    "id_car_model": 2740,
+    "id_car_brand": 53,
+    "car_model_name": "V40"
+  },
+  {
+    "id_car_model": 2741,
+    "id_car_brand": 53,
+    "car_model_name": "V50"
+  },
+  {
+    "id_car_model": 2742,
+    "id_car_brand": 53,
+    "car_model_name": "V60"
+  },
+  {
+    "id_car_model": 2743,
+    "id_car_brand": 53,
+    "car_model_name": "V70"
+  },
+  {
+    "id_car_model": 2744,
+    "id_car_brand": 53,
+    "car_model_name": "S90"
+  },
+  {
+    "id_car_model": 2745,
+    "id_car_brand": 53,
+    "car_model_name": "XC60"
+  },
+  {
+    "id_car_model": 2746,
+    "id_car_brand": 53,
+    "car_model_name": "XC70"
+  },
+  {
+    "id_car_model": 2747,
+    "id_car_brand": 53,
+    "car_model_name": "XC90"
+  },
+  {
+    "id_car_model": 2748,
+    "id_car_brand": 53,
+    "car_model_name": "P1900"
+  },
+  {
+    "id_car_model": 2749,
+    "id_car_brand": 53,
+    "car_model_name": "PV36"
+  },
+  {
+    "id_car_model": 2750,
+    "id_car_brand": 53,
+    "car_model_name": "PV444"
+  },
+  {
+    "id_car_model": 2751,
+    "id_car_brand": 53,
+    "car_model_name": "PV544"
+  },
+  {
+    "id_car_model": 2752,
+    "id_car_brand": 53,
+    "car_model_name": "PV51"
+  },
+  {
+    "id_car_model": 2753,
+    "id_car_brand": 53,
+    "car_model_name": "PV654"
+  },
+  {
+    "id_car_model": 2754,
+    "id_car_brand": 53,
+    "car_model_name": "C50"
+  },
+  {
+    "id_car_model": 2755,
+    "id_car_brand": 4,
+    "car_model_name": 190
+  },
+  {
+    "id_car_model": 2756,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE CLA"
+  },
+  {
+    "id_car_model": 2757,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE V"
+  },
+  {
+    "id_car_model": 2758,
+    "id_car_brand": 4,
+    "car_model_name": "VANEO"
+  },
+  {
+    "id_car_model": 2759,
+    "id_car_brand": 4,
+    "car_model_name": "CITAN"
+  },
+  {
+    "id_car_model": 2760,
+    "id_car_brand": 4,
+    "car_model_name": "VARIO"
+  },
+  {
+    "id_car_model": 2761,
+    "id_car_brand": 4,
+    "car_model_name": "CLASSE S CLASSICO"
+  },
+  {
+    "id_car_model": 2809,
+    "id_car_brand": 15,
+    "car_model_name": "J3S"
+  },
+  {
+    "id_car_model": 2810,
+    "id_car_brand": 345,
+    "car_model_name": "PICK-UP"
+  },
+  {
+    "id_car_model": 2811,
+    "id_car_brand": 345,
+    "car_model_name": "VAN"
+  },
+  {
+    "id_car_model": 2823,
+    "id_car_brand": 5,
+    "car_model_name": "C3 SOLARIS"
+  },
+  {
+    "id_car_model": 2824,
+    "id_car_brand": 5,
+    "car_model_name": "C3 XTR"
+  },
+  {
+    "id_car_model": 2825,
+    "id_car_brand": 5,
+    "car_model_name": "C4 SOLARIS"
+  },
+  {
+    "id_car_model": 2826,
+    "id_car_brand": 5,
+    "car_model_name": "C5 BREAK/TOURER"
+  },
+  {
+    "id_car_model": 2827,
+    "id_car_brand": 5,
+    "car_model_name": "XSARA BREAK"
+  },
+  {
+    "id_car_model": 2828,
+    "id_car_brand": 5,
+    "car_model_name": "XSARA VTS"
+  },
+  {
+    "id_car_model": 2829,
+    "id_car_brand": 5,
+    "car_model_name": "XANTIA BREAK"
+  },
+  {
+    "id_car_model": 2830,
+    "id_car_brand": 5,
+    "car_model_name": "XM BREAK"
+  },
+  {
+    "id_car_model": 2831,
+    "id_car_brand": 5,
+    "car_model_name": "C15"
+  },
+  {
+    "id_car_model": 2832,
+    "id_car_brand": 5,
+    "car_model_name": "NEMO"
+  },
+  {
+    "id_car_model": 2833,
+    "id_car_brand": 5,
+    "car_model_name": "VISA"
+  },
+  {
+    "id_car_model": 2834,
+    "id_car_brand": 5,
+    "car_model_name": "C1"
+  },
+  {
+    "id_car_model": 2835,
+    "id_car_brand": 5,
+    "car_model_name": "C2"
+  },
+  {
+    "id_car_model": 2836,
+    "id_car_brand": 5,
+    "car_model_name": "C3 PLURIEL"
+  },
+  {
+    "id_car_model": 2837,
+    "id_car_brand": 5,
+    "car_model_name": "DS4"
+  },
+  {
+    "id_car_model": 2838,
+    "id_car_brand": 5,
+    "car_model_name": "DS5"
+  },
+  {
+    "id_car_model": 2839,
+    "id_car_brand": 5,
+    "car_model_name": "JUMPY"
+  },
+  {
+    "id_car_model": 2840,
+    "id_car_brand": 5,
+    "car_model_name": "C-CROSSER"
+  },
+  {
+    "id_car_model": 2841,
+    "id_car_brand": 5,
+    "car_model_name": "C35"
+  },
+  {
+    "id_car_model": 2842,
+    "id_car_brand": 5,
+    "car_model_name": "C25"
+  },
+  {
+    "id_car_model": 2843,
+    "id_car_brand": 5,
+    "car_model_name": "CX"
+  },
+  {
+    "id_car_model": 2844,
+    "id_car_brand": 5,
+    "car_model_name": "CX BREAK"
+  },
+  {
+    "id_car_model": 2845,
+    "id_car_brand": 5,
+    "car_model_name": "AXEL"
+  },
+  {
+    "id_car_model": 2846,
+    "id_car_brand": 5,
+    "car_model_name": "DYANE"
+  },
+  {
+    "id_car_model": 2847,
+    "id_car_brand": 5,
+    "car_model_name": "GS/GSA"
+  },
+  {
+    "id_car_model": 2848,
+    "id_car_brand": 5,
+    "car_model_name": "GS/GSA BREAK"
+  },
+  {
+    "id_car_model": 2849,
+    "id_car_brand": 5,
+    "car_model_name": "MEHARI"
+  },
+  {
+    "id_car_model": 2850,
+    "id_car_brand": 5,
+    "car_model_name": "SAXO"
+  },
+  {
+    "id_car_model": 2851,
+    "id_car_brand": 5,
+    "car_model_name": "SM"
+  },
+  {
+    "id_car_model": 2852,
+    "id_car_brand": 5,
+    "car_model_name": "ELYSEE"
+  },
+  {
+    "id_car_model": 2853,
+    "id_car_brand": 24,
+    "car_model_name": "MASTER MINIBUS"
+  },
+  {
+    "id_car_model": 2854,
+    "id_car_brand": 47,
+    "car_model_name": "CELER"
+  },
+  {
+    "id_car_model": 2855,
+    "id_car_brand": 47,
+    "car_model_name": "CELER SEDAN"
+  },
+  {
+    "id_car_model": 2856,
+    "id_car_brand": 47,
+    "car_model_name": "CIELO SEDAN"
+  },
+  {
+    "id_car_model": 2857,
+    "id_car_brand": 32,
+    "car_model_name": "A1 SPORTBACK"
+  },
+  {
+    "id_car_model": 2858,
+    "id_car_brand": 32,
+    "car_model_name": "A1 QUATTRO"
+  },
+  {
+    "id_car_model": 2859,
+    "id_car_brand": 32,
+    "car_model_name": "A3 SPORTBACK"
+  },
+  {
+    "id_car_model": 2860,
+    "id_car_brand": 32,
+    "car_model_name": "RS4 AVANT"
+  },
+  {
+    "id_car_model": 2861,
+    "id_car_brand": 32,
+    "car_model_name": "A8L W12"
+  },
+  {
+    "id_car_model": 2862,
+    "id_car_brand": 32,
+    "car_model_name": "R8 V10"
+  },
+  {
+    "id_car_model": 2863,
+    "id_car_brand": 13,
+    "car_model_name": "RANGER CD"
+  },
+  {
+    "id_car_model": 2864,
+    "id_car_brand": 15,
+    "car_model_name": "T140"
+  },
+  {
+    "id_car_model": 2865,
+    "id_car_brand": 36,
+    "car_model_name": "X1"
+  },
+  {
+    "id_car_model": 2866,
+    "id_car_brand": 36,
+    "car_model_name": "X3"
+  },
+  {
+    "id_car_model": 2867,
+    "id_car_brand": 36,
+    "car_model_name": "X5"
+  },
+  {
+    "id_car_model": 2868,
+    "id_car_brand": 36,
+    "car_model_name": "X6"
+  },
+  {
+    "id_car_model": 2869,
+    "id_car_brand": 36,
+    "car_model_name": 840
+  },
+  {
+    "id_car_model": 2870,
+    "id_car_brand": 36,
+    "car_model_name": 850
+  },
+  {
+    "id_car_model": 2871,
+    "id_car_brand": 36,
+    "car_model_name": 645
+  },
+  {
+    "id_car_model": 2872,
+    "id_car_brand": 36,
+    "car_model_name": 650
+  },
+  {
+    "id_car_model": 2874,
+    "id_car_brand": 7,
+    "car_model_name": "FIT TWIST"
+  },
+  {
+    "id_car_model": 2876,
+    "id_car_brand": 346,
+    "car_model_name": "MP4"
+  },
+  {
+    "id_car_model": 2877,
+    "id_car_brand": 346,
+    "car_model_name": "F1"
+  },
+  {
+    "id_car_model": 2878,
+    "id_car_brand": 13,
+    "car_model_name": "MONDEO SW"
+  },
+  {
+    "id_car_model": 2879,
+    "id_car_brand": 13,
+    "car_model_name": "ESCORT SEDAN"
+  },
+  {
+    "id_car_model": 2880,
+    "id_car_brand": 13,
+    "car_model_name": "ESCORT CONVERSIVEL"
+  },
+  {
+    "id_car_model": 2881,
+    "id_car_brand": 108,
+    "car_model_name": "MX-6"
+  },
+  {
+    "id_car_model": 2884,
+    "id_car_brand": 1,
+    "car_model_name": "CORISCO"
+  },
+  {
+    "id_car_model": 2885,
+    "id_car_brand": 1,
+    "car_model_name": "CHEVELLE"
+  },
+  {
+    "id_car_model": 2886,
+    "id_car_brand": 13,
+    "car_model_name": "EXCURSION"
+  },
+  {
+    "id_car_model": 2887,
+    "id_car_brand": 2,
+    "car_model_name": "TOURAN"
+  },
+  {
+    "id_car_model": 2890,
+    "id_car_brand": 13,
+    "car_model_name": "F-10000"
+  },
+  {
+    "id_car_model": 2891,
+    "id_car_brand": 22,
+    "car_model_name": "HOGGAR ESCAPADE"
+  },
+  {
+    "id_car_model": 2901,
+    "id_car_brand": 13,
+    "car_model_name": "PHAETON"
+  },
+  {
+    "id_car_model": 2913,
+    "id_car_brand": 2,
+    "car_model_name": "TRANSPORTER"
+  },
+  {
+    "id_car_model": 2914,
+    "id_car_brand": 16,
+    "car_model_name": "GRAND BESTA"
+  },
+  {
+    "id_car_model": 2915,
+    "id_car_brand": 43,
+    "car_model_name": "200SX"
+  },
+  {
+    "id_car_model": 2916,
+    "id_car_brand": 43,
+    "car_model_name": "240SX"
+  },
+  {
+    "id_car_model": 2921,
+    "id_car_brand": 19,
+    "car_model_name": "300M"
+  },
+  {
+    "id_car_model": 2922,
+    "id_car_brand": 19,
+    "car_model_name": "300C TOURING"
+  },
+  {
+    "id_car_model": 2928,
+    "id_car_brand": 13,
+    "car_model_name": "TORINO"
+  },
+  {
+    "id_car_model": 2931,
+    "id_car_brand": 1,
+    "car_model_name": "VENTURE"
+  },
+  {
+    "id_car_model": 2932,
+    "id_car_brand": 1,
+    "car_model_name": "FLEETLINE"
+  },
+  {
+    "id_car_model": 2933,
+    "id_car_brand": 1,
+    "car_model_name": "FLEETMASTER"
+  },
+  {
+    "id_car_model": 2934,
+    "id_car_brand": 1,
+    "car_model_name": "DELUXE"
+  },
+  {
+    "id_car_model": 2936,
+    "id_car_brand": 13,
+    "car_model_name": "ESCORT XR3"
+  },
+  {
+    "id_car_model": 2937,
+    "id_car_brand": 1,
+    "car_model_name": "MASTER"
+  },
+  {
+    "id_car_model": 2938,
+    "id_car_brand": 120,
+    "car_model_name": "TORONADO"
+  },
+  {
+    "id_car_model": 2939,
+    "id_car_brand": 120,
+    "car_model_name": "SIX"
+  },
+  {
+    "id_car_model": 2940,
+    "id_car_brand": 120,
+    "car_model_name": "EIGHT"
+  },
+  {
+    "id_car_model": 2941,
+    "id_car_brand": 120,
+    "car_model_name": "DELUXE"
+  },
+  {
+    "id_car_model": 2942,
+    "id_car_brand": 120,
+    "car_model_name": "SERIES 60"
+  },
+  {
+    "id_car_model": 2943,
+    "id_car_brand": 120,
+    "car_model_name": "SERIES 70"
+  },
+  {
+    "id_car_model": 2944,
+    "id_car_brand": 120,
+    "car_model_name": "SERIES 80"
+  },
+  {
+    "id_car_model": 2945,
+    "id_car_brand": 120,
+    "car_model_name": "SERIES 90"
+  },
+  {
+    "id_car_model": 2946,
+    "id_car_brand": 120,
+    "car_model_name": "STARFIRE"
+  },
+  {
+    "id_car_model": 2947,
+    "id_car_brand": 120,
+    "car_model_name": 442
+  },
+  {
+    "id_car_model": 2948,
+    "id_car_brand": 120,
+    "car_model_name": "CUTLASS"
+  },
+  {
+    "id_car_model": 2949,
+    "id_car_brand": 120,
+    "car_model_name": "CUTLASS SUPREME"
+  },
+  {
+    "id_car_model": 2950,
+    "id_car_brand": 120,
+    "car_model_name": "CUTLASS SALON"
+  },
+  {
+    "id_car_model": 2951,
+    "id_car_brand": 120,
+    "car_model_name": "CUTLASS CALAIS"
+  },
+  {
+    "id_car_model": 2952,
+    "id_car_brand": 120,
+    "car_model_name": "CUTLASS CIERA"
+  },
+  {
+    "id_car_model": 2953,
+    "id_car_brand": 120,
+    "car_model_name": "CUSTOM CRUISER"
+  },
+  {
+    "id_car_model": 2954,
+    "id_car_brand": 120,
+    "car_model_name": "VISTA CRUISER"
+  },
+  {
+    "id_car_model": 2955,
+    "id_car_brand": 120,
+    "car_model_name": "F-85"
+  },
+  {
+    "id_car_model": 2957,
+    "id_car_brand": 120,
+    "car_model_name": "FIRENZA"
+  },
+  {
+    "id_car_model": 2958,
+    "id_car_brand": 120,
+    "car_model_name": "ACHIEVA"
+  },
+  {
+    "id_car_model": 2959,
+    "id_car_brand": 120,
+    "car_model_name": "ALERO"
+  },
+  {
+    "id_car_model": 2960,
+    "id_car_brand": 120,
+    "car_model_name": "AURORA"
+  },
+  {
+    "id_car_model": 2961,
+    "id_car_brand": 120,
+    "car_model_name": "BRAVADA"
+  },
+  {
+    "id_car_model": 2962,
+    "id_car_brand": 120,
+    "car_model_name": "INTRIGUE"
+  },
+  {
+    "id_car_model": 2963,
+    "id_car_brand": 120,
+    "car_model_name": "SILHOUETTE"
+  },
+  {
+    "id_car_model": 2972,
+    "id_car_brand": 123,
+    "car_model_name": "SUPERBIRD"
+  },
+  {
+    "id_car_model": 2973,
+    "id_car_brand": 123,
+    "car_model_name": "FURY"
+  },
+  {
+    "id_car_model": 2974,
+    "id_car_brand": 123,
+    "car_model_name": "SPECIAL"
+  },
+  {
+    "id_car_model": 2975,
+    "id_car_brand": 123,
+    "car_model_name": "PROWLER"
+  },
+  {
+    "id_car_model": 2976,
+    "id_car_brand": 123,
+    "car_model_name": "TRAIL DUSTER"
+  },
+  {
+    "id_car_model": 2977,
+    "id_car_brand": 123,
+    "car_model_name": "VOYAGER"
+  },
+  {
+    "id_car_model": 2978,
+    "id_car_brand": 123,
+    "car_model_name": "SCAMP"
+  },
+  {
+    "id_car_model": 2979,
+    "id_car_brand": 123,
+    "car_model_name": "ARROW"
+  },
+  {
+    "id_car_model": 2980,
+    "id_car_brand": 123,
+    "car_model_name": "PT50"
+  },
+  {
+    "id_car_model": 2981,
+    "id_car_brand": 123,
+    "car_model_name": "PT57"
+  },
+  {
+    "id_car_model": 2982,
+    "id_car_brand": 123,
+    "car_model_name": "PT81"
+  },
+  {
+    "id_car_model": 2983,
+    "id_car_brand": 123,
+    "car_model_name": "PT105"
+  },
+  {
+    "id_car_model": 2984,
+    "id_car_brand": 123,
+    "car_model_name": "PT125"
+  },
+  {
+    "id_car_model": 2985,
+    "id_car_brand": 123,
+    "car_model_name": "EXPRESS"
+  },
+  {
+    "id_car_model": 2986,
+    "id_car_brand": 123,
+    "car_model_name": "VOYAGER EXPRESSO"
+  },
+  {
+    "id_car_model": 2987,
+    "id_car_brand": 123,
+    "car_model_name": "NEON"
+  },
+  {
+    "id_car_model": 2988,
+    "id_car_brand": 123,
+    "car_model_name": "LASER"
+  },
+  {
+    "id_car_model": 2989,
+    "id_car_brand": 123,
+    "car_model_name": "CARAVELLE"
+  },
+  {
+    "id_car_model": 2990,
+    "id_car_brand": 123,
+    "car_model_name": "STATION WAGON"
+  },
+  {
+    "id_car_model": 2991,
+    "id_car_brand": 123,
+    "car_model_name": "MODEL Q"
+  },
+  {
+    "id_car_model": 2992,
+    "id_car_brand": 123,
+    "car_model_name": "MODEL P6"
+  },
+  {
+    "id_car_model": 2993,
+    "id_car_brand": 31,
+    "car_model_name": "DB9 COUPE"
+  },
+  {
+    "id_car_model": 2994,
+    "id_car_brand": 31,
+    "car_model_name": "DB9 VOLANTE"
+  },
+  {
+    "id_car_model": 2995,
+    "id_car_brand": 31,
+    "car_model_name": "VIRAGE COUPE"
+  },
+  {
+    "id_car_model": 2996,
+    "id_car_brand": 31,
+    "car_model_name": "RAPIDE S"
+  },
+  {
+    "id_car_model": 2997,
+    "id_car_brand": 31,
+    "car_model_name": "V12 VANTAGE"
+  },
+  {
+    "id_car_model": 2998,
+    "id_car_brand": 31,
+    "car_model_name": "V8 VANTAGE COUPE"
+  },
+  {
+    "id_car_model": 2999,
+    "id_car_brand": 31,
+    "car_model_name": "V8 VANTAGE ROADSTER"
+  },
+  {
+    "id_car_model": 3000,
+    "id_car_brand": 31,
+    "car_model_name": "V8 VANTAGE S COUPE"
+  },
+  {
+    "id_car_model": 3001,
+    "id_car_brand": 31,
+    "car_model_name": "V8 VANTAGE S ROADSTER"
+  },
+  {
+    "id_car_model": 3002,
+    "id_car_brand": 31,
+    "car_model_name": "VANQUISH COUPE"
+  },
+  {
+    "id_car_model": 3003,
+    "id_car_brand": 31,
+    "car_model_name": "VANQUISH VOLANTE"
+  },
+  {
+    "id_car_model": 3004,
+    "id_car_brand": 31,
+    "car_model_name": "V12 ZAGATO"
+  },
+  {
+    "id_car_model": 3005,
+    "id_car_brand": 31,
+    "car_model_name": "DB5"
+  },
+  {
+    "id_car_model": 3007,
+    "id_car_brand": 31,
+    "car_model_name": "DBS"
+  },
+  {
+    "id_car_model": 3008,
+    "id_car_brand": 31,
+    "car_model_name": "DBS VOLANTE"
+  },
+  {
+    "id_car_model": 3009,
+    "id_car_brand": 31,
+    "car_model_name": "CYGNET"
+  },
+  {
+    "id_car_model": 3010,
+    "id_car_brand": 31,
+    "car_model_name": "ONE-77"
+  },
+  {
+    "id_car_model": 3011,
+    "id_car_brand": 31,
+    "car_model_name": "DBR9"
+  },
+  {
+    "id_car_model": 3013,
+    "id_car_brand": 36,
+    "car_model_name": "M3"
+  },
+  {
+    "id_car_model": 3014,
+    "id_car_brand": 36,
+    "car_model_name": "M5"
+  },
+  {
+    "id_car_model": 3015,
+    "id_car_brand": 36,
+    "car_model_name": "M6"
+  },
+  {
+    "id_car_model": 3016,
+    "id_car_brand": 36,
+    "car_model_name": "X6 M"
+  },
+  {
+    "id_car_model": 3017,
+    "id_car_brand": 113,
+    "car_model_name": "CABRIO"
+  },
+  {
+    "id_car_model": 3018,
+    "id_car_brand": 113,
+    "car_model_name": "COUPE"
+  },
+  {
+    "id_car_model": 3019,
+    "id_car_brand": 113,
+    "car_model_name": "ROADSTER"
+  },
+  {
+    "id_car_model": 3020,
+    "id_car_brand": 113,
+    "car_model_name": "COUNTRYMAN"
+  },
+  {
+    "id_car_model": 3021,
+    "id_car_brand": 113,
+    "car_model_name": "PACEMAN"
+  },
+  {
+    "id_car_model": 3022,
+    "id_car_brand": 113,
+    "car_model_name": "JOHN COOPER WORKS"
+  },
+  {
+    "id_car_model": 3023,
+    "id_car_brand": 122,
+    "car_model_name": "ZONDA"
+  },
+  {
+    "id_car_model": 3024,
+    "id_car_brand": 8,
+    "car_model_name": "NEW XV"
+  },
+  {
+    "id_car_model": 3025,
+    "id_car_brand": 8,
+    "car_model_name": "IMPREZA WRX HATCH"
+  },
+  {
+    "id_car_model": 3026,
+    "id_car_brand": 8,
+    "car_model_name": "IMPREZA WRX STI HATCH"
+  },
+  {
+    "id_car_model": 3027,
+    "id_car_brand": 8,
+    "car_model_name": "IMPREZA WRX STI SEDAN"
+  },
+  {
+    "id_car_model": 3028,
+    "id_car_brand": 8,
+    "car_model_name": "IMPREZA WRX SEDAN"
+  },
+  {
+    "id_car_model": 3030,
+    "id_car_brand": 23,
+    "car_model_name": "ETIOS CROSS"
+  },
+  {
+    "id_car_model": 3031,
+    "id_car_brand": 12,
+    "car_model_name": "HURACAN"
+  },
+  {
+    "id_car_model": 3032,
+    "id_car_brand": 2,
+    "car_model_name": "UP"
+  },
+  {
+    "id_car_model": 3080,
+    "id_car_brand": 195,
+    "car_model_name": "EXPLORER"
+  },
+  {
+    "id_car_model": 4964,
+    "id_car_brand": 142,
+    "car_model_name": "FORTWO CABRIO"
+  },
+  {
+    "id_car_model": 4969,
+    "id_car_brand": 26,
+    "car_model_name": "GT"
+  },
+  {
+    "id_car_model": 4970,
+    "id_car_brand": 26,
+    "car_model_name": "GTL"
+  },
+  {
+    "id_car_model": 4971,
+    "id_car_brand": 26,
+    "car_model_name": "GTM"
+  },
+  {
+    "id_car_model": 4972,
+    "id_car_brand": 26,
+    "car_model_name": "C2"
+  },
+  {
+    "id_car_model": 4973,
+    "id_car_brand": 26,
+    "car_model_name": "CRX"
+  },
+  {
+    "id_car_model": 4974,
+    "id_car_brand": 26,
+    "car_model_name": "AC 2000"
+  },
+  {
+    "id_car_model": 4975,
+    "id_car_brand": 99,
+    "car_model_name": "AVIATOR"
+  },
+  {
+    "id_car_model": 4976,
+    "id_car_brand": 99,
+    "car_model_name": "BLACKWOOD"
+  },
+  {
+    "id_car_model": 4977,
+    "id_car_brand": 99,
+    "car_model_name": "CAPRI"
+  },
+  {
+    "id_car_model": 4978,
+    "id_car_brand": 99,
+    "car_model_name": "CONTINENTAL"
+  },
+  {
+    "id_car_model": 4979,
+    "id_car_brand": 99,
+    "car_model_name": "LS"
+  },
+  {
+    "id_car_model": 4980,
+    "id_car_brand": 99,
+    "car_model_name": "MARK"
+  },
+  {
+    "id_car_model": 4981,
+    "id_car_brand": 99,
+    "car_model_name": "MARK LT"
+  },
+  {
+    "id_car_model": 4982,
+    "id_car_brand": 99,
+    "car_model_name": "MKR"
+  },
+  {
+    "id_car_model": 4983,
+    "id_car_brand": 99,
+    "car_model_name": "MKS"
+  },
+  {
+    "id_car_model": 4984,
+    "id_car_brand": 99,
+    "car_model_name": "MKX"
+  },
+  {
+    "id_car_model": 4985,
+    "id_car_brand": 99,
+    "car_model_name": "MKZ"
+  },
+  {
+    "id_car_model": 4986,
+    "id_car_brand": 99,
+    "car_model_name": "NAVIGATOR"
+  },
+  {
+    "id_car_model": 4987,
+    "id_car_brand": 99,
+    "car_model_name": "PREMIERE"
+  },
+  {
+    "id_car_model": 4988,
+    "id_car_brand": 99,
+    "car_model_name": "TOWN CAR"
+  },
+  {
+    "id_car_model": 4989,
+    "id_car_brand": 99,
+    "car_model_name": "VERSAILLES"
+  },
+  {
+    "id_car_model": 4990,
+    "id_car_brand": 99,
+    "car_model_name": "ZEPHYR"
+  },
+  {
+    "id_car_model": 4991,
+    "id_car_brand": 1,
+    "car_model_name": "CLASSIC"
+  },
+  {
+    "id_car_model": 4992,
+    "id_car_brand": 21,
+    "car_model_name": "ACTYON"
+  },
+  {
+    "id_car_model": 5003,
+    "id_car_brand": 1,
+    "car_model_name": "MARAJO"
+  },
+  {
+    "id_car_model": 5004,
+    "id_car_brand": 1,
+    "car_model_name": "SUPREMA"
+  },
+  {
+    "id_car_model": 5005,
+    "id_car_brand": 2,
+    "car_model_name": "NEW BEETLE"
+  },
+  {
+    "id_car_model": 5006,
+    "id_car_brand": 2,
+    "car_model_name": "QUANTUM"
+  },
+  {
+    "id_car_model": 5007,
+    "id_car_brand": 2,
+    "car_model_name": "CROSSFOX"
+  },
+  {
+    "id_car_model": 5008,
+    "id_car_brand": 3,
+    "car_model_name": "MILLE"
+  },
+  {
+    "id_car_model": 5009,
+    "id_car_brand": 534,
+    "car_model_name": "GC2"
+  },
+  {
+    "id_car_model": 5010,
+    "id_car_brand": 534,
+    "car_model_name": "EC7"
+  },
+  {
+    "id_car_model": 5011,
+    "id_car_brand": 98,
+    "car_model_name": 530
+  },
+  {
+    "id_car_model": 5012,
+    "id_car_brand": 3,
+    "car_model_name": "MOBI"
+  },
+  {
+    "id_car_model": 5013,
+    "id_car_brand": 3,
+    "car_model_name": "TORO"
+  },
+  {
+    "id_car_model": 5014,
+    "id_car_brand": 87,
+    "car_model_name": "RENEGADE"
+  },
+  {
+    "id_car_model": 5015,
+    "id_car_brand": 24,
+    "car_model_name": "DUSTER OROCH"
+  },
+  {
+    "id_car_model": 5016,
+    "id_car_brand": 24,
+    "car_model_name": "SANDERO RS"
+  },
+  {
+    "id_car_model": 5017,
+    "id_car_brand": 14,
+    "car_model_name": "HB20R"
+  },
+  {
+    "id_car_model": 5018,
+    "id_car_brand": 14,
+    "car_model_name": "GRAND SANTA FE"
+  },
+  {
+    "id_car_model": 5019,
+    "id_car_brand": 2,
+    "car_model_name": "GOLF VARIANT"
+  },
+  {
+    "id_car_model": 5020,
+    "id_car_brand": 2,
+    "car_model_name": "SPACE CROSS"
+  },
+  {
+    "id_car_model": 5021,
+    "id_car_brand": 22,
+    "car_model_name": 2008
+  },
+  {
+    "id_car_model": 5022,
+    "id_car_brand": 16,
+    "car_model_name": "QUORIS"
+  },
+  {
+    "id_car_model": 5023,
+    "id_car_brand": 16,
+    "car_model_name": "GRAND CARNIVAL"
+  },
+  {
+    "id_car_model": 5024,
+    "id_car_brand": 15,
+    "car_model_name": "T8"
+  },
+  {
+    "id_car_model": 5025,
+    "id_car_brand": 15,
+    "car_model_name": "T6"
+  },
+  {
+    "id_car_model": 5026,
+    "id_car_brand": 15,
+    "car_model_name": "T5"
+  },
+  {
+    "id_car_model": 5027,
+    "id_car_brand": 13,
+    "car_model_name": "KA SEDAN"
+  },
+  {
+    "id_car_model": 5028,
+    "id_car_brand": 13,
+    "car_model_name": "FOCUS FASTBACK"
+  }
+]

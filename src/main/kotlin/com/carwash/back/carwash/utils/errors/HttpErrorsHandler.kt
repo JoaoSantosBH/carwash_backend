@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.http.converter.HttpMessageNotReadableException
 import org.springframework.web.HttpRequestMethodNotSupportedException
 import org.springframework.web.bind.MethodArgumentNotValidException
+import org.springframework.web.bind.MissingPathVariableException
 import org.springframework.web.bind.annotation.ControllerAdvice
 import org.springframework.web.bind.annotation.ExceptionHandler
 import java.sql.SQLIntegrityConstraintViolationException
@@ -74,6 +75,15 @@ class HttpErrorsHandler {
             ex.message
         )
         return ResponseEntity(errorMessage, HttpStatus.FORBIDDEN)
+    }
+
+    @ExceptionHandler
+    fun handleMissingPathVariableException(ex: MissingPathVariableException) : ResponseEntity<DefaultErrorMessage> {
+        val errorMessage = DefaultErrorMessage(
+            HttpStatus.BAD_REQUEST.value(),
+            ex.message
+        )
+        return ResponseEntity(errorMessage,HttpStatus.BAD_REQUEST)
     }
 
 }
