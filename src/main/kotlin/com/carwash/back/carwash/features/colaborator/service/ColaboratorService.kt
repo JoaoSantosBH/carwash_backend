@@ -5,6 +5,7 @@ import com.carwash.back.carwash.features.user.model.UserEntity
 import com.carwash.back.carwash.utils.encryptPassword
 import com.carwash.back.carwash.utils.errors.ItemAlreadyExistsException
 import com.carwash.back.carwash.utils.errors.ItemDoesntExistsException
+import jakarta.transaction.Transactional
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import kotlin.jvm.optionals.getOrNull
@@ -14,7 +15,7 @@ class ColaboratorService  {
 
     @Autowired
     private lateinit var repository: CollaboratorRepository
-
+    @Transactional
     fun createCollaborator(collaboratorRequest: UserEntity): UserEntity? {
         val searchResult = repository.findAll().find { it.email == collaboratorRequest.email }
         if (searchResult != null)
@@ -22,7 +23,7 @@ class ColaboratorService  {
         else
             return repository.save(collaboratorRequest.copy(password = collaboratorRequest.password.encryptPassword()))
     }
-
+    @Transactional
     fun updateCollaborator(collaboratorRequest: UserEntity, id: Long): UserEntity? {
         val register = repository.findById(id).getOrNull()
         return if (register != null) {
@@ -33,7 +34,7 @@ class ColaboratorService  {
         } else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
 
     }
-
+    @Transactional
     fun deleteCollaboratorById(id: Long) {
         return repository.deleteById(id)
     }

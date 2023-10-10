@@ -7,6 +7,7 @@ import com.carwash.back.carwash.features.vehicles.model.CarBrandEntity
 import com.carwash.back.carwash.features.vehicles.model.CarModelEntity
 import com.carwash.back.carwash.features.vehicles.model.VehicleEntity
 import com.carwash.back.carwash.utils.errors.ItemDoesntExistsException
+import jakarta.transaction.Transactional
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
@@ -26,7 +27,7 @@ class VehicleServices {
     fun fetchAllVehicles(): List<VehicleEntity>? {
         return repository.findAll().sortedBy { it.idVehicle }
     }
-
+    @Transactional
     fun create(vehicle: VehicleEntity): VehicleEntity? {
         return repository.save(vehicle)
     }
@@ -34,14 +35,14 @@ class VehicleServices {
     fun fetchVehiclesByUserId(userId:Long) : List<VehicleEntity>? {
         return repository.findAll().filter { it.userId == userId }
     }
-
+    @Transactional
     fun deleteVehicleByUserId(userId: Long) {
         val register = repository.findAll().firstOrNull { it.userId == userId }
         return if (register != null) {
             repository.delete(register)
         } else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
     }
-
+    @Transactional
     fun deleteAllVehicleByUserId(userId: Long) {
         val register = repository.findAll().filter { it.userId == userId }
         return if (register != null) {

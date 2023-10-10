@@ -12,4 +12,10 @@ spring:
         hibernate:
             show-sql: true
 server:
-    port : 8090
+    port : 8080
+
+info:
+    app:
+        name: CarWash Service
+        description: Blah, blah , blah
+        version: 1.0.0

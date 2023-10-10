@@ -8,6 +8,7 @@ import com.carwash.back.carwash.utils.encryptPassword
 import com.carwash.back.carwash.utils.errors.ItemAlreadyExistsException
 import com.carwash.back.carwash.utils.errors.ItemDoesntExistsException
 import com.carwash.back.carwash.utils.errors.ItemDoesntExistsException.Companion.DOESNT_EXIST
+import jakarta.transaction.Transactional
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.core.authority.SimpleGrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails
@@ -23,7 +24,7 @@ class UserService : UserDetailsService {
     @Autowired
     private lateinit var repository: UserRepository
 
-
+    @Transactional
     fun createClient(client: UserEntity): UserEntity? {
         val searchResult = repository.findAll().find { it.email == client.email }
         if (searchResult != null)
@@ -32,7 +33,7 @@ class UserService : UserDetailsService {
             return repository.save(client.copy(password = client.password.encryptPassword()))
     }
 
-
+    @Transactional
     fun updateClient(clientRequest: UserEntity, id: Long): UserEntity? {
         val register = repository.findById(id).getOrNull()
         return if (register != null) {
@@ -60,7 +61,7 @@ class UserService : UserDetailsService {
     }
 
 
-
+    @Transactional
     fun deleteClientById(id: Long) {
         repository.deleteById(id)
     }

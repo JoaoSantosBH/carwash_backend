@@ -3,6 +3,7 @@ package com.carwash.back.carwash.features.scheduling.service
 import com.carwash.back.carwash.features.scheduling.data.SchedulingRepository
 import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
 import com.carwash.back.carwash.utils.errors.ItemDoesntExistsException
+import jakarta.transaction.Transactional
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import kotlin.jvm.optionals.getOrNull
@@ -12,7 +13,7 @@ class SchedulingServices {
 
     @Autowired
     private lateinit var repository: SchedulingRepository
-
+    @Transactional
     fun createScheduling(scheduling: SchedulingEntity): SchedulingEntity? {
         return repository.save(scheduling)
     }
@@ -36,14 +37,14 @@ class SchedulingServices {
     fun fetchAllScheduleByStatusId(id: Long): List<SchedulingEntity> {
         return repository.findAll().filter { it.statusId == id }
     }
-
+    @Transactional
     fun updateScheduling(schedule: SchedulingEntity, id: Long): SchedulingEntity? {
         val register = repository.findById(id).getOrNull()
         return if (register != null) {
             repository.save(schedule.copy(idScheduling = id))
         } else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
     }
-
+    @Transactional
     fun deleteSchedulingById(id: Long): Unit? {
         val register = repository.findById(id).orElseThrow {
             ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
