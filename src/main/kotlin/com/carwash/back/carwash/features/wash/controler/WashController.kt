@@ -5,6 +5,7 @@ import com.carwash.back.carwash.features.wash.service.WashServices
 import com.carwash.back.carwash.utils.Endpoints.ADD_SERVICE_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.GET_SERVICE_BY_ID_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 @RestController
@@ -34,8 +35,10 @@ class WashController {
     }
 
     @DeleteMapping(GET_SERVICE_BY_ID_ENDPOINT)
-    fun deleteWashById(@PathVariable id: Long) {
+    fun deleteWashById(@PathVariable id: Long) : ResponseEntity<*>? {
         service.deleteWashById(id)
+        return ResponseEntity.noContent().build<Any>()
+
     }
 
 }

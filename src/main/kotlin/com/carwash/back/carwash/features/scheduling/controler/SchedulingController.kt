@@ -8,6 +8,7 @@ import com.carwash.back.carwash.utils.Endpoints.GET_ALL_SCHEDULE_BY_COLLABORATOR
 import com.carwash.back.carwash.utils.Endpoints.GET_ALL_SCHEDULE_BY_STATUS_ID
 import com.carwash.back.carwash.utils.Endpoints.GET_SCHEDULE_BY_ID_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 @RestController
@@ -32,16 +33,17 @@ class SchedulingController {
     }
 
     @GetMapping(GET_ALL_SCHEDULE_BY_CLIENT_ID)
-    fun fetchAllScheduleByClientId(@PathVariable id:Long): List<SchedulingEntity>{
+    fun fetchAllScheduleByClientId(@PathVariable id: Long): List<SchedulingEntity> {
         return service.fetchAllScheduleByClientId(id)
     }
+
     @GetMapping(GET_ALL_SCHEDULE_BY_COLLABORATOR_ID)
-    fun fetchAllScheduleByCollaboratorId(@PathVariable id:Long): List<SchedulingEntity>{
+    fun fetchAllScheduleByCollaboratorId(@PathVariable id: Long): List<SchedulingEntity> {
         return service.fetchAllScheduleByCollaboratorId(id)
     }
 
     @GetMapping(GET_ALL_SCHEDULE_BY_STATUS_ID)
-    fun fetchAllScheduleByStatusId(@PathVariable id:Long): List<SchedulingEntity>{
+    fun fetchAllScheduleByStatusId(@PathVariable id: Long): List<SchedulingEntity> {
         return service.fetchAllScheduleByStatusId(id)
     }
 
@@ -54,8 +56,9 @@ class SchedulingController {
     }
 
     @DeleteMapping(GET_SCHEDULE_BY_ID_ENDPOINT)
-    fun deleteSchedulingById(@PathVariable id: Long): Unit? {
-        return service.deleteSchedulingById(id)
+    fun deleteSchedulingById(@PathVariable id: Long): ResponseEntity<*>? {
+        service.deleteSchedulingById(id)
+        return ResponseEntity.noContent().build<Any>()
     }
 
 

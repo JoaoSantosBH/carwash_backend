@@ -7,6 +7,7 @@ import com.carwash.back.carwash.utils.Endpoints.ADD_COLLABORATOR_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.GET_SUM_COLLABORATOR_RANK
 import com.carwash.back.carwash.utils.Endpoints.UPDATE_COLLABORATOR_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 @RestController
@@ -29,8 +30,9 @@ class CollaboratorController {
     }
 
     @DeleteMapping(UPDATE_COLLABORATOR_ENDPOINT)
-    fun deleteCollaboratorById(@PathVariable id: Long): Unit {
-        return service.deleteCollaboratorById(id)
+    fun deleteCollaboratorById(@PathVariable id: Long): ResponseEntity<*>? {
+        service.deleteCollaboratorById(id)
+        return ResponseEntity.noContent().build<Any>()
     }
 
     @GetMapping(GET_SUM_COLLABORATOR_RANK)

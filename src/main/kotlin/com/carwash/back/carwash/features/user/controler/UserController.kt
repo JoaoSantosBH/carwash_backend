@@ -3,8 +3,10 @@ package com.carwash.back.carwash.features.user.controler
 import com.carwash.back.carwash.features.user.model.UserEntity
 import com.carwash.back.carwash.features.user.service.UserService
 import com.carwash.back.carwash.utils.Endpoints.ADD_CLIENT_ENDPOINT
+import com.carwash.back.carwash.utils.Endpoints.LOGIN_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.UPDATE_CLIENT_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.ResponseEntity
 import org.springframework.security.core.Authentication
 import org.springframework.security.core.annotation.AuthenticationPrincipal
 import org.springframework.security.core.context.SecurityContextHolder
@@ -32,30 +34,15 @@ class UserController() {
     }
 
     @DeleteMapping(UPDATE_CLIENT_ENDPOINT)
-    fun deleteClientById(@PathVariable id: Long): Unit {
-        return service.deleteClientById(id)
+    fun deleteClientById(@PathVariable id: Long): ResponseEntity<*>? {
+        service.deleteClientById(id)
+        return ResponseEntity.noContent().build<Any>()
     }
 
-    @GetMapping("/login")
+    @GetMapping(LOGIN_ENDPOINT)
     fun getUser(@RequestBody clientRequest: UserEntity): UserEntity? {
         return clientRequest
     }
-
-
-//    @Controller
-//    class GetUserWithAuthenticationController {
-//        @RequestMapping(value = ["/id_user"], method = [RequestMethod.GET])
-//        @ResponseBody
-//        fun currentUserName(authentication: Authentication): String {
-//            return authentication.getName()
-//        }
-//    }
-
-
-
-
-
-
 
 }
 
