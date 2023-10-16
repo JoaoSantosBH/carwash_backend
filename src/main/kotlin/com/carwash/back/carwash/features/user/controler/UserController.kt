@@ -16,7 +16,7 @@ import java.security.Principal
 
 
 @RestController
-class UserControler() {
+class UserController() {
 
     @Autowired
     lateinit var service: UserService
