@@ -2,9 +2,9 @@ package com.carwash.back.carwash.features.user.controler
 
 import com.carwash.back.carwash.features.user.model.UserEntity
 import com.carwash.back.carwash.features.user.service.UserService
-import com.carwash.back.carwash.utils.Endpoints.ADD_CLIENT_ENDPOINT
+import com.carwash.back.carwash.utils.Endpoints.CLIENT_ENDPOINT
+import com.carwash.back.carwash.utils.Endpoints.CLIENT_ENDPOINT_PATH
 import com.carwash.back.carwash.utils.Endpoints.LOGIN_ENDPOINT
-import com.carwash.back.carwash.utils.Endpoints.UPDATE_CLIENT_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.security.core.Authentication
@@ -23,17 +23,17 @@ class UserController() {
     @Autowired
     lateinit var service: UserService
 
-    @PostMapping(ADD_CLIENT_ENDPOINT)
+    @PostMapping(CLIENT_ENDPOINT)
     fun createClient(@RequestBody clientRequest: UserEntity): UserEntity? {
         return service.createClient(clientRequest)
     }
 
-    @PutMapping(UPDATE_CLIENT_ENDPOINT)
+    @PutMapping(CLIENT_ENDPOINT_PATH)
     fun updateClient(@RequestBody clientRequest: UserEntity, @PathVariable id: Long): UserEntity? {
         return service.updateClient(clientRequest, id)
     }
 
-    @DeleteMapping(UPDATE_CLIENT_ENDPOINT)
+    @DeleteMapping(CLIENT_ENDPOINT_PATH)
     fun deleteClientById(@PathVariable id: Long): ResponseEntity<*>? {
         service.deleteClientById(id)
         return ResponseEntity.noContent().build<Any>()

@@ -1,7 +1,7 @@
 package com.carwash.back.carwash.security
 
 import com.carwash.back.carwash.features.user.service.UserService
-import com.carwash.back.carwash.utils.Endpoints.ADD_CLIENT_ENDPOINT
+import com.carwash.back.carwash.utils.Endpoints.CLIENT_ENDPOINT
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.authentication.AuthenticationManager
@@ -33,7 +33,7 @@ open class SecurityConfig(
         val authenticationManager = authManager(http)
         // Put your endpoint to create/sign, otherwise spring will secure it as
         // well you won't be able to do any request
-        http.authorizeHttpRequests().requestMatchers(ADD_CLIENT_ENDPOINT) //TODO deprecated
+        http.authorizeHttpRequests().requestMatchers(CLIENT_ENDPOINT) //TODO deprecated
             .permitAll().anyRequest().authenticated().and().csrf().disable()
             .authenticationManager(authenticationManager)
             .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
