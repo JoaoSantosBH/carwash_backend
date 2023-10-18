@@ -4,13 +4,16 @@
 
 API REST para aplicativo KMP [Projeto pessoal]
 Tecnologias utilizadas no projeto:
-- Spring Boot
+- Spring Boot Gradle
 - Kotlin
 - MySQL
-- Api geolocation [Not Yet]
-- PagSeguroAPI [Not Yet]
 - Spring Security 
 - BCrypt
+- Spring Data JPA
+- Spring REST Api
+- Spring Web
+- Api geolocation [Not Yet]
+- PagSeguroAPI [Not Yet]
   
 
 
