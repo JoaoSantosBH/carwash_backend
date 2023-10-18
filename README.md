@@ -8,6 +8,7 @@ Tecnologias utilizadas no projeto:
 - Kotlin
 - MySQL
 - Spring Security 
+- Autenticação JWT (Json Web Token)
 - BCrypt
 - Spring Data JPA
 - Spring REST Api
