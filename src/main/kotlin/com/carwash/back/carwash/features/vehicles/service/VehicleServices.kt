@@ -27,14 +27,16 @@ class VehicleServices {
     fun fetchAllVehicles(): List<VehicleEntity>? {
         return repository.findAll().sortedBy { it.idVehicle }
     }
+
     @Transactional
     fun create(vehicle: VehicleEntity): VehicleEntity? {
         return repository.save(vehicle)
     }
 
-    fun fetchVehiclesByUserId(userId:Long) : List<VehicleEntity>? {
+    fun fetchVehiclesByUserId(userId: Long): List<VehicleEntity>? {
         return repository.findAll().filter { it.userId == userId }
     }
+
     @Transactional
     fun deleteVehicleByUserId(userId: Long) {
         val register = repository.findAll().firstOrNull { it.userId == userId }
@@ -42,22 +44,23 @@ class VehicleServices {
             repository.delete(register)
         } else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
     }
+
     @Transactional
     fun deleteAllVehicleByUserId(userId: Long) {
         val register = repository.findAll().filter { it.userId == userId }
         return if (register != null) {
-           register.forEach { repository.delete(it) }
+            register.forEach { repository.delete(it) }
         } else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
     }
 
     fun fetchAllModels(brandId: Long): List<CarModelEntity>? {
         return modelRepository
             .findAll().filter { it.idCarBrand == brandId }
-            .sortedBy {  it.carModelName }
+            .sortedBy { it.carModelName }
     }
 
     fun fetchAllBrands(): List<CarBrandEntity>? {
-       return  brandRepository.findAll().sortedBy { it.carBrandName }
+        return brandRepository.findAll().sortedBy { it.carBrandName }
     }
 
 }

@@ -13,34 +13,43 @@ object Constants {
 object Endpoints {
 
     const val ROOT_ENDPOINT = "/"
+    const val WHITE_LIST = "/api/auth/**"
+
+    //Login
+    const val LOGIN_ENDPOINT = "/login"
+
     //Client
-    const val ADD_CLIENT_ENDPOINT = "/client"
-    const val UPDATE_CLIENT_ENDPOINT = "/client/{id}"
+    const val CLIENT_ENDPOINT = "/client"
+    const val CLIENT_ENDPOINT_PATH = "/client/{id}"
+
+    //Address
+    const val ADDRESS_ENDPOINT = "/address"
+    const val ADDRESS_ENDPOINT_PATH = "/address/{userId}"
 
     //Collaborator
-    const val ADD_COLLABORATOR_ENDPOINT = "/collaborator"
-    const val UPDATE_COLLABORATOR_ENDPOINT = "/collaborator/{id}"
+    const val COLLABORATOR_ENDPOINT = "/collaborator"
+    const val COLLABORATOR_ENDPOINT_PATH = "/collaborator/{id}"
 
     //Wash
-    const val ADD_SERVICE_ENDPOINT  = "/wash"
-    const val GET_SERVICE_BY_ID_ENDPOINT = "/wash/{id}"
+    const val SERVICE_ENDPOINT  = "/wash"
+    const val SERVICE_ENDPOINT_PATH = "/wash/{id}"
 
     //Schedule
-    const val ADD_SCHEDULE_ENDPOINT  = "/schedule"
-    const val GET_SCHEDULE_BY_ID_ENDPOINT = "/schedule/{id}"
-    const val GET_ALL_SCHEDULE_BY_CLIENT_ID = "/schedule/client/{id}"
-    const val GET_ALL_SCHEDULE_BY_COLLABORATOR_ID = "/schedule/colaborator/{id}"
-    const val GET_ALL_SCHEDULE_BY_STATUS_ID = "/schedule/status/{id}"
-    const val GET_SUM_COLLABORATOR_RANK = "/rankcolab/{id}"
+    const val SCHEDULE_ENDPOINT  = "/schedule"
+    const val SCHEDULE_ENDPOINT_PATH = "/schedule/{id}"
+    const val SCHEDULE_ENDPOINT_PATH_CLIENT_ID = "/schedule/client/{id}"
+    const val SCHEDULE_ENDPOINT_PATH_COLLABORATOR_ID = "/schedule/colaborator/{id}"
+    const val SCHEDULE_ENDPOINT_PATH_STATUS = "/schedule/status/{id}"
+    const val SCHEDULE_ENDPOINT_PATH_COLLABORATOR_RANK = "/rankcolab/{id}"
 
     //Schedule Status
-    const val GET_SCHEDULE_STATUS_ENDPOINT = "/schedulestatus/{id}"
-    val WHITE_LIST = "/api/auth/**"
+    const val GET_SCHEDULE_STATUS_NAME_ENDPOINT = "/schedule-status/{id}"
+
 
     //Vehicle
     const val VEHICLE_ENDPOINT =  "/vehicle"
-    const val VEHICLE_ID_ENDPOINT =  "/vehicle/{userId}"
-    const val MODEL_ENDPOINT = "/model/{brandId}"
-    const val VEHICLE_BRANDS = "/brands"
+    const val VEHICLE_ENDPOINT_PATH =  "/vehicle/{userId}"
+    const val MODEL_ENDPOINT_PATH = "/model/{brandId}"
+    const val BRANDS_ENDPOINT = "/brands"
 
 }
