@@ -12,7 +12,7 @@ Tecnologias utilizadas no projeto:
 - Spring Data JPA
 - Spring REST Api
 - Spring Web
-- Api geolocation [Not Yet]
+- Api geolocation  CEP [Not Yet]
 - PagSeguroAPI [Not Yet]
   
 
