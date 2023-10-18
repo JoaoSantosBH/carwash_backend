@@ -26,15 +26,15 @@ class AddressService {
 
     @Transactional
     fun updateUserAddress(userAddress: AddressEntity, userId: Long): AddressEntity? {
-        val register = repository.findById(userId).getOrNull()
+        val register = repository.findByUserId(userId).getOrNull()
         return if (register != null) {
-            repository.save(userAddress)
+            repository.save(userAddress.copy(idAddress = register.idAddress, userId = register.userId))
         } else throw ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
     }
 
     @Transactional
     fun deleteUserAddress(id: Long): Unit? {
-        val register = repository.findById(id).orElseThrow {
+        val register = repository.findByUserId(id).orElseThrow {
             ItemDoesntExistsException(ItemDoesntExistsException.DOESNT_EXIST)
         }
         return repository.delete(register)

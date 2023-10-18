@@ -32,8 +32,8 @@ class AddressController {
     }
 
     @DeleteMapping(ADDRESS_ENDPOINT_PATH)
-    fun deleteUserAddress(@PathVariable id: Long): ResponseEntity<*> {
-        service.deleteUserAddress(id)
+    fun deleteUserAddress(@PathVariable userId: Long): ResponseEntity<*> {
+        service.deleteUserAddress(userId)
         return ResponseEntity.noContent().build<Any>()
     }
 
