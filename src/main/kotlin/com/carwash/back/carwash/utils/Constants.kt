@@ -25,6 +25,9 @@ object Endpoints {
     //Address
     const val ADDRESS_ENDPOINT = "/address"
     const val ADDRESS_ENDPOINT_PATH = "/address/{userId}"
+    const val VIA_CEP_ENDPOINT = "/zip/{zipNumber}"
+    const val VIA_CEP_BASE_URL = "http://viacep.com.br/ws/"
+    const val VIA_CEP_SUFIX = "/json"
 
     //Collaborator
     const val COLLABORATOR_ENDPOINT = "/collaborator"
