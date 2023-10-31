@@ -15,7 +15,8 @@ Tecnologias utilizadas no projeto:
 - Spring Web
 - Api geolocation  CEP [Not Yet]
 - PagSeguroAPI [Not Yet]
-  
+  //apagar conta
+- //apaga user, carros, endereço, etc do usuario
 
 
 

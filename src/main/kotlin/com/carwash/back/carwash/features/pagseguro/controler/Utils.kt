@@ -1,0 +1,34 @@
+package com.carwash.back.carwash.features.pagseguro.controler
+
+import com.carwash.back.carwash.features.pagseguro.model.order.*
+import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
+
+fun makeReferenceId(scheduleId: SchedulingEntity): String {
+    return "CWASH_ORD_CL:${scheduleId.clientId}_VEND:${scheduleId.executorId}_SCHED:${scheduleId.idScheduling}_WASH:${scheduleId.washId}"
+}
+
+fun addDoubleZeroCurrency(value: Int) : Int {
+    return "${value}00".toInt()
+}
+
+fun Double.addDoubleZeroCurrency() : Int {
+    val numberWithoutQuotas = this.toString()
+    return numberWithoutQuotas.replace(".", "").toInt()
+}
+
+fun makeFakeRequest(scheduleId: SchedulingEntity, value: Int) : PagSegCardOrderRequest{
+    val pagSeguroCurrencyValue = addDoubleZeroCurrency(value)
+    val request = PagSegCardOrderRequest.DUMB_CARD_ORDER
+    val items = listOf(Item.DUMB_ITEM.copy(unitAmount = pagSeguroCurrencyValue))
+    val amount = Amount.DUMB_AMOUNT.copy(value = pagSeguroCurrencyValue)
+    val amountQrCode = AmountQrCode.DUMB_AMOUNT.copy(value = pagSeguroCurrencyValue )
+    val chrges = listOf(Charge.DUMB_CHARGE.copy(amount = amount ))
+    val qrs = QrCode.DUMB_QRCODE.copy(amount = listOf(amountQrCode))
+    return request.copy(items = items, charges = chrges, qrCodes = listOf(qrs) )
+}
+
+
+
+
+
+

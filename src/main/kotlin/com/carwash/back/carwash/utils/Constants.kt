@@ -55,4 +55,21 @@ object Endpoints {
     const val MODEL_ENDPOINT_PATH = "/model/{brandId}"
     const val BRANDS_ENDPOINT = "/brands"
 
+    //PagSeguro
+    const val PAG_SEG_BASE_PROD = "https://pagseguro.uol.com.br"
+    const val PAG_SEG_BASE_HOMOLOG  = "https://sandbox.pagseguro.uol.com.br"
+    const val PAG_SEG_WS_PROD  = "https://ws.pagseguro.uol.com.br"
+    const val PAG_SEG_WS_HOMOLOG  = "https://ws.sandbox.pagseguro.uol.com.br"
+    const val PAG_SEG_STC_PROD  = "https://stc.pagseguro.uol.com.br"
+    const val PAG_SEG_STC_HOMOLOG  =  "https://stc.sandbox.pagseguro.uol.com.br"
+
+    const val PAG_SEG_CHECKOUT = "/v2/checkout"
+
+    const val PAG_SEG_STC_HOMOLOG_APP_ID = "app6375771195"
+    const val PAG_SEG_STC_HOMOLOG_APP_KEY = "1CA8534EEBEB27277458AFBBC5E7EB34"
+
+    const val VENDEDOR_TESTE =  "v64323580785146011048@sandbox.pagseguro.com.br"
+    const val SENHA_TESTE = "k13RHlrhwy3a3gNv"
+    const val CHAVE_PUBLICA = "PUB5BC03464993749D1BF3AD09993EBF154"
+    
 }
