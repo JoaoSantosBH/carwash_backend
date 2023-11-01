@@ -1,5 +1,6 @@
 package com.carwash.back.carwash.features.address.model
 
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonIgnore
 import com.fasterxml.jackson.annotation.JsonProperty
 import jakarta.persistence.*
@@ -21,7 +22,7 @@ data class AddressEntity(
 ) {
     companion object {
         val EMPTY_ADDRESS = AddressEntity(
-            0,0, "","","","","","",""
+            0,0, EMPTY_STRING,EMPTY_STRING,EMPTY_STRING,EMPTY_STRING,EMPTY_STRING,EMPTY_STRING,EMPTY_STRING
         )
     }
 }

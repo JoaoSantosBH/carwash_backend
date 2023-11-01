@@ -3,7 +3,7 @@ package com.carwash.back.carwash.utils
 import org.springframework.context.annotation.Configuration
 
 @Configuration
-class RestTemplateConfig {
+class RestTemplateConfig {//TODO ADDING resttemplate
 //    @Bean("restTemplateCustom")
 //    fun restTemplate(): RestTemplate {
 //        val restTemplate = RestTemplate()

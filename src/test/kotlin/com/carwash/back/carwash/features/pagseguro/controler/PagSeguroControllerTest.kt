@@ -17,4 +17,12 @@ class PagSeguroControllerTest {
         val resultNumber = makeAreaSeparation("31988776655")
         assertEquals(expectedNumber, resultNumber)
     }
+
+
+    @Test
+    fun `WHEN precifiateService FOR LILTE vehicle MUST return correct value `() {
+        val price = PagSeguroController().precifiateService(80)
+        val expectedPrice = 90
+        assertEquals(expectedPrice,price)
+    }
 }

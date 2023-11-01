@@ -3,6 +3,7 @@ package com.carwash.back.carwash.features.pagseguro.model.order.card
 import com.carwash.back.carwash.features.pagseguro.controler.makeReferenceId
 import com.carwash.back.carwash.features.pagseguro.model.order.*
 import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonProperty
 
 
@@ -40,7 +41,7 @@ data class PagSegCardOrderRequest(
             items = listOf(Item.EMPTY_ITEM),
             notificationUrls = emptyList(),
             qrCodes = listOf(QrCode.EMPTY_QRCODE),
-            referenceId = "",
+            referenceId = EMPTY_STRING,
             shipping = Shipping.EMPTY_SHIPPING
         )
 

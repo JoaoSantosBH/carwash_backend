@@ -1,6 +1,7 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Charge(
@@ -26,11 +27,11 @@ data class Charge(
         )
 
         val EMPTY_CHARGE = Charge(
-            amount = Amount(currency = "", value = 0),
-            description = "",
+            amount = Amount(currency = EMPTY_STRING, value = 0),
+            description = EMPTY_STRING,
             notificationUrls = emptyList(),
             paymentMethod = PaymentMethod.EMPTY_PAYMENT_METHOD,
-            referenceId = ""
+            referenceId = EMPTY_STRING
         )
     }
 }

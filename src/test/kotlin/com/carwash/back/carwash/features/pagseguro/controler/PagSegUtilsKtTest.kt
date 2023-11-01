@@ -4,7 +4,7 @@ import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-class UtilsKtTest {
+class PagSegUtilsKtTest {
 
 
     @Test

@@ -4,6 +4,7 @@ package com.carwash.back.carwash.features.pagseguro.model.order
 import com.carwash.back.carwash.features.pagseguro.controler.addDoubleZeroCurrency
 import com.carwash.back.carwash.features.pagseguro.controler.makeReferenceId
 import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Item(
@@ -24,7 +25,7 @@ data class Item(
             unitAmount = addDoubleZeroCurrency(90)
         )
         val EMPTY_ITEM = Item(
-            name = "",
+            name = EMPTY_STRING,
             quantity = 0,
             referenceId = makeReferenceId(SchedulingEntity.EMPTY_SCHEDULE),
             unitAmount = 0

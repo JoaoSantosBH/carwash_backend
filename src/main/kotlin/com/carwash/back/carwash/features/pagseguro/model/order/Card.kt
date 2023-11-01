@@ -1,6 +1,7 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Card(
@@ -27,11 +28,11 @@ data class Card(
             store = false
         )
         val EMPTY_CARD = Card(
-            number = "",
-            expMonth = "",
-            expYear = "",
-            securityCode = "",
-            holder = Holder(""),
+            number = EMPTY_STRING,
+            expMonth = EMPTY_STRING,
+            expYear = EMPTY_STRING,
+            securityCode = EMPTY_STRING,
+            holder = Holder(EMPTY_STRING),
             store = false
         )
     }

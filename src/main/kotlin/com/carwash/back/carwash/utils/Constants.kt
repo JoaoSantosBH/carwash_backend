@@ -12,6 +12,7 @@ object Constants {
     const val CURRENCY = "BRL"
     const val COUNTRY_CODE = "55"
     const val COUNTRY_PREFIX = "BRA"
+    const val EMPTY_STRING = ""
 }
 
 

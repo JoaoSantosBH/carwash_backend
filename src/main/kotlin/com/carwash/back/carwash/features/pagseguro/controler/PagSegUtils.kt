@@ -3,6 +3,7 @@ package com.carwash.back.carwash.features.pagseguro.controler
 import com.carwash.back.carwash.features.pagseguro.model.order.*
 import com.carwash.back.carwash.features.pagseguro.model.order.card.PagSegCardOrderRequest
 import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 
 fun makeReferenceId(scheduleId: SchedulingEntity): String {
     return "CWASH_ORD_CL:${scheduleId.clientId}_VEND:${scheduleId.executorId}_SCHED:${scheduleId.idScheduling}_WASH:${scheduleId.washId}"
@@ -14,7 +15,7 @@ fun addDoubleZeroCurrency(value: Int) : Int {
 
 fun Double.addDoubleZeroCurrency() : Int {
     val numberWithoutQuotas = this.toString()
-    return numberWithoutQuotas.replace(".", "").toInt()
+    return numberWithoutQuotas.replace(".", EMPTY_STRING).toInt()
 }
 
 fun makeFakeRequest(scheduleId: SchedulingEntity, value: Int) : PagSegCardOrderRequest {

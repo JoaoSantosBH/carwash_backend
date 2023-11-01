@@ -1,6 +1,7 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Customer(
@@ -21,10 +22,10 @@ data class Customer(
             taxId = "00000000191"
         )
         val EMPTY_CUSTOMER = Customer(
-            email = "", // TODO replace with environment variable
-            name = "",
+            email = EMPTY_STRING, // TODO replace with environment variable
+            name = EMPTY_STRING,
             phones = listOf(Phone.DUMB_PHONE),
-            taxId = ""
+            taxId = EMPTY_STRING
         )
     }
 }

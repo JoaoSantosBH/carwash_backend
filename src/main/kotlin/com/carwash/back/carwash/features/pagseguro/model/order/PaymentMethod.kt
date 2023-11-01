@@ -1,7 +1,7 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
-import com.carwash.back.carwash.utils.TypeCardEnum
+import com.carwash.back.carwash.utils.TypePayEnum
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class PaymentMethod(
@@ -16,13 +16,13 @@ data class PaymentMethod(
 ) {
     companion object {
         val DUMB_PAYMENT_METHOD = PaymentMethod(
-            type = TypeCardEnum.CREDIT_CARD.value,
+            type = TypePayEnum.CREDIT.value,
             card = Card.DUMB_CARD,
             installments = 1,
             capture = true,
         )
         val EMPTY_PAYMENT_METHOD = PaymentMethod(
-            type = TypeCardEnum.CREDIT_CARD.value,
+            type = TypePayEnum.CREDIT.value,
             card = Card.EMPTY_CARD,
             installments = 0,
             capture = true,

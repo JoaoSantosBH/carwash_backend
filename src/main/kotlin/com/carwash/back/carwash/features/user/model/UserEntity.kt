@@ -1,5 +1,6 @@
 package com.carwash.back.carwash.features.user.model
 
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonIgnore
 import com.fasterxml.jackson.annotation.JsonProperty
 import jakarta.persistence.*
@@ -25,7 +26,7 @@ data class UserEntity(
             name = "Jonas Keylo Seixas",
             email = "jonas@keyko.org",
             cellphone = "999999999",
-            password = "",
+            password = EMPTY_STRING,
             vehicleId = 17,
             addressId = 33,
             userType = 1

@@ -1,6 +1,7 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
+import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Address(
@@ -34,13 +35,13 @@ data class Address(
         )
         val EMPTY_ADDRESS = Address(
             street = " ",
-            number = "",
-            complement = "",
-            locality = "",
-            city = "",
-            regionCode = "",
-            country = "",
-            postalCode = ""
+            number = EMPTY_STRING,
+            complement = EMPTY_STRING,
+            locality = EMPTY_STRING,
+            city = EMPTY_STRING,
+            regionCode = EMPTY_STRING,
+            country = EMPTY_STRING,
+            postalCode = EMPTY_STRING
         )
     }
 
