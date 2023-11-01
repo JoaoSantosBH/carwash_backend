@@ -20,5 +20,11 @@ data class Customer(
             phones = listOf(Phone.DUMB_PHONE),
             taxId = "00000000191"
         )
+        val EMPTY_CUSTOMER = Customer(
+            email = "", // TODO replace with environment variable
+            name = "",
+            phones = listOf(Phone.DUMB_PHONE),
+            taxId = ""
+        )
     }
 }

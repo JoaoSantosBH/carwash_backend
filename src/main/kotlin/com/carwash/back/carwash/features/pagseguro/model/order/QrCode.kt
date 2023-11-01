@@ -5,11 +5,14 @@ import com.fasterxml.jackson.annotation.JsonProperty
 
 data class QrCode(
     @JsonProperty("amount")
-    val amount: List<AmountQrCode>
+    val amount: AmountQrCode
 ) {
     companion object {
         val DUMB_QRCODE = QrCode(
-             listOf(AmountQrCode.DUMB_AMOUNT)
+             AmountQrCode.DUMB_AMOUNT
+        )
+        val EMPTY_QRCODE = QrCode(
+            AmountQrCode.EMPTY_AMOUNT
         )
     }
 }

@@ -10,5 +10,6 @@ data class AmountQrCode(
 ) {
     companion object {
         val DUMB_AMOUNT = AmountQrCode(addDoubleZeroCurrency(90))
+        val EMPTY_AMOUNT = AmountQrCode(0)
     }
 }

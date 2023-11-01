@@ -31,7 +31,7 @@ class UtilsKtTest {
         val expectedValue = 2000
         val resultRequest = makeFakeRequest(SchedulingEntity.DUMB_SCHEDULE, expectedValue/100)
         assertEquals(expectedValue, resultRequest.charges[0].amount.value)
-        assertEquals(expectedValue, resultRequest.qrCodes[0].amount[0].value)
+        assertEquals(expectedValue, resultRequest.qrCodes[0].amount.value)
         assertEquals(expectedValue, resultRequest.items[0].unitAmount)
 
 

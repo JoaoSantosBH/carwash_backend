@@ -24,5 +24,13 @@ data class Charge(
             referenceId = "carwash-clientId-98989812B"
 
         )
+
+        val EMPTY_CHARGE = Charge(
+            amount = Amount(currency = "", value = 0),
+            description = "",
+            notificationUrls = emptyList(),
+            paymentMethod = PaymentMethod.EMPTY_PAYMENT_METHOD,
+            referenceId = ""
+        )
     }
 }

@@ -18,4 +18,10 @@ data class AddressEntity(
     @Column(name = "cidade") val city: String,
     @Column(name = "estado") val state: String,
     @Column(name = "cep") val zip: String
-)
+) {
+    companion object {
+        val EMPTY_ADDRESS = AddressEntity(
+            0,0, "","","","","","",""
+        )
+    }
+}

@@ -1,6 +1,7 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
+import com.carwash.back.carwash.utils.TypePhoneEnum
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Phone(
@@ -19,6 +20,12 @@ data class Phone(
             area = "11",
             number = "999999999",
             type = "MOBILE"
+        )
+        val EMPTY_PHONE = Phone(
+            country = "",
+            area = "",
+            number = "",
+            type = TypePhoneEnum.MOBILE.type
         )
     }
 }

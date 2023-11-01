@@ -26,5 +26,13 @@ data class Card(
             holder = Holder.DUMB_HOLDER,
             store = false
         )
+        val EMPTY_CARD = Card(
+            number = "",
+            expMonth = "",
+            expYear = "",
+            securityCode = "",
+            holder = Holder(""),
+            store = false
+        )
     }
 }

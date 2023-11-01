@@ -32,6 +32,16 @@ data class Address(
             country = "BRA",
             postalCode = "01452002"
         )
+        val EMPTY_ADDRESS = Address(
+            street = " ",
+            number = "",
+            complement = "",
+            locality = "",
+            city = "",
+            regionCode = "",
+            country = "",
+            postalCode = ""
+        )
     }
 
 

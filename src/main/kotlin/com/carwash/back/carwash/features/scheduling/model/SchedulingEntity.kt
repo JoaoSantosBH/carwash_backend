@@ -20,5 +20,8 @@ data class SchedulingEntity( //TODO rename all models to Entity
         val DUMB_SCHEDULE = SchedulingEntity(
             3, 33, 91, 34, 2, 3, 12
         )
+        val EMPTY_SCHEDULE = SchedulingEntity(
+            0, 0, 0, 0, 0, 0, 0
+        )
     }
 }

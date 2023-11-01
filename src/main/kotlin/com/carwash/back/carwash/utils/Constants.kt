@@ -7,6 +7,11 @@ object Constants {
     const val TOKEN_PREFIX = "Bearer "
     const val EXPIRATION_TOKEN_TIME = 6000000
     const val BAD_CREDENTIALS = "Email or password incorrect"
+    const val NOTIFICATION_URL = "https://meusite.com/notificacoes"
+    val MY_NOTIFICATION_URI = listOf(NOTIFICATION_URL)
+    const val CURRENCY = "BRL"
+    const val COUNTRY_CODE = "55"
+    const val COUNTRY_PREFIX = "BRA"
 }
 
 
@@ -55,7 +60,14 @@ object Endpoints {
     const val MODEL_ENDPOINT_PATH = "/model/{brandId}"
     const val BRANDS_ENDPOINT = "/brands"
 
+
+
     //PagSeguro
+
+    //Payment Solicitation
+    const val PAYMENT_CARD_ENDPOINT = "/payment/card"
+    const val PAYMENT_PIX_ENDPOINT = "/payment/pix"
+
     const val PAG_SEG_BASE_PROD = "https://pagseguro.uol.com.br"
     const val PAG_SEG_BASE_HOMOLOG  = "https://sandbox.pagseguro.uol.com.br"
     const val PAG_SEG_WS_PROD  = "https://ws.pagseguro.uol.com.br"

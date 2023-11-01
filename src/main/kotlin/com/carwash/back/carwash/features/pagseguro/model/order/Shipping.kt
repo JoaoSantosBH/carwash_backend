@@ -11,5 +11,8 @@ data class Shipping(
         val DUMB_SHIPPING = Shipping(
             address = Address.DUMB_ADDRESS
         )
+        val EMPTY_SHIPPING = Shipping(
+            address = Address.EMPTY_ADDRESS
+        )
     }
 }

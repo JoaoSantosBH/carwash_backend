@@ -43,6 +43,9 @@ class UserService : UserDetailsService {
                 repository.save(clientRequest.copy(idUser = id))
         } else throw ItemDoesntExistsException(DOESNT_EXIST)
     }
+    fun fetchUserById(userId: Long) : UserEntity? {
+        return repository.findById(userId).getOrNull()
+    }
 
     override fun loadUserByUsername(email: String?): UserDetails {
         val user = repository.findAll().first { it.email == email }

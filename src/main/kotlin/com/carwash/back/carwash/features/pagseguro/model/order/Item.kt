@@ -23,5 +23,11 @@ data class Item(
             referenceId = makeReferenceId(SchedulingEntity.DUMB_SCHEDULE),
             unitAmount = addDoubleZeroCurrency(90)
         )
+        val EMPTY_ITEM = Item(
+            name = "",
+            quantity = 0,
+            referenceId = makeReferenceId(SchedulingEntity.EMPTY_SCHEDULE),
+            unitAmount = 0
+        )
     }
 }
