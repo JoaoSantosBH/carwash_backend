@@ -65,8 +65,8 @@ object Endpoints {
     //PagSeguro
 
     //Payment Solicitation
-    const val PAYMENT_CARD_ENDPOINT = "/payment/card"
-    const val PAYMENT_PIX_ENDPOINT = "/payment/pix"
+    const val PAYMENT_CARD_ENDPOINT = "/payment/card/{userId}"
+    const val PAYMENT_PIX_ENDPOINT = "/payment/pix/{userId}"
 
     const val PAG_SEG_BASE_PROD = "https://pagseguro.uol.com.br"
     const val PAG_SEG_BASE_HOMOLOG  = "https://sandbox.pagseguro.uol.com.br"

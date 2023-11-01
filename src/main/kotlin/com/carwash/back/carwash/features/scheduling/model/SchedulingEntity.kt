@@ -16,7 +16,7 @@ data class SchedulingEntity( //TODO rename all models to Entity
     @JsonProperty("rank_executor") val rankExecutor: Int,
     @JsonProperty("status_id") val statusId: Long
 ) {
-    companion object {
+    companion object {//TODO adicionar Carro/ modelo/ description e title  do serviço
         val DUMB_SCHEDULE = SchedulingEntity(
             3, 33, 91, 34, 2, 3, 12
         )

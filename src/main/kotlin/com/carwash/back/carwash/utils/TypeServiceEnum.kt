@@ -6,8 +6,8 @@ enum class TypeServiceEnum(val title: String, val description: String) {
 }
 
 enum class TypeCarSizeEnum(val type: String) {
-    GRANDE(""),
-    MEDIO(""),
-    PEQUENO("");
+    GRANDE("GRANDE"),
+    MEDIO("MEDIO"),
+    PEQUENO("PEQUENO");
 }
 

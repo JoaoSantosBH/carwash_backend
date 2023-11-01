@@ -25,7 +25,7 @@ class PagSeguroService {
         headers.contentType = MediaType.APPLICATION_JSON
         headers.set("Authorization", "9ED52ADA317C43338FF710C6D6491BC4")//TODO variaveis no sql por ambiente
         val request = HttpEntity(payload, headers)
-        val response = restTemplate.exchange("https://sandbox.api.pagseguro.com/orders", HttpMethod.POST, request, PagSegCardResponse::class.java)//TODO variaveis no sql por ambiente
+        val response = restTemplate.exchange("https://sandbox.api.pagseguro.com/orders2", HttpMethod.POST, request, PagSegCardResponse::class.java)//TODO variaveis no sql por ambiente
         return response.body
 
 
