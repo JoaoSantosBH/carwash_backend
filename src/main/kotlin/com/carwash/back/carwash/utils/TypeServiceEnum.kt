@@ -1,8 +1,8 @@
 package com.carwash.back.carwash.utils
 
 enum class TypeServiceEnum(val title: String, val description: String) {
-    COMPLETA("Lavagem Completa", "Lavagem completa por dentro e por fora"),
-    PARCIAL("Lavagem Parcial", "Lavagem apenas por fora do veículo");
+    COMPLETA("Lavagem Completa", "Dentro e fora: "),
+    PARCIAL("Lavagem Parcial", "Fora: ");
 }
 
 enum class TypeCarSizeEnum(val type: String) {

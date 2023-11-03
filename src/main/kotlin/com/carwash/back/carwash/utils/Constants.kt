@@ -13,6 +13,18 @@ object Constants {
     const val COUNTRY_CODE = "55"
     const val COUNTRY_PREFIX = "BRA"
     const val EMPTY_STRING = ""
+    const val SYSTEM_VENDOR_PARCEL = .85
+    const val DOT = "."
+    const val STRING_ONE = "1"
+    const val ZERO = 0
+    const val EMPTY_LINE = "\n"
+    const val STRING_PLUS = "+"
+    const val STRNG_COMA = ","
+    const val WASH_DESC_ASPIRE = "aspirar "
+    const val WASH_DESC_LITTTLE = "pretinho "
+    const val WASH_DESC_SILICON = "silicone "
+    const val WASH_DESC_WAX = "encerar "
+
 }
 
 
