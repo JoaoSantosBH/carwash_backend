@@ -1,4 +1,4 @@
-package com.carwash.back.carwash.features.pagseguro.model.order.card
+package com.carwash.back.carwash.features.pagseguro.model.order.pix.request
 
 import com.carwash.back.carwash.features.pagseguro.controler.makeReferenceId
 import com.carwash.back.carwash.features.pagseguro.model.order.*
@@ -7,9 +7,7 @@ import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.fasterxml.jackson.annotation.JsonProperty
 
 
-data class PagSegCardOrderRequest(
-    @JsonProperty("charges")
-    val charges: List<Charge>,
+data class PagSegPixOrderRequest(
     @JsonProperty("customer")
     val customer: Customer,
     @JsonProperty("items")
@@ -25,8 +23,7 @@ data class PagSegCardOrderRequest(
 ) {
     companion object {
 
-        val DUMB_CARD_ORDER = PagSegCardOrderRequest(
-            charges = listOf(Charge.DUMB_CHARGE),
+        val DUMB_CARD_PIX = PagSegPixOrderRequest(
             customer = Customer.DUMB_CUSTOMER,
             items = listOf(Item.DUMB_ITEM),
             notificationUrls = Charge.DUMB_CHARGE.notificationUrls,
@@ -35,8 +32,7 @@ data class PagSegCardOrderRequest(
             shipping = Shipping.DUMB_SHIPPING
         )
 
-        fun getEmptyRequest() = PagSegCardOrderRequest(
-            charges = listOf(Charge.EMPTY_CHARGE),
+        fun getEmptyRequest() = PagSegPixOrderRequest(
             customer = Customer.EMPTY_CUSTOMER,
             items = listOf(Item.EMPTY_ITEM),
             notificationUrls = emptyList(),

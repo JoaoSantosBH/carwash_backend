@@ -3,8 +3,10 @@ package com.carwash.back.carwash.features.pagseguro.controler
 import com.carwash.back.carwash.features.address.model.AddressEntity
 import com.carwash.back.carwash.features.address.service.AddressService
 import com.carwash.back.carwash.features.pagseguro.model.order.*
-import com.carwash.back.carwash.features.pagseguro.model.order.card.PagSegCardOrderRequest
+import com.carwash.back.carwash.features.pagseguro.model.order.card.request.PagSegCardOrderRequest
 import com.carwash.back.carwash.features.pagseguro.model.order.card.response.PagSegCardResponse
+import com.carwash.back.carwash.features.pagseguro.model.order.pix.request.PagSegPixOrderRequest
+import com.carwash.back.carwash.features.pagseguro.model.order.pix.response.PagSegPixResponse
 import com.carwash.back.carwash.features.pagseguro.service.PagSeguroService
 import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
 import com.carwash.back.carwash.features.scheduling.service.SchedulingServices
@@ -21,6 +23,7 @@ import com.carwash.back.carwash.utils.Constants.WASH_DESC_SILICON
 import com.carwash.back.carwash.utils.Constants.WASH_DESC_WAX
 import com.carwash.back.carwash.utils.Constants.ZERO
 import com.carwash.back.carwash.utils.Endpoints.PAYMENT_CARD_ENDPOINT
+import com.carwash.back.carwash.utils.Endpoints.PAYMENT_PIX_ENDPOINT
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
@@ -48,17 +51,87 @@ class PagSeguroController {
     @Autowired
     private lateinit var userService: UserService
 
+    @PostMapping(PAYMENT_PIX_ENDPOINT)
+    fun createPixOrder(
+        @RequestBody payment: PaymentCardModel,
+        @PathVariable userId: Long
+    ): PagSegPixResponse? {
+        val request = pagSegPixOrderRequest(payment, userId)
+        return service.makePixOrderRequest(request)
+    }
+
     @PostMapping(PAYMENT_CARD_ENDPOINT)
-    fun createScheduling(
+    fun createCardOrder(
         @RequestBody payment: PaymentCardModel,
         @PathVariable userId: Long
     ): PagSegCardResponse? {
         val request = pagSegCardOrderRequest(payment, userId)
-        return service.makeCardRequest(request)
+        return service.makeCardOrderRequest(request)
     }
 
     var description = EMPTY_STRING
     var title = EMPTY_STRING
+    private fun pagSegPixOrderRequest(payment: PaymentCardModel, userId: Long): PagSegPixOrderRequest {
+
+        val user = userService.fetchUserById(userId) ?: UserEntity.DUMB_USER
+        //TODO Scheduling novo
+        val valueTax = precificateService(userId)
+
+        val address = addressService.fetchUserAddress(user.idUser) ?: AddressEntity.EMPTY_ADDRESS
+        val schedule =
+            schedulingServices.fetchAllScheduleByClientId(user.idUser)[ZERO] //TODO fazer meio melhor de identificacao
+        val referenceId = makeReferenceId(schedule)
+
+        val customer = Customer(
+            email = user.email,
+            name = user.name,
+            phones = listOf(
+                Phone(
+                    country = Constants.COUNTRY_CODE,
+                    area = makeAreaSeparation(user.cellphone),
+                    number = makePhoneSeparation(user.cellphone),
+                    type = TypePhoneEnum.MOBILE.type
+                )
+            ),
+            taxId = payment.taxId
+        )
+
+
+        val items = listOf( //TODO incluir itens
+            Item(
+                name = title,
+                quantity = 1,
+                referenceId = referenceId,
+                unitAmount = valueTax
+            )
+        )
+
+        val notificationUrls = Constants.MY_NOTIFICATION_URI
+
+        val qrCodes = listOf(QrCode(amount = AmountQrCode(valueTax)))
+        val shipping = Shipping(
+            address = Address(
+                street = address.street,
+                number = address.number,
+                complement = address.complement,
+                locality = address.neighborhood,
+                city = address.city,
+                regionCode = address.state,
+                country = Constants.COUNTRY_PREFIX,
+                postalCode = address.zip
+            )
+        )
+
+        val request = PagSegPixOrderRequest(
+            customer = customer,
+            items = items,
+            notificationUrls = notificationUrls,
+            qrCodes = qrCodes,
+            referenceId = makeReferenceId(SchedulingEntity.DUMB_SCHEDULE),
+            shipping = shipping
+        )
+        return request
+    }
     private fun pagSegCardOrderRequest(payment: PaymentCardModel, userId: Long): PagSegCardOrderRequest {
 
         val user = userService.fetchUserById(userId) ?: UserEntity.DUMB_USER
@@ -105,7 +178,7 @@ class PagSeguroController {
         )
 
 
-        val items = listOf(
+        val items = listOf( //TODO incluir itens
             Item(
                 name = title,
                 quantity = 1,
@@ -145,7 +218,7 @@ class PagSeguroController {
     fun precificateService(userId: Long): Int {
 
         //TODO pegar de Schedule
-        val choosedWash = TypeCarSizeEnum.PEQUENO.type
+        val choosedWash = TypeCarSizeEnum.GRANDE.type
 
         val choosedValue = when (choosedWash) {
             TypeCarSizeEnum.PEQUENO.type -> 20

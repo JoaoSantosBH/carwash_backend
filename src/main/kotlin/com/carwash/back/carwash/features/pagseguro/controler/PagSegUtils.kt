@@ -1,11 +1,12 @@
 package com.carwash.back.carwash.features.pagseguro.controler
 
 import com.carwash.back.carwash.features.pagseguro.model.order.*
-import com.carwash.back.carwash.features.pagseguro.model.order.card.PagSegCardOrderRequest
+import com.carwash.back.carwash.features.pagseguro.model.order.card.request.PagSegCardOrderRequest
 import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
 import com.carwash.back.carwash.utils.Constants.DOT
 import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.carwash.back.carwash.utils.Constants.STRING_ONE
+import com.carwash.back.carwash.utils.Constants.ZERO
 
 fun makeReferenceId(scheduleId: SchedulingEntity): String {
     return "CWASH_ORD_CL:${scheduleId.clientId}_VEND:${scheduleId.executorId}_SCHED:${scheduleId.idScheduling}_WASH:${scheduleId.washId}"
@@ -17,7 +18,7 @@ fun addDoubleZeroCurrency(value: Int): Int {
 
 fun Double.addDoubleZeroCurrency(): Int {
     val numberWithoutQuotas = this.toString()
-    return numberWithoutQuotas.replace(".", EMPTY_STRING).toInt()
+    return numberWithoutQuotas.replace(DOT, EMPTY_STRING).toInt()
 }
 
 fun makeFakeRequest(scheduleId: SchedulingEntity, value: Int): PagSegCardOrderRequest {
@@ -37,7 +38,7 @@ fun makePhoneSeparation(cellphone: String): String {
 }
 
 fun makeAreaSeparation(cellphone: String): String {
-    return cellphone.substring(0, 2)
+    return cellphone.substring(ZERO, 2)
 }
 
 fun prepareFraction(inputValue: Double): Double {
@@ -48,14 +49,14 @@ fun prepareFraction(inputValue: Double): Double {
     var normalizedString = EMPTY_STRING
 
     if (sufix > 2) {
-        normalizedString = splitedList[0] + DOT + splitedList[1].substring(0,2)
+        normalizedString = splitedList[ZERO] + DOT + splitedList[1].substring(ZERO,2)
     }
 
     if (sufix == 1) {
-        normalizedString = splitedList[0] + DOT + splitedList[1] + STRING_ONE
+        normalizedString = splitedList[ZERO] + DOT + splitedList[1] + STRING_ONE
     }
     if (sufix == 2){
-        normalizedString = splitedList[0] + DOT + splitedList[1]
+        normalizedString = splitedList[ZERO] + DOT + splitedList[1]
     }
 
     return normalizedString.toDouble()
