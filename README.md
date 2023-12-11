@@ -13,9 +13,11 @@ Tecnologias utilizadas no projeto:
 - Spring Data JPA
 - Spring REST Api
 - Spring Web
-- Api geolocation  CEP [Not Yet]
-- PagSeguroAPI [Not Yet]
-  
+- PagSeguroAPI
+- Swagger OpenAPI
+- Api busca CEP 
+  //apagar conta
+- //apaga user, carros, endereço, etc do usuario
 
 
 
@@ -34,4 +36,5 @@ For further reference, please consider the following sections:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 * [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+* [Spring OpenAPI - Swagger](https://springdoc.org/#getting-started)
 

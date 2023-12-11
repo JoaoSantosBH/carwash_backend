@@ -1,13 +1,13 @@
 spring:
-    config:
+    profiles:
         activate:
-            on-profile: dev
+            on-profile: prod
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
         initialization-mode: always
         password: ''
         platform: mysql
-        url: jdbc:mysql://localhost:3306/mydb
+        url: jdbc:mysql://192.17.85.123:3306/mydb
         username: root
     jaxb:
         enabled: true
@@ -15,16 +15,10 @@ spring:
         hibernate:
             show-sql: true
 server:
-    port : 8080
+    port : 8090
 
 info:
     app:
         name: CarWash Service
         description: Blah, blah , blah
         version: 1.0.0
-tokinho:
-    secret: 9ED52ADA317C43338FF710C6D6491BC4
-
-springdoc:
-    swagger-ui:
-        path: /swagger-ui.html

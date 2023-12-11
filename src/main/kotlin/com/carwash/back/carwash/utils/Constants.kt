@@ -7,6 +7,24 @@ object Constants {
     const val TOKEN_PREFIX = "Bearer "
     const val EXPIRATION_TOKEN_TIME = 6000000
     const val BAD_CREDENTIALS = "Email or password incorrect"
+    const val NOTIFICATION_URL = "https://meusite.com/notificacoes"
+    val MY_NOTIFICATION_URI = listOf(NOTIFICATION_URL)
+    const val CURRENCY = "BRL"
+    const val COUNTRY_CODE = "55"
+    const val COUNTRY_PREFIX = "BRA"
+    const val EMPTY_STRING = ""
+    const val SYSTEM_VENDOR_PARCEL = .85
+    const val DOT = "."
+    const val STRING_ONE = "1"
+    const val ZERO = 0
+    const val EMPTY_LINE = "\n"
+    const val STRING_PLUS = "+"
+    const val STRNG_COMA = ","
+    const val WASH_DESC_ASPIRE = "aspirar "
+    const val WASH_DESC_LITTTLE = "pretinho "
+    const val WASH_DESC_SILICON = "silicone "
+    const val WASH_DESC_WAX = "encerar "
+
 }
 
 
@@ -55,4 +73,28 @@ object Endpoints {
     const val MODEL_ENDPOINT_PATH = "/model/{brandId}"
     const val BRANDS_ENDPOINT = "/brands"
 
+
+
+    //PagSeguro
+
+    //Payment Solicitation
+    const val PAYMENT_CARD_ENDPOINT = "/payment/card/{userId}"
+    const val PAYMENT_PIX_ENDPOINT = "/payment/pix/{userId}"
+
+    const val PAG_SEG_BASE_PROD = "https://pagseguro.uol.com.br"
+    const val PAG_SEG_BASE_HOMOLOG  = "https://sandbox.pagseguro.uol.com.br"
+    const val PAG_SEG_WS_PROD  = "https://ws.pagseguro.uol.com.br"
+    const val PAG_SEG_WS_HOMOLOG  = "https://ws.sandbox.pagseguro.uol.com.br"
+    const val PAG_SEG_STC_PROD  = "https://stc.pagseguro.uol.com.br"
+    const val PAG_SEG_STC_HOMOLOG  =  "https://stc.sandbox.pagseguro.uol.com.br"
+
+    const val PAG_SEG_CHECKOUT = "/v2/checkout"
+
+    const val PAG_SEG_STC_HOMOLOG_APP_ID = "app6375771195"
+    const val PAG_SEG_STC_HOMOLOG_APP_KEY = "1CA8534EEBEB27277458AFBBC5E7EB34"
+
+    const val VENDEDOR_TESTE =  "v64323580785146011048@sandbox.pagseguro.com.br"
+    const val SENHA_TESTE = "k13RHlrhwy3a3gNv"
+    const val CHAVE_PUBLICA = "PUB5BC03464993749D1BF3AD09993EBF154"
+    
 }
