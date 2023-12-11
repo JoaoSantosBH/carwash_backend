@@ -33,7 +33,14 @@ open class SecurityConfig(
         val authenticationManager = authManager(http)
         // Put your endpoint to create/sign, otherwise spring will secure it as
         // well you won't be able to do any request
-        http.authorizeHttpRequests().requestMatchers(CLIENT_ENDPOINT) //TODO deprecated
+        http.authorizeHttpRequests().requestMatchers(
+            CLIENT_ENDPOINT,
+            "swagger-ui/index.html",
+            "/login",
+            // -- Swagger UI v3 (OpenAPI)
+            "/v3/api-docs/**",
+            "/swagger-ui/**",
+            "/webjars/**") //TODO deprecateds on this builder
             .permitAll().anyRequest().authenticated().and().csrf().disable()
             .authenticationManager(authenticationManager)
             .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()

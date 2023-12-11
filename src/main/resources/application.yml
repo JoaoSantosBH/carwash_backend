@@ -24,3 +24,7 @@ info:
         version: 1.0.0
 tokinho:
     secret: 9ED52ADA317C43338FF710C6D6491BC4
+
+springdoc:
+    swagger-ui:
+        path: /swagger-ui.html

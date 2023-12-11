@@ -29,7 +29,7 @@ dependencies {
 	implementation("io.jsonwebtoken:jjwt:0.2")
 	implementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.1")
 	implementation("javax.xml.bind:jaxb-api:2.1") //TODO add deps
-
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	runtimeOnly("com.mysql:mysql-connector-j")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
