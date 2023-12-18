@@ -132,10 +132,10 @@ class PagSeguroController {
         //TODO pegar de Schedule: aspire, blackie, silicon, wax (ou remote config)
         val schedule = schedulingServices.fetchAllScheduleByClientId(userId)[ZERO_INT]//TODO  query pra trazer somente ativa
         val wash = washServices.fetchWashById(schedule.washId)
-        val aspire = if (wash.aspire) 20 else ZERO_INT             //TODO colocar no SQL
-        val blackie = if (wash.pneuLittleBack) 10 else ZERO_INT    //TODO colocar no SQL
-        val silicon = if (wash.silicone) 20 else ZERO_INT          //TODO colocar no SQL
-        val wax = if (wash.wax) 35 else ZERO_INT                   //TODO colocar no SQL
+        val aspire = if (wash.aspire) 20 else ZERO_INT             //TODO colocar no SQL ou remote CONFIG
+        val blackie = if (wash.pneuLittleBack) 10 else ZERO_INT    //TODO colocar no SQL ou remote CONFIG
+        val silicon = if (wash.silicone) 20 else ZERO_INT          //TODO colocar no SQL ou remote CONFIG
+        val wax = if (wash.wax) 35 else ZERO_INT                   //TODO colocar no SQL ou remote CONFIG
         val isAllServiceInclude = wash.aspire && wash.pneuLittleBack && wash.silicone && wash.wax
 
         if (isAllServiceInclude) makeTitleAndDescription(true) else makeTitleAndDescription(false)
