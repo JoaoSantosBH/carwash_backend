@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
+@RequestMapping(SERVICE_ENDPOINT)
+
 @RestController
 class WashController {
 
@@ -19,7 +21,7 @@ class WashController {
         return service.createWash(request)
     }
 
-    @GetMapping(SERVICE_ENDPOINT)
+    @GetMapping
     fun fetchAllWashs(): List<WashEntity?>? {
         return service.fetchAllWashs()
     }

@@ -16,7 +16,8 @@ object Constants {
     const val SYSTEM_VENDOR_PARCEL = .85
     const val DOT = "."
     const val STRING_ONE = "1"
-    const val ZERO = 0
+    const val ZERO_INT = 0
+    const val ZERO_DOUBLE = 0.0
     const val EMPTY_LINE = "\n"
     const val STRING_PLUS = "+"
     const val STRNG_COMA = ","
@@ -53,7 +54,7 @@ object Endpoints {
 
     //Wash
     const val SERVICE_ENDPOINT  = "/wash"
-    const val SERVICE_ENDPOINT_PATH = "/wash/{id}"
+    const val SERVICE_ENDPOINT_PATH = "/{id}"
 
     //Schedule
     const val SCHEDULE_ENDPOINT  = "/schedule"

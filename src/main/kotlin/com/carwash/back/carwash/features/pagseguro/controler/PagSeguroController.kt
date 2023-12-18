@@ -28,7 +28,7 @@ import com.carwash.back.carwash.utils.Constants.WASH_DESC_ASPIRE
 import com.carwash.back.carwash.utils.Constants.WASH_DESC_LITTTLE
 import com.carwash.back.carwash.utils.Constants.WASH_DESC_SILICON
 import com.carwash.back.carwash.utils.Constants.WASH_DESC_WAX
-import com.carwash.back.carwash.utils.Constants.ZERO
+import com.carwash.back.carwash.utils.Constants.ZERO_INT
 import com.carwash.back.carwash.utils.Endpoints.PAYMENT_CARD_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.PAYMENT_ENDPOINT
 import com.carwash.back.carwash.utils.Endpoints.PAYMENT_PIX_ENDPOINT
@@ -87,7 +87,7 @@ class PagSeguroController {
 
         val address = addressService.fetchUserAddress(user.idUser) ?: AddressEntity.EMPTY_ADDRESS
         val schedule =
-            schedulingServices.fetchAllScheduleByClientId(user.idUser)[ZERO] //TODO fazer meio melhor de identificacao
+            schedulingServices.fetchAllScheduleByClientId(user.idUser)[ZERO_INT] //TODO fazer meio melhor de identificacao
         val referenceId = makeReferenceId(schedule)
         val customer = mapCustomer(payment.taxId, user)
         val items = mapItems(referenceId, valueTax, title)
@@ -106,7 +106,7 @@ class PagSeguroController {
 
         val address = addressService.fetchUserAddress(user.idUser) ?: AddressEntity.EMPTY_ADDRESS
         val schedule =
-            schedulingServices.fetchAllScheduleByClientId(user.idUser)[ZERO] //TODO fazer meio melhor de identificacao
+            schedulingServices.fetchAllScheduleByClientId(user.idUser)[ZERO_INT] //TODO fazer meio melhor de identificacao
         val referenceId = makeReferenceId(schedule)
         val charge = mapingCharge(valueTax, payment, referenceId)
         val customer = mapCustomer(payment.taxId, user)
@@ -126,16 +126,16 @@ class PagSeguroController {
             TypeCarSizeEnum.PEQUENO.type -> 20
             TypeCarSizeEnum.MEDIO.type -> 40
             TypeCarSizeEnum.GRANDE.type -> 60
-            else -> ZERO
+            else -> ZERO_INT
         }
-        var valueTax = ZERO
+        var valueTax = ZERO_INT
         //TODO pegar de Schedule: aspire, blackie, silicon, wax (ou remote config)
-        val schedule = schedulingServices.fetchAllScheduleByClientId(userId)[ZERO]//TODO  query pra trazer somente ativa
+        val schedule = schedulingServices.fetchAllScheduleByClientId(userId)[ZERO_INT]//TODO  query pra trazer somente ativa
         val wash = washServices.fetchWashById(schedule.washId)
-        val aspire = if (wash.aspire) 20 else ZERO             //TODO colocar no SQL
-        val blackie = if (wash.pneuLittleBack) 10 else ZERO    //TODO colocar no SQL
-        val silicon = if (wash.silicone) 20 else ZERO          //TODO colocar no SQL
-        val wax = if (wash.wax) 35 else ZERO                   //TODO colocar no SQL
+        val aspire = if (wash.aspire) 20 else ZERO_INT             //TODO colocar no SQL
+        val blackie = if (wash.pneuLittleBack) 10 else ZERO_INT    //TODO colocar no SQL
+        val silicon = if (wash.silicone) 20 else ZERO_INT          //TODO colocar no SQL
+        val wax = if (wash.wax) 35 else ZERO_INT                   //TODO colocar no SQL
         val isAllServiceInclude = wash.aspire && wash.pneuLittleBack && wash.silicone && wash.wax
 
         if (isAllServiceInclude) makeTitleAndDescription(true) else makeTitleAndDescription(false)

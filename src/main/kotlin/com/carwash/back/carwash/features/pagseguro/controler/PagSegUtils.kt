@@ -6,7 +6,7 @@ import com.carwash.back.carwash.features.scheduling.model.SchedulingEntity
 import com.carwash.back.carwash.utils.Constants.DOT
 import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
 import com.carwash.back.carwash.utils.Constants.STRING_ONE
-import com.carwash.back.carwash.utils.Constants.ZERO
+import com.carwash.back.carwash.utils.Constants.ZERO_INT
 
 fun makeReferenceId(scheduleId: SchedulingEntity): String {
     return "CWASH_ORD_CL:${scheduleId.clientId}_VEND:${scheduleId.executorId}_SCHED:${scheduleId.idScheduling}_WASH:${scheduleId.washId}"
@@ -38,7 +38,7 @@ fun makePhoneSeparation(cellphone: String): String {
 }
 
 fun makeAreaSeparation(cellphone: String): String {
-    return cellphone.substring(ZERO, 2)
+    return cellphone.substring(ZERO_INT, 2)
 }
 
 fun prepareFraction(inputValue: Double): Double {
@@ -49,14 +49,14 @@ fun prepareFraction(inputValue: Double): Double {
     var normalizedString = EMPTY_STRING
 
     if (sufix > 2) {
-        normalizedString = splitedList[ZERO] + DOT + splitedList[1].substring(ZERO,2)
+        normalizedString = splitedList[ZERO_INT] + DOT + splitedList[1].substring(ZERO_INT,2)
     }
 
     if (sufix == 1) {
-        normalizedString = splitedList[ZERO] + DOT + splitedList[1] + STRING_ONE
+        normalizedString = splitedList[ZERO_INT] + DOT + splitedList[1] + STRING_ONE
     }
     if (sufix == 2){
-        normalizedString = splitedList[ZERO] + DOT + splitedList[1]
+        normalizedString = splitedList[ZERO_INT] + DOT + splitedList[1]
     }
 
     return normalizedString.toDouble()
