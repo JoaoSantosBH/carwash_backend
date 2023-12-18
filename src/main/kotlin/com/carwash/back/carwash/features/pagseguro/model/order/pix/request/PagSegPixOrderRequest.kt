@@ -41,5 +41,20 @@ data class PagSegPixOrderRequest(
             shipping = Shipping.EMPTY_SHIPPING
         )
 
+        fun mappingPixOrderRequest(
+            customer: Customer,
+            items: List<Item>,
+            notificationUrls: List<String>,
+            qrCodes: List<QrCode>,
+            shipping: Shipping
+        ) = PagSegPixOrderRequest(
+            customer = customer,
+            items = items,
+            notificationUrls = notificationUrls,
+            qrCodes = qrCodes,
+            referenceId = makeReferenceId(SchedulingEntity.DUMB_SCHEDULE), //TODO remover DUMB
+            shipping = shipping
+        )
+
     }
 }

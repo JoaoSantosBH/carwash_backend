@@ -18,9 +18,9 @@ Tecnologias utilizadas no projeto:
 - Api busca CEP 
   //apagar conta
 - //apaga user, carros, endereço, etc do usuario
+- //Notifications
 
-
-
+* [Swagger](http://localhost:8080/swagger-ui/index.html#)
 
 ### Reference Documentation
 For further reference, please consider the following sections:

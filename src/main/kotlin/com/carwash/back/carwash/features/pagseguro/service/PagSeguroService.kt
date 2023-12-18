@@ -21,16 +21,16 @@ class PagSeguroService {
     private val restTemplate = RestTemplate() //TODO AutoWired
 
 
-    fun makeCardOrderRequest(payload: PagSegCardOrderRequest): PagSegCardResponse? {
+    fun callCardOrderApi(payload: PagSegCardOrderRequest): PagSegCardResponse? {
         val headers = HttpHeaders()
         headers.contentType = MediaType.APPLICATION_JSON
-        headers.set("Authorization", "9ED52ADA317C43338FF710C6D6491BC4")//TODO variaveis no sql por
+        headers.set("Authorization", "9ED52ADA317C43338FF710C6D6491BC4")//TODO variaveis no sql porAMETERS
         val request = HttpEntity(payload, headers)
         val response = restTemplate.exchange("https://sandbox.api.pagseguro.com/orders", HttpMethod.POST, request, PagSegCardResponse::class.java)//TODO variaveis no sql por ambiente
         return response.body
     }
 
-    fun makePixOrderRequest(payload: PagSegPixOrderRequest): PagSegPixResponse? {
+    fun callPixOrderApi(payload: PagSegPixOrderRequest): PagSegPixResponse? {
         val headers = HttpHeaders()
         headers.contentType = MediaType.APPLICATION_JSON
         headers.set("Authorization", "9ED52ADA317C43338FF710C6D6491BC4")//TODO variaveis no sql por

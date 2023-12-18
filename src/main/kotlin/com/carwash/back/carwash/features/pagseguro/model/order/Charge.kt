@@ -1,7 +1,9 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
+import com.carwash.back.carwash.utils.Constants
 import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
+import com.carwash.back.carwash.utils.TypePayEnum
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Charge(
@@ -32,6 +34,30 @@ data class Charge(
             notificationUrls = emptyList(),
             paymentMethod = PaymentMethod.EMPTY_PAYMENT_METHOD,
             referenceId = EMPTY_STRING
+        )
+
+        fun mapingCharge(
+            valueTax: Int,
+            payment: PaymentCardModel,
+            referenceId: String
+        ) = Charge(
+            amount = Amount(currency = Constants.CURRENCY, value = valueTax),
+            description = EMPTY_STRING,
+            notificationUrls = Constants.MY_NOTIFICATION_URI,
+            paymentMethod = PaymentMethod(
+                type = TypePayEnum.CREDIT.value,
+                card = Card(
+                    number = payment.number,
+                    expMonth = payment.expMonth,
+                    expYear = payment.expYear,
+                    securityCode = payment.securityCode,
+                    holder = Holder(payment.holder),
+                    store = false
+                ),
+                installments = payment.installments,
+                capture = true,
+            ),
+            referenceId = referenceId
         )
     }
 }

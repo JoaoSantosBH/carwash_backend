@@ -1,7 +1,12 @@
 package com.carwash.back.carwash.features.pagseguro.model.order
 
 
+import com.carwash.back.carwash.features.pagseguro.controler.makeAreaSeparation
+import com.carwash.back.carwash.features.pagseguro.controler.makePhoneSeparation
+import com.carwash.back.carwash.features.user.model.UserEntity
+import com.carwash.back.carwash.utils.Constants
 import com.carwash.back.carwash.utils.Constants.EMPTY_STRING
+import com.carwash.back.carwash.utils.TypePhoneEnum
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class Customer(
@@ -27,5 +32,21 @@ data class Customer(
             phones = listOf(Phone.DUMB_PHONE),
             taxId = EMPTY_STRING
         )
+
+         fun mapCustomer(taxId: String, user: UserEntity): Customer {
+            return  Customer(
+                email = user.email,
+                name = user.name,
+                phones = listOf(
+                    Phone(
+                        country = Constants.COUNTRY_CODE,
+                        area = makeAreaSeparation(user.cellphone),
+                        number = makePhoneSeparation(user.cellphone),
+                        type = TypePhoneEnum.MOBILE.type
+                    )
+                ),
+                taxId = taxId
+            )
+        }
     }
 }

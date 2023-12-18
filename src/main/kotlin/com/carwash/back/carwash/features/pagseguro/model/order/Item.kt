@@ -30,5 +30,18 @@ data class Item(
             referenceId = makeReferenceId(SchedulingEntity.EMPTY_SCHEDULE),
             unitAmount = 0
         )
+
+        fun mapItems(
+            referenceId: String,
+            valueTax: Int,
+            title: String
+        ) = listOf( //TODO incluir itens
+            Item(
+                name = title,
+                quantity = 1,
+                referenceId = referenceId,
+                unitAmount = valueTax
+            )
+        )
     }
 }

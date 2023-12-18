@@ -45,5 +45,22 @@ data class PagSegCardOrderRequest(
             shipping = Shipping.EMPTY_SHIPPING
         )
 
+        fun mappingCardOrderRequest(
+            charge: Charge,
+            customer: Customer,
+            items: List<Item>,
+            notificationUrls: List<String>,
+            qrCodes: List<QrCode>,
+            shipping: Shipping
+        ) = PagSegCardOrderRequest(
+            charges = listOf(charge),
+            customer = customer,
+            items = items,
+            notificationUrls = notificationUrls,
+            qrCodes = qrCodes,
+            referenceId = makeReferenceId(SchedulingEntity.DUMB_SCHEDULE), //TODO remover DUMB
+            shipping = shipping
+        )
+
     }
 }

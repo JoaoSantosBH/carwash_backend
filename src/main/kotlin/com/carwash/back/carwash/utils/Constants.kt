@@ -70,17 +70,17 @@ object Endpoints {
     //Vehicle
     const val VEHICLE_ENDPOINT =  "/vehicle"
     const val VEHICLE_ENDPOINT_PATH =  "/vehicle/{userId}"
+
     const val MODEL_ENDPOINT_PATH = "/model/{brandId}"
+
     const val BRANDS_ENDPOINT = "/brands"
 
-
+    //PagSeguro
+    const val PAYMENT_ENDPOINT = "/payment"
+    const val PAYMENT_CARD_ENDPOINT = "/card/{userId}"
+    const val PAYMENT_PIX_ENDPOINT = "/pix/{userId}"
 
     //PagSeguro
-
-    //Payment Solicitation
-    const val PAYMENT_CARD_ENDPOINT = "/payment/card/{userId}"
-    const val PAYMENT_PIX_ENDPOINT = "/payment/pix/{userId}"
-
     const val PAG_SEG_BASE_PROD = "https://pagseguro.uol.com.br"
     const val PAG_SEG_BASE_HOMOLOG  = "https://sandbox.pagseguro.uol.com.br"
     const val PAG_SEG_WS_PROD  = "https://ws.pagseguro.uol.com.br"
